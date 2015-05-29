@@ -1,0 +1,19 @@
+<html lang="es">
+
+    {% include head.html %}
+
+    <body {% if page.active_tab == "home" %}id="page1"{% endif %}>
+
+    {% include header.html %}
+
+    <!--==============================content================================-->
+    <section id="content">
+
+    {{ content }}
+
+    </section>
+
+    {% include footer.html %}
+
+    </body>
+</html>

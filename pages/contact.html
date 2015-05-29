@@ -1,0 +1,51 @@
+---
+layout: page
+title: Contacto
+active_tab: "contact"
+permalink: /contacto/
+---
+
+<script>
+    $(document).ready(function() {
+        var val2 = "ac" + String.fromCharCode(116) + "o";
+        var vai20 = "con" + String.fromCharCode(116);
+        var emailHost = "abir" + String.fromCharCode(116) + "one." + "com";
+        var arroba = String.fromCharCode(64)
+        var contact = vai20 + val2 + arroba + emailHost;
+        var mskoo_ = "<a href=\"mailto:" + contact + "\" >" + contact + "</a>";
+        $("#ks91ksk").html(mskoo_);
+        $('#contact-form').attr('action', '//formspree.io/' + contact);
+
+    });
+
+</script>
+
+<article class="col-3-4">
+    <div class="wrap-col">
+        <h3>Contacta con nosotros</h3>
+        <p>Puedes ponerte en contacto con nosotros a través del correo <b id="ks91ksk"></b> o mediante el siguiente formulario:</p>
+        <form id="contact-form" method="POST" action="//formspree.io/">
+            <fieldset>
+                <div class="errorMessages"></div>
+                <label><span class="text-form">Su nombre:</span><input type="text" placeholder="Escribe tu nombre" required></label>
+                <label><span class="text-form">Su Email:</span><input name="_replyto" placeholder="Escribe tu mail" type="email" required></label>
+                <label><span class="text-form">Asunto:</span>
+                    <input name="_subject" placeholder="Quiero información del curso ..." type="text" required>
+                </label>
+                <input type="hidden" name="_next" value="http://abirtone.com/contacto/enviado/" >
+                <div class="wrapper">
+                    <div class="text-form">Mensaje:</div>
+                    <div class="extra-wrap">
+                        <textarea name="message" required></textarea>
+                        <div class="clear"></div>
+                        <div class="buttons">
+                            <span class="button-2">
+                                <span><input type="submit" value="Enviar"/></span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</article>

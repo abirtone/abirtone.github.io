@@ -1,0 +1,44 @@
+---
+layout: default
+title: "Inicio"
+active_tab: "home"
+permalink: /
+---
+
+
+<div class="main zerogrid">
+    <div class="row">
+        <article class="col-1-2">
+            <div class="wrap-col">
+                <h3>Novedades</h3>
+                {% for post in site.posts %}
+                <div class="indent-bot">
+                    <time class="tdate-1" datetime="{{ post.date | date: "%b %-d, %Y" }}"><strong>{{ post.date | date: "%-d" }}</strong>dec</time>
+                    <div class="extra-wrap">
+                        <h6><a class="link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h6>
+                        {{ post.description }}
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                {% endfor %}
+            </div>
+        </article>
+
+
+
+        <article class="col-1-2">
+            <div class="wrap-col indent-top">
+                <div class="wrapper indent-bot2">
+                    <div class="col-1-3"><figure class="img-indent indent-top"><img src="/static/images/who.png" alt=""></figure></div>
+                    <div class="col-2-3 extra-wrap">
+                        <h4>¿ Quienes somos ?<strong class="color-3">La empresa</strong></h4>
+                    </div>
+                </div>
+                <p class="p1">Somos una Startup joven y con un concepto diferente <span class="color-3">asdfasfsfs</span> de <strong>ksksksks</strong> cómo hacer <em>asd</em> las cosas. Creemos firmemente en que se pueden hacer las cosas de otra forma. Por profesionales y para profesionales.</p>
+                <span class="button-2">
+                    <a href="/sobre/"><strong>Más información</strong></a>
+                </span>
+            </div>
+        </article>
+    </div>
+</div>
