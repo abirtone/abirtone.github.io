@@ -2,14 +2,17 @@ body {
     padding-top: 70px;
     padding-bottom: 30px;
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
-    /*font-size:0.875em;*/
     background: #f7f7f7;
     color: #4d4d4d;
     line-height: 1.785em;
 }
 
-p {
+p, blockquote {
     text-align: justify;
+}
+
+blockquote {
+    font-size: 14px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -358,7 +361,7 @@ h5 {
 /* End Carousel */
 
 
-footer {
+.footer-main {
     margin-top: 50px;
     width: 100%;
     /* Set the fixed height of the footer here */
