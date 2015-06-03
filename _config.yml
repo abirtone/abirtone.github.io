@@ -1,0 +1,12 @@
+# Site settings
+title: Abirtone - Open Ideas for Real World
+email: contact<-@->abirtone.com
+description: "Abirtone: Formación y consultoría especializada"
+baseurl: ""
+url: "http://abirtone.com"
+twitter_username: abirtone
+github_username:  abirtone
+
+# Build settings
+markdown: kramdown
+permalink: pretty

@@ -1,0 +1,46 @@
+---
+layout: page
+title: Contacto
+active_tab: "contact"
+permalink: /contacto/
+---
+
+<div class="col-sm-12">
+    <div class="page-header first">
+        <h1>Contacta con nosotros</h1>
+    </div>
+</div>
+
+<div class="col-sm-12">
+    <p>Puedes ponerte en contacto con nosotros a través del correo <b id="ks91ksk"></b> o mediante el siguiente formulario:</p>
+</div>
+
+<div class="col-sm-9">
+    <form class="form-horizontal" id="contact-form" method="POST" action="//formspree.io/">
+        <div class="form-group">
+            <label for="inputEmail3" class="col-xs-12 col-sm-2 control-label">Su email:</label>
+            <div class="col-xs-12 col-sm-10">
+                <input type="email" name="_replyto" class="form-control" id="inputEmail3" placeholder="Escribe tu mail" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputPassword3" class="col-xs-12 col-sm-2 control-label">Asunto:</label>
+            <div class="col-xs-12 col-sm-10">
+                <input name="_subject" type="text" class="form-control" id="inputPassword3" placeholder="Quiero información del curso ..." required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="textarea1" class="col-xs-12 col-sm-2 control-label">Asunto:</label>
+            <div class="col-xs-12 col-sm-10">
+                <textarea rows="5" class="form-control" name="message" id="textarea1" placeholder="Mensaje a enviar ..." required></textarea>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-xs-12 col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-danger">Enviar &rarr;</button>
+            </div>
+        </div>
+        <input type="hidden" name="_next" value="http://abirtone.com/contacto/enviado/" >
+    </form>
+</div>
+

@@ -1,0 +1,19 @@
+---
+layout: post
+title: Últimas entradas
+active_tab: "blog"
+permalink: /blog/
+---
+
+{% for post in site.posts %}
+<div class="row">
+    <div class="col-sm-2">
+        <time class="tdate-1" datetime="{{ post.date | date: "%b %-d, %Y" }}"><strong>{{ post.date | date: "%-d" }}</strong>dec</time>
+    </div>
+    <div class="col-sm-10">
+        <a class="link center-block blog-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        {{ post.content | strip_html | truncatewords:20 }}
+    </div>
+    <a class="badge entry-link" href="{{ post.url | prepend: site.baseurl }}">Leer entrada &rarr;</a>
+</div>
+{% endfor %}

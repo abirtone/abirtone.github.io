@@ -1,0 +1,90 @@
+<!--==============================footer=================================-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <article class="col-xs-12 col-sm-4">
+                <ul class="list-services list-inline">
+                    <li class="item-1"><a title="Facebook" href="http://www.facebook.com/abirtone"></a></li>
+                    <li class="item-2"><a title="Twitter" href="http://twitter.com/abirtone"></a></li>
+                    <li class="item-3"><a title="Youtube" href="https://www.youtube.com/channel/UCohiqjKcS4PvDr_L__y2L2Q"></a></li>
+                    <li class="item-4"><a title="Github" href="http://github.com/abirtone"></a></li>
+                    <li class="item-5"><a title="RSS" href="/feed.xml"></a></li>
+                </ul>
+            </article>
+            <article class="col-xs-12 col-sm-3  hidden-xs">
+                <h5>Navegación</h5>
+                <ul class="list-unstyled list-1">
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="{{ "/formacion/" | prepend: site.baseurl }}">Formación</a></li>
+                    <li><a href="{{ "/sobre/" | prepend: site.baseurl }}">Nosotros</a></li>
+                    <li><a href="{{ "/contacto/" | prepend: site.baseurl }}">Contacto</a></li>
+                    <li><a href="{{ "/blog/" | prepend: site.baseurl }}">Blog</a></li>
+                </ul>
+            </article>
+            <article class="col-xs-12 col-sm-5">
+                <h5>Contacto</h5>
+                <ul class="list-unstyled list-1">
+                    <li id="_ksi82">Teléfono: <a href="#"></a></li>
+                    <li id="9971yhhs">Email: <a href="#">asdfas</a></li>
+                    <li>Madrid</li>
+                </ul>
+            </article>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>-->
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+<!--<script src="/static/js/docs.min.js"></script>-->
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="/static/js/ie10-viewport-bug-workaround.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function() {
+        var val2 = "ac" + String.fromCharCode(116) + "o";
+        var vai20 = "con" + String.fromCharCode(116);
+        var emailHost = "abir" + String.fromCharCode(116) + "one." + "com";
+        var arroba = String.fromCharCode(64)
+        var contact = vai20 + val2 + arroba + emailHost;
+        var mskoo_ = "Correo: <a href=\"mailto:" + contact + "\" >" + contact + "</a>";
+        $("#9971yhhs").html(mskoo_);
+
+        var k91 = "647" + "8";
+        var _K9919 = "79" + "925";
+        var _ji1iiii = k91 + _K9919;
+        var mskoo_ = "Teléfono: <a href=\"te" + "l:" + _ji1iiii + "\" >" + _ji1iiii + "</a>";
+        $('#_ksi82').html(mskoo_);
+
+    {% case page.active_tab %}
+
+    {% when "contact" %}
+
+        var val2 = "ac" + String.fromCharCode(116) + "o";
+        var vai20 = "con" + String.fromCharCode(116);
+        var emailHost = "abir" + String.fromCharCode(116) + "one." + "com";
+        var arroba = String.fromCharCode(64)
+        var contact = vai20 + val2 + arroba + emailHost;
+        var mskoo_ = "<a href=\"mailto:" + contact + "\" >" + contact + "</a>";
+        $("#ks91ksk").html(mskoo_);
+        $('#contact-form').attr('action', '//formspree.io/' + contact);
+
+    {% when "blog" %}
+        $(window).load(function() {
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.3";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        });
+    {% endcase %}
+
+    });
+
+</script>
