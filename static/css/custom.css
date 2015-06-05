@@ -603,11 +603,16 @@ a {color: #808080;}
     text-align: right;
     border-right: 1px dotted #000000;
 }
+
+.box-border-top {
+    border-top: 1px dashed #000000;
+    padding: 5px 0px 0 0;
+}
+
 .box-col-button {
     text-align: right;
     margin: 10px 0 0 0;
     padding: 10px 10px 0 0;
-    border-top: 1px dashed #000000;
 }
 .alt-row-color {
     background-color: #ffece5;
@@ -627,6 +632,10 @@ a {color: #808080;}
 }
 .box-col-l .glyphicon, .box-col-r .glyphicon {
     margin-left:2px;
+}
+
+.panel-body .row {
+    margin-bottom: 5px;
 }
 
 /* Index */
