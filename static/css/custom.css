@@ -69,13 +69,37 @@ h5 {
         margin: 80px 0 0px;
     }
 
+    .theme-showcase .first-2 {
+        margin: 120px 0 0px;
+    }
+
+    .theme-showcase .first-3 {
+        margin: 80px 0 0px;
+    }
+    .theme-showcase .first-3,
+    .theme-showcase .first-3 h1 {
+        margin-bottom: 0px;
+        padding-bottom: 0;
+    }
+    .theme-showcase .first-3 h1 {
+        margin-top: 0;
+    }
+
     .page-header {
         margin: 0;
     }
 }
 
 @media (max-width: 789px) {
-    .theme-showcase .first {
+
+    .container {
+        margin-right: 4px;
+        margin-left: 4px;
+        padding-right: 4px;
+        padding-left: 4px;
+    }
+
+    .theme-showcase .first, .theme-showcase .first-2 {
         margin: 0;
     }
 
@@ -146,7 +170,7 @@ h5 {
         background-color: #808080;
     }
 
-    .container {
+    .container .navbar-brand {
         margin-right: 10px;
         margin-left: 10px;
     }
@@ -238,15 +262,12 @@ h5 {
     position: relative;
     background-color: #f0f0f5;
     padding-top: 20px;
+    margin-top: 20px;
     height: 400px;
 }
 
 .carousel-inner {
     max-height: 350px;
-}
-
-#carousel-example-generic {
-    margin-top: 20px;
 }
 
 .carousel-indicators li {
@@ -355,8 +376,24 @@ h5 {
 .container-fluid .img-responsive  {
     max-width: 400px;
 }
-.container-fluid .height-400 {
+.height-400 {
     max-height: 300px;
+}
+.height-200 {
+    max-height: 200px;
+}
+
+.carousel-small {
+    top: 0px;
+    margin-top: 0px;
+    padding-top: -20px;
+    max-height: 200px;
+    background-color: transparent;
+}
+.carousel-inner-small {
+    top: 0px;
+    padding-top: -20px;
+    max-height: 200px;
 }
 /* End Carousel */
 
@@ -367,6 +404,11 @@ h5 {
     /* Set the fixed height of the footer here */
     height: 229px;
     background-color: #f5f5f5;
+}
+
+.footer-main .container {
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 /**************************************
@@ -386,6 +428,23 @@ h5 {
 .color-red {
     color: #ed1e24;
 }
+
+.color-green {
+    color: #24b82b;
+}
+
+.color-yellow {
+    color: #f3bc09;
+}
+
+.color-black {
+    color: #000000;
+}
+
+.color-grey {
+    color: #4d4d4d;
+}
+
 
 /**************************************
 
@@ -475,4 +534,114 @@ a {color: #808080;}
 
 .blog-title {
     font-size: 110%;
+}
+
+/**************************************
+
+    Detailed right menu bar
+
+**************************************/
+.panel-abirtone {
+    border-color: #ee4311;
+    border-color: #f4431a;
+}
+.panel-abirtone > .panel-heading h3 {
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+}
+.panel-abirtone > .panel-heading {
+    color: #ffffff;
+    background-image: none;
+    background-color: #ee4311;
+    border-color: #ee4311;
+    /*color: #4d4d4d;*/
+    background-color: #f4431a;
+    border-color: #f4431a;
+}
+
+/**************************************
+
+    Brochure details
+
+**************************************/
+.section-title {
+    margin-left: 0px;
+}
+.section-title h2 {
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+.section-title h2 i {
+    margin-left: -5px;
+    margin-right: 5px;
+    color: #f4431a;
+}
+
+.first-section img {
+    max-width: 250px;
+}
+
+@media (min-width: 789px) {
+}
+
+@media (max-width: 789px) {
+    .section-title, .section-title h2 {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .first-section img {
+        width: 100%;
+        padding-bottom: 25px;
+    }
+}
+
+/* Box details */
+.box-col-l {
+    text-align: right;
+    border-right: 1px dotted #000000;
+}
+.box-col-button {
+    text-align: right;
+    margin: 10px 0 0 0;
+    padding: 10px 10px 0 0;
+    border-top: 1px dashed #000000;
+}
+.alt-row-color {
+    background-color: #ffece5;
+}
+
+.tooltip-inner {
+    color: #4d4d4d;
+    background-color: #f7f7f7;
+    border: 2px solid #4d4d4d;
+    font-size: 14px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    max-width: 350px;
+    width: 100%;
+}
+.tooltip.bottom .tooltip-arrow {
+    border-right-color: #4d4d4d;
+}
+.box-col-l .glyphicon, .box-col-r .glyphicon {
+    margin-left:2px;
+}
+
+/* Index */
+.list-group-item {
+    padding: 2px 15px 2px 15px;
+    background-color: #ebebeb;
+    letter-spacing: 0.04em;
+}
+.list-subgroup {
+    background-color: #ffffff;
+    letter-spacing: 0.0em;
+}
+
+
+h2.media-heading  {
+    font-size: 14px;
+    font-weight: bold;
 }
