@@ -31,7 +31,7 @@ function set_contact(){
 }
 
 function set_alert_contact(){
-    var val2 = "ificaciones" + String.fromCharCode(116) + "-formacion";
+    var val2 = "ificaciones" + "-formacion";
     var vai20 = "no" + String.fromCharCode(116);
     var emailHost = "abir" + String.fromCharCode(116) + "one." + "com";
     var arroba = String.fromCharCode(64)
