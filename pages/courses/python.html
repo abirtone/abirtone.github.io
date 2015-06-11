@@ -1,17 +1,38 @@
 ---
 layout: default
 title: Curso Python
-active_tab: "course_python"
+active_tab: "course_python_not_available"
 permalink: /formacion/python/
 ---
-<div class="col-sm-12">
-    <div class="page-header">
-        <h1>Formación en Ionic</h1>
+
+<div class="col-sm-12 clearfix">
+    <div class="page-header first-3 first-section">
+        <h1>Curso de Python</h1>
     </div>
 </div>
-<div class="col-sm-offset-1 col-sm-4">
-    <img width="250px" class="img-responsive pull-left" src="/static/images/proximamente.jpg" alt="proximamente"/>
+
+
+<div class="col-sm-offset-1 col-sm-3 top-space-4">
+    <img width="220px" class="img-responsive pull-left" src="/static/images/proximamente.gif" alt="proximamente"/>
 </div>
-<div class="col-sm-7">
-    <h4>Este curso estará disponible próximamente</h4>
+
+<div class="col-sm-6 top-space-2">
+    <h5>Este curso estará disponible próximamente</h5>
+    <p class="top-space-1">Si lo deseas, puedes dejarnos tu mail y te avisaremos cuando esté disponible. </p>
+    <p><small><b>*</b> La información que nos facilites <b>SOLAMENTE</b> la utilizaremos para enviar información de <b>ESTE</b> curso.</small> </p>
+    <form class="form-horizontal" id="contact-form" method="POST" action="//formspree.io/">
+        <div class="form-group">
+            <label for="inputEmail3" class="col-xs-12 col-sm-2 control-label">Su email:</label>
+            <div class="col-xs-12 col-sm-10">
+                <input type="email" name="_replyto" class="form-control" id="inputEmail3" placeholder="Escribe tu mail" required>
+            </div>
+        </div>
+        <input name="_subject" type="hidden" value="[informacion-python]">
+        <div class="form-group">
+            <div class="col-xs-12 col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-danger">Enviar &rarr;</button>
+            </div>
+        </div>
+        <input type="hidden" name="_next" value="http://abirtone.com/formacion/info_cursos/" >
+    </form>
 </div>

@@ -13,21 +13,21 @@
         <div id="navbar" class="collapse navbar-collapse right">
             <ul class="nav navbar-nav">
                 <li {% if page.active_tab == "home" %} class="active"{% endif %}><a href="{{ "/" | prepend: site.baseurl }}">Inicio</a></li>
-                <li class="dropdown {% if page.active_tab == "courses" %}active{% endif %}">
+                <li class="dropdown {% if page.active_tab == "courses" or page.active_tab contains "course_" %}active{% endif %}">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Formación<span class="caret"></span</a>
                     <ul class="dropdown-menu" role="menu">
-                        <li class="dropdown-header"><a href="/formacion/"><b>VER TODA LA FORMACIÓN</b></a></li>
+                        <li class="dropdown-header-top"><a href="/formacion/"><i class="glyphicon glyphicon-th-list menu-icon"></i><b>VER TODA LA FORMACIÓN</b></a></li>
                         <li class="dropdown-header">Desarrollo</li>
-                        <li><a href="/formacion/nodejs/">NodeJS</a></li>
-                        <li><a href="/formacion/python/">Python</a></li>
-                        <li><a href="/formacion/angularjs/">AngularJS</a></li>
-                        <li><a href="/formacion/ionic/">Ionic</a></li>
-                        <li><a href="/formacion/mongodb/">MongoDB</a></li>
-                        <li><a href="/formacion/osgi/">OSGI</a></li>
-                        <li><a href="/formacion/drupal/">Drupal</a></li>
+                        <li class="dropdown-header-node"><a href="/formacion/nodejs/"><img class="menu-icon" src="/static/images/icon-menu-nodejs.png"  alt="Icon NodeJS"/>NodeJS</a></li>
+                        <li><a href="/formacion/python/"><img class="menu-icon"  src="/static/images/icon-menu-python.png"  alt="Icon Python"/>Python</a></li>
+                        <li><a href="/formacion/angularjs/"><img class="menu-icon"  src="/static/images/icon-menu-angularjs.ico"  alt="Icon AngujarJS"/>AngularJS   <i class="glyphicon glyphicon-menu-right color-red"></i></a></li>
+                        <li><a href="/formacion/ionic/"><img class="menu-icon"  src="/static/images/icon-menu-ionic.png"  alt="Icon Ionic"/>Ionic</a></li>
+                        <li><a href="/formacion/mongodb/"><img class="menu-icon"  src="/static/images/icon-menu-mongodb.png"  alt="Icon MongoDB"/>MongoDB</a></li>
+                        <li><a href="/formacion/osgi/"><img class="menu-icon"  src="/static/images/icon-menu-osgi.png"  alt="Icon OSGI"/>OSGI</a></li>
+                        <li><a href="/formacion/drupal/"><img class="menu-icon"  src="/static/images/icon-menu-drupal.png"  alt="Icon Drupal"/>Drupal</a></li>
                         <!--<li class="divider"></li>-->
                         <li class="dropdown-header">Hacking</li>
-                        <li><a href="/formacion/scapy/">Scapy avanzado</a></li>
+                        <li><a href="/formacion/scapy/"><img class="menu-icon"  src="/static/images/icon-menu-scapy.png"  alt="Icon Wireshark"/>Scapy avanzado</a></li>
                     </ul>
                 </li>
                 <li {% if page.active_tab == "about" %} class="active"{% endif %}><a  href="{{ "/sobre/" | prepend: site.baseurl }}">Nosotros</a></li>
@@ -45,8 +45,5 @@
 
 {% when "courses" %}
     {% include slider_formacion.html %}
-
-<!--{% when "course_angularjs__" %}-->
-    <!--{% include courses/angularjs_slider.html %}-->
 
 {% endcase %}

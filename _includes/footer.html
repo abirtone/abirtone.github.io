@@ -26,71 +26,37 @@
                 <ul class="list-unstyled list-1">
                     <li id="_ksi82"><i class="glyphicon glyphicon-phone"></i>Teléfono: <a href="#"></a></li>
                     <li id="9971yhhs">Email: <a href="#">asdfas</a></li>
-                    <li><i class="glyphicon glyphicon-map-marker"></i> Madrid</li>
+                    <li ><i class="glyphicon glyphicon-map-marker"></i> Madrid<a href="#"></a></li>
                 </ul>
             </article>
         </div>
     </div>
 </footer>
 
-<!-- Bootstrap core JavaScript
-    ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>-->
-<script src="/static/js/jquery.min.js"></script>
-<script src="/static/js/bootstrap.min.js"></script>
-<script src="/static/js/tooltip.js"></script>
-<!--<script src="/static/js/docs.min.js"></script>-->
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="/static/js/ie10-viewport-bug-workaround.js"></script>
+<script src="/static/js/all.min.js"></script>
+<script src="/static/js/custom.js"></script>
 <script type="text/javascript">
 
     $(document).ready(function() {
-        // Enable tooltip
-        jQuery('[data-toggle="tooltip"]').tooltip().click(function(e) {
-            jQuery(this).tooltip('toggle');
-        });
+        load_common();
 
-        var val2 = "ac" + String.fromCharCode(116) + "o";
-        var vai20 = "con" + String.fromCharCode(116);
-        var emailHost = "abir" + String.fromCharCode(116) + "one." + "com";
-        var arroba = String.fromCharCode(64)
-        var contact = vai20 + val2 + arroba + emailHost;
-        var mskoo_ = "<i class=\"glyphicon glyphicon-envelope\"></i> Correo: <a href=\"mailto:" + contact + "\" >" + contact + "</a>";
-        $("#9971yhhs").html(mskoo_);
+        {% case page.active_tab %}
 
-        var k91 = "647" + "8";
-        var _K9919 = "79" + "925";
-        var _ji1iiii = k91 + _K9919;
-        var mskoo_ = "<i class=\"glyphicon glyphicon-phone\"></i> Teléfono: <a href=\"te" + "l:" + _ji1iiii + "\" >" + _ji1iiii + "</a>";
-        $('#_ksi82').html(mskoo_);
+        {% when "contact" %}
+            set_contact();
 
-    {% case page.active_tab %}
+        {% when "blog" or contains "course_" %}
+            load_social();
+        {% endcase %}
 
-    {% when "contact" %}
+        {% if page.active_tab contains "course_" %}
+            load_social();
+        {% endif %}
 
-        var val2 = "ac" + String.fromCharCode(116) + "o";
-        var vai20 = "con" + String.fromCharCode(116);
-        var emailHost = "abir" + String.fromCharCode(116) + "one." + "com";
-        var arroba = String.fromCharCode(64)
-        var contact = vai20 + val2 + arroba + emailHost;
-        var mskoo_ = "<a href=\"mailto:" + contact + "\" >" + contact + "</a>";
-        $("#ks91ksk").html(mskoo_);
-        $('#contact-form').attr('action', '//formspree.io/' + contact);
+        {% if page.active_tab contains "_not_available" %}
+            set_alert_contact();
+        {% endif %}
 
-    {% when "blog" %}
-        $(window).load(function() {
-            (function (d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id)) return;
-                js = d.createElement(s);
-                js.id = id;
-                js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.3";
-                fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
-        });
-    {% endcase %}
 
     });
-
 </script>
