@@ -644,9 +644,6 @@ a {color: #808080;}
     max-width: 250px;
 }
 
-@media (min-width: 789px) {
-}
-
 @media (max-width: 789px) {
     .section-title, .section-title h2 {
         margin-top: 0px;
@@ -735,6 +732,18 @@ h2.media-heading  {
     .graphic-prop-text {
         padding-top: 0px;
         margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 789px) {
+    .btn-inscription {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .btn-inscription a {
+        padding-left: 55px;
+        padding-right: 55px;
     }
 }
 
