@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87302408-16ac-4ffc-8733-bf3c990a1b10" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/companies/paradigma.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/companies/stratio.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/courses/angujarjs.html" afterPath="$PROJECT_DIR$/pages/courses/angujarjs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/custom.css" afterPath="$PROJECT_DIR$/static/css/custom.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="last.iws" />
@@ -29,82 +26,35 @@
     <favorites_list name="last" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="angujarjs.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/pages/courses/angujarjs.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5829268" vertical-offset="2461" max-vertical-offset="3636">
-                  <caret line="232" column="82" selection-start-line="232" selection-start-column="82" selection-end-line="232" selection-end-column="82" />
-                  <folding>
-                    <element signature="n#ul#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#li#3;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#ul#0;n#li#3;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#li#7;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#ul#0;n#li#7;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#li#12;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#ul#0;n#li#12;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#li#14;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#ul#0;n#li#14;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#li#17;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#ul#0;n#li#17;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#li#19;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#ul#0;n#li#19;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#li#21;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#ul#0;n#li#21;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#9;n#div#0;n#!!top" expanded="true" />
-                    <element signature="n#div#1;n#!!top" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="angujarjs.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pages/courses/angujarjs.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-6.4814816" vertical-offset="2255" max-vertical-offset="3636">
-                  <caret line="217" column="14" selection-start-line="217" selection-start-column="14" selection-end-line="217" selection-end-column="14" />
-                  <folding>
-                    <element signature="n#ul#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#li#3;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#ul#0;n#li#3;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#li#7;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#ul#0;n#li#7;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#li#12;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#ul#0;n#li#12;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#li#14;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#ul#0;n#li#14;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#li#17;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#ul#0;n#li#17;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#li#19;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#ul#0;n#li#19;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#li#21;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#ul#0;n#li#21;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#9;n#div#0;n#!!top" expanded="true" />
-                    <element signature="n#div#1;n#!!top" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/static/css/custom.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6666667" vertical-offset="11646" max-vertical-offset="14130">
-                  <caret line="663" column="22" selection-start-line="663" selection-start-column="22" selection-end-line="663" selection-end-column="22" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="angujarjs.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/courses/angujarjs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.20136519" vertical-offset="3981" max-vertical-offset="5076">
+              <caret line="313" column="18" selection-start-line="313" selection-start-column="18" selection-end-line="313" selection-end-column="18" />
+              <folding>
+                <element signature="n#ul#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#li#3;n#ul#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#li#3;n#ul#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#li#7;n#ul#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#li#7;n#ul#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#li#12;n#ul#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#li#12;n#ul#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#li#14;n#ul#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#li#14;n#ul#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#li#17;n#ul#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#li#17;n#ul#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#li#19;n#ul#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#li#19;n#ul#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#li#21;n#ul#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#li#21;n#ul#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#9;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -398,12 +348,18 @@
       <option name="project" value="LOCAL" />
       <updated>1434108063345</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added colaborator companies">
+      <created>1434123794586</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1434123794586</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1676" height="1027" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -416,7 +372,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22181372" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22181372" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3167702" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -446,7 +402,8 @@
     <MESSAGE value="Last version of website" />
     <MESSAGE value="Fixed javascript fail" />
     <MESSAGE value="Last version of web site. Almost ready!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Last version of web site. Almost ready!" />
+    <MESSAGE value="Added colaborator companies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added colaborator companies" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -822,16 +779,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6666667" vertical-offset="11646" max-vertical-offset="14130">
-          <caret line="663" column="22" selection-start-line="663" selection-start-column="22" selection-end-line="663" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.5" vertical-offset="11646" max-vertical-offset="14130">
+          <caret line="659" column="5" selection-start-line="659" selection-start-column="5" selection-end-line="659" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/courses/angujarjs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5829268" vertical-offset="2461" max-vertical-offset="3636">
-          <caret line="232" column="82" selection-start-line="232" selection-start-column="82" selection-end-line="232" selection-end-column="82" />
+        <state vertical-scroll-proportion="0.20136519" vertical-offset="3981" max-vertical-offset="5076">
+          <caret line="313" column="18" selection-start-line="313" selection-start-column="18" selection-end-line="313" selection-end-column="18" />
           <folding>
             <element signature="n#ul#0;n#div#0;n#!!top" expanded="false" />
             <element signature="n#li#3;n#ul#0;n#div#0;n#!!top" expanded="false" />
@@ -849,7 +806,6 @@
             <element signature="n#li#21;n#ul#0;n#div#0;n#!!top" expanded="false" />
             <element signature="n#ul#0;n#li#21;n#ul#0;n#div#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#9;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
