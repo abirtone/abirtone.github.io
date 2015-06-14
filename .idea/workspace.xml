@@ -28,68 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="angujarjs.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/courses/angujarjs.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5555553" vertical-offset="3981" max-vertical-offset="5076">
-              <caret line="313" column="18" selection-start-line="313" selection-start-column="18" selection-end-line="313" selection-end-column="18" />
-              <folding>
-                <element signature="n#ul#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#li#3;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#li#3;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#li#7;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#li#7;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#li#12;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#li#12;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#li#14;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#li#14;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#li#17;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#li#17;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#li#19;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#li#19;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#li#21;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#li#21;n#ul#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#9;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="feed.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/feed.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
-              <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sitemap.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sitemap.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1386">
-              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="head.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_includes/head.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1980198" vertical-offset="0" max-vertical-offset="909">
-              <caret line="10" column="98" selection-start-line="10" selection-start-column="98" selection-end-line="10" selection-end-column="98" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="robots.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="robots.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/robots.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="144">
-              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="936">
+              <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -148,8 +91,8 @@
         <option value="$PROJECT_DIR$/pages/courses/angujarjs.html" />
         <option value="$PROJECT_DIR$/feed.xml" />
         <option value="$PROJECT_DIR$/sitemap.xml" />
-        <option value="$PROJECT_DIR$/robots.txt" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
+        <option value="$PROJECT_DIR$/robots.txt" />
       </list>
     </option>
   </component>
@@ -389,7 +332,13 @@
       <option name="project" value="LOCAL" />
       <updated>1434295028401</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Updated sitemap links">
+      <created>1434295337256</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1434295337256</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -440,7 +389,8 @@
     <MESSAGE value="Added colaborator companies" />
     <MESSAGE value="Updated back colors" />
     <MESSAGE value="Added sitemap file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added sitemap file" />
+    <MESSAGE value="Updated sitemap links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated sitemap links" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -793,9 +743,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1980198" vertical-offset="0" max-vertical-offset="909">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sitemap.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28846154" vertical-offset="0" max-vertical-offset="1386">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feed.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="936">
+          <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/courses/angujarjs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5555553" vertical-offset="3981" max-vertical-offset="5076">
+        <state vertical-scroll-proportion="0.19471948" vertical-offset="3981" max-vertical-offset="5076">
           <caret line="313" column="18" selection-start-line="313" selection-start-column="18" selection-end-line="313" selection-end-column="18" />
           <folding>
             <element signature="n#ul#0;n#div#0;n#!!top" expanded="false" />
@@ -818,34 +792,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feed.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="936">
-          <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sitemap.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1386">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/robots.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="144">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1980198" vertical-offset="0" max-vertical-offset="909">
-          <caret line="10" column="98" selection-start-line="10" selection-start-column="98" selection-end-line="10" selection-end-column="98" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="936">
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
           <folding />
         </state>
       </provider>
