@@ -455,6 +455,10 @@ h5 {
     margin-top: 60px;
 }
 
+.page-header {
+    border-bottom: none;
+}
+
 .btn-danger {
     background-color: #ee4311;
 }
