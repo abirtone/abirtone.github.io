@@ -40,23 +40,17 @@
     $(document).ready(function() {
         load_common();
 
-        {% case page.active_tab %}
-
-        {% when "contact" %}
+        {% if page.active_tab == "contact" %}
             set_contact();
+        {% endif%}
 
-        {% when "blog" or contains "course_" %}
-            load_social();
-        {% endcase %}
-
-        {% if page.active_tab contains "course_" %}
+        {% if page.active_tab contains "course_" or page.active_tab == "blog" or page.type == "post" %}
             load_social();
         {% endif %}
 
         {% if page.active_tab contains "_not_available" %}
             set_alert_contact();
         {% endif %}
-
 
     });
 </script>

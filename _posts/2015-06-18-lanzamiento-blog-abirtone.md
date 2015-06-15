@@ -2,7 +2,9 @@
 layout: post
 title:  "Inauguramos nuestro blog!"
 date:   2015-06-07 08:30:33
-categories: jekyll update
+categories: general
+tags: general
+type: post
 description: "Inauguramos el blog de Abirtone. El por qué de una empresa con su backend en un GitHub público :)"
 ---
 
