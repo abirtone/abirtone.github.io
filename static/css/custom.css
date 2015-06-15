@@ -578,7 +578,7 @@ a {color: #808080;}
     -moz-box-shadow: 0 0 3px #ccc;
     -webkit-box-shadow: 0 0 5px #ccc;
     float: left;
-    margin: 3px 30px 3px 3px;
+    margin: 3px 10px 3px 3px;
     text-align: center;
     padding: 2px 15px 10px;
 }
@@ -589,8 +589,14 @@ a {color: #808080;}
      line-height: 1.2em;
 }
 
+.entry-list {
+    margin-top: 15px;
+}
+
 .entry-link {
     margin-top: 10px;
+    margin-left: 15px;
+
 }
 
 .fb-like {
