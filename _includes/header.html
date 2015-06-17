@@ -12,7 +12,8 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse right">
             <ul class="nav navbar-nav">
-                <li {% if page.active_tab == "home" %} class="active"{% endif %}><a href="{{ "/" | prepend: site.baseurl }}">Inicio</a></li>
+                <!--<li {% if page.active_tab == "home" %} class="active"{% endif %}><a href="{{ "/" | prepend: site.baseurl }}">Inicio</a></li>-->
+                <li {% if page.active_tab == "blog" %} class="active"{% endif %}><a  href="{{ "/blog/" | prepend: site.baseurl }}">Blog</a></li>
                 <li class="dropdown {% if page.active_tab == "courses" or page.active_tab contains "course_" %}active{% endif %}">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Formación<span class="caret"></span</a>
                     <ul class="dropdown-menu" role="menu">
@@ -32,9 +33,16 @@
                         <li><a href="/formacion/scapy/"><img class="menu-icon"  src="/static/images/icon-menu-scapy.png"  alt="Icon Wireshark"/>Scapy avanzado</a></li>
                     </ul>
                 </li>
+                <li class="dropdown {% if page.active_tab == "books" or page.active_tab contains "book_" %}active{% endif %}">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Publicaciones<span class="caret"></span</a>
+                    <ul class="dropdown-menu" role="menu">
+                        <!--<li class="dropdown-header-top"><a href="/libros/"><i class="glyphicon glyphicon-th-list menu-icon"></i><b>VER TODAS LAS PUBLICACIONES</b></a></li>-->
+                        <li class="dropdown-header">Libros</li>
+                        <li class="dropdown-header-node"><a href="/libros/angularjs/"><img class="menu-icon" src="/static/images/icon-menu-angularjs.ico"  alt="Libro AngularJS"/>AngularJS</a></li>
+                    </ul>
+                </li>
                 <li {% if page.active_tab == "about" %} class="active"{% endif %}><a  href="{{ "/sobre/" | prepend: site.baseurl }}">Nosotros</a></li>
                 <li {% if page.active_tab == "contact" %} class="active"{% endif %}><a  href="{{ "/contacto/" | prepend: site.baseurl }}">Contacto</a></li>
-                <li {% if page.active_tab == "blog" %} class="active"{% endif %}><a  href="{{ "/blog/" | prepend: site.baseurl }}">Blog</a></li>
             </ul>
         </div><!-- /.nav-collapse -->
     </div><!-- /.container -->

@@ -716,6 +716,10 @@ a {color: #808080;}
     background-color: #ebebeb;
     letter-spacing: 0.04em;
 }
+.list-group-white .list-group-item {
+    background-color: #ffffff;
+}
+
 .list-subgroup {
     background-color: #ffffff;
     letter-spacing: 0.0em;
