@@ -17,34 +17,45 @@ description: "Curso presencial especialista de AngularJS"
         <h2><i class="glyphicon glyphicon-question-sign" aria-hidden="true"></i> ¿ Qué es AngujarJS ?</h2>
     </div>
 
-    <p>AngularJS nos permitirá hacer <b>interfaces web </b>de manera extremadamente <b>rápida, mantenibles y testeables</b>. AngujarJS cuenta con el respaldo de <b>Google, creador del mismo</b>. Según la web de proyecto:</p>
+    <p>AngularJS nos ypermitirá hacer <b>interfaces web </b>de manera extremadamente <b>rápida, mantenibles y testeables</b>. AngujarJS cuenta con el respaldo de <b>Google, creador del mismo</b>. Según la web de proyecto:</p>
 
     <blockquote>
         <p>Angularjs le permite escribir aplicaciones web del lado del cliente <b>como si tuvieras un navegador más inteligente </b><i>[...]</i> <b>sincroniza automáticamente</b> los datos de la interfaz de usuario <i>[...]</i> para ayudar a estructurar <b>su aplicación</b> mejor y que sea <b>más fácil probar</b> <i>...</i></p>
         <footer>Fuente: <a class="link" href="https://github.com/angular/angular.js">Angujarjs.com</a></footer>
     </blockquote>
 
-    <!-- Indice del temario -->
+    <!-- Indice del curso -->
     <div class="page-header section-title">
         <h2><i class="glyphicon glyphicon-list-alt" aria-hidden="true"></i> Índice del temario</h2>
     </div>
     <ul class="list-group">
-        <li class="list-group-item">Visión general de AngularJS</li>
-        <li class="list-group-item">Introducción a AngularJS</li>
-        <li class="list-group-item">Conceptos básicos</li>
+        <li class="list-group-item">AngularJS: Que es y en que consiste</li>
+        <li class="list-group-item">Personalizando nuestro ide para programar en AngularJS</li>
+        <li class="list-group-item">Entendiendo los <code>Scopes</code></li>
         <li class="list-group-item list-subgroup">
             <ul>
-                <li><code>$rootScope</code> / <code>$scope</code> </li>
+                <li><code>$scope</code> </li>
                 <li><code>$rootScope</code></li>
-                <li><code>$scope</code></li>
-                <li>Ejemplo de jerarquía de scopes</li>
-                <li>Templates</li>
             </ul>
         </li>
-        <li class="list-group-item">Modules (ng-app)</li>
-        <li class="list-group-item">Controllers (ng-controller)</li>
-        <li class="list-group-item">Directivas ng</li>
-        <li class="list-group-item list-subgroup">            <ul>
+        <li class="list-group-item">Templates</li>
+        <li class="list-group-item">Controllers <code>ng-controller</code></li>
+        <li class="list-group-item">Modulos <code>ng-app</code></li>
+        <li class="list-group-item">Filters</li>
+        <li class="list-group-item">Services</li>
+        <li class="list-group-item list-subgroup">
+            <ul>
+                <li> Factory </li>
+                <li> Service </li>
+                <li> Provider  </li>
+                <li> Value </li>
+                <li> Constant </li>
+                <li> Diferencias y cómo legir la factoría adecuada </li>
+            </ul>
+        </li>
+        <li class="list-group-item">Directivas</li>
+        <li class="list-group-item list-subgroup">
+            <ul>
                 <li> <code>ng-app</code></li>
                 <li> <code>ng-controller</code></li>
                 <li> <code>ng-model</code></li>
@@ -60,56 +71,55 @@ description: "Curso presencial especialista de AngularJS"
                 <li> <code>ng-include</code></li>
             </ul>
         </li>
-        <li class="list-group-item">Filters</li>
         <li class="list-group-item">Directivas personalizadas</li>
-        <li class="list-group-item">Forms</li>
-        <li class="list-group-item">Services</li>
-        <li class="list-group-item list-subgroup">            <ul>
-                <li> Factories </li>
-                <li> Providers  </li>
-                <li> Values </li>
-                <li> Constants </li>
-            </ul>
-        </li>
-        <li class="list-group-item">Conceptos avanzados</li>
-        <li class="list-group-item list-subgroup">            <ul>
-                <li>Eventos</li>
-                <li><code>$templateCache</code></li>
-                <li>Routing: ui-router &amp; new-router</li>
-            </ul>
-        </li>
-        <li class="list-group-item">Animaciones</li>
-        <li class="list-group-item">Servidor (Patrones y recursos)</li>
+        <li class="list-group-item">Formularios</li>
         <li class="list-group-item list-subgroup">
             <ul>
-                <li>Promise</li>
-                <li><code>$q</code></li>
-                <li><code>$http</code></li>
-                <li><code>$resource</code></li>
+                <li> ¿ Qué son ? </li>
+                <li> En qué consisten </li>
+                <li> Validadores </li>
+                <li> Creación de nuestra propia directiva de validación </li>
             </ul>
         </li>
+        <li class="list-group-item">Routers</li>
+        <li class="list-group-item list-subgroup">
+            <ul>
+                <li> ¿ Qué son ? </li>
+                <li> <code>ng-router</code> </li>
+                <li> <code>ui-router</code> </li>
+                <li> Angular <code>new-router</code> </li>
+            </ul>
+        </li>
+        <li class="list-group-item">Comunicación con el servidor</li>
+        <li class="list-group-item list-subgroup">
+            <ul>
+                <li> Patrones: <code>Defer</code> y <code>Promise</code></li>
+                <li> <code>$http</code> </li>
+                <li> <code>$resource</code> </li>
+                <li> RestAngular </li>
+            </ul>
+        </li>
+        <li class="list-group-item">Eventos</li>
+        <li class="list-group-item">Internacionalización</li>
+        <li class="list-group-item">Animaciones</li>
+        <li class="list-group-item">Optimización y mejoras de rendimiento</li>
+        <li class="list-group-item">Compatibilidad con <i>Internet Explorer</i></li>
         <li class="list-group-item">Testing</li>
         <li class="list-group-item list-subgroup">
             <ul>
-                <li>Test unitarios</li>
-                <li>Escribiendo tests unitarios con Karma</li>
-                <li>Test E2E</li>
-                <li>Escribiendo test unitarios con Protractor</li>
+                <li> Test unitarios </li>
+                <li> Test <i>E2E</i> </li>
             </ul>
         </li>
-        <li class="list-group-item">WebStorm: incrementando la productividad</li>
+        <li class="list-group-item">Librerías imprescindibles</li>
         <li class="list-group-item list-subgroup">
             <ul>
-                <li>Introducción a WebStorm</li>
-                <li>Creación y configuración de proyectos AngularJS</li>
-                <li>Atajos de teclado</li>
-                <li>Uso de plantillas dinámicas</li>
-                <li>Depuración en tiempo real</li>
-                <li>Uso avanzado</li>
+                <li> Angular-UI </li>
+                <li> UI-BoosStrap </li>
+                <li> Angular-Material </li>
             </ul>
         </li>
-        <li class="list-group-item">AngularJS y navegadores antiguos (IE)</li>
-        <li class="list-group-item">Novedades AngujarJS 1.3.x y 1.4.x</li>
+        <li class="list-group-item">Cómo prepararnos para la llegada de AngularJS 2</li>
     </ul>
 
 
@@ -157,7 +167,7 @@ description: "Curso presencial especialista de AngularJS"
             <div class="media">
                 <div class="media-left media-top">
                     <a href="#">
-                        <img width="90px" class="media-object" src="/static/courses/angularjs/libro.png" alt="Libro AngujarJS práctico paso a paso">
+                        <img width="90px" class="media-object img-responsive-border"src="/static/courses/angularjs/libro.png" alt="Libro AngujarJS práctico paso a paso">
                     </a>
                 </div>
                 <div class="media-body">
@@ -322,7 +332,7 @@ description: "Curso presencial especialista de AngularJS"
                 <div class="col-xs-6 col-sm-5 box-col-r"><i class="glyphicon glyphicon-ok color-green"></i></div>
             </div>
             <div class="row">
-                <div class="col-xs-6 col-sm-7 box-col-l"><b>Materia adicional</b><i class="glyphicon glyphicon-info-sign color-grey" data-toggle="tooltip" data-placement="bottom" title="Pendrives, libretas, bolígrafos y cualquier otro material que fuese necesario."></i></div>
+                <div class="col-xs-6 col-sm-7 box-col-l"><b>Materia adicional</b><i class="glyphicon glyphicon-info-sign color-grey" data-toggle="tooltip" data-placement="bottom" title="Pendrives, libretas, bolígrafos o cualquier otro material que fuese necesario."></i></div>
                 <div class="col-xs-6 col-sm-5 box-col-r"><i class="glyphicon glyphicon-ok color-green"></i></div>
             </div>
             <div class="row alt-row-color">
