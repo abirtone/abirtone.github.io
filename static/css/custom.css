@@ -99,6 +99,11 @@ h5 {
         padding-left: 4px;
     }
 
+    .container-row {
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+
     .theme-showcase .first, .theme-showcase .first-2 {
         margin: 0;
     }
@@ -156,20 +161,6 @@ h5 {
     padding-left: 0px;
     margin-bottom: 5px;
 }
-
-/*.header-section {*/
-    /*margin-left: 20px;*/
-    /*border-top: 1px dashed #777;*/
-    /*padding-left: 5px;*/
-/*}*/
-/*.header-section-border {*/
-    /*border-bottom: 1px dashed #777;*/
-/*}*/
-
-/*.dropdown-header-node > li > a {*/
-    /*padding-left: 30px;*/
-/*}*/
-
 
 .navbar-header {
     height: 105px;
