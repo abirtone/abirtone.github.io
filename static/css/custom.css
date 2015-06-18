@@ -550,6 +550,14 @@ a {color: #808080;}
     margin: 10px;
     max-width: 150px;
 }
+@media (max-width: 789px) {
+    #_ksi82 a {
+        background-color: #ed1e24;
+        color: #ffffff;
+        padding: 4px 4px 4px 4px;
+        border-radius: 5px 5px 5px 5px;
+    }
+}
 
 
 /**************************************
