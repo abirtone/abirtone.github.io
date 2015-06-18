@@ -18,9 +18,9 @@ Una semana enocionante en la que, sin darte cuenta, estarás creando aplicacione
 
 Una nota curiosa:
 
->    ¿ Sabías que programar en AngularJS tiene muchas más ventajas?
+>    ¿ Sabías que programar en **AngularJS tiene muchas más ventajas**?
 >
->    Si tu aplicación está desarrollada con AngularJS puedes convertirla en una aplicación móvil para iOS, Android o Windows Phone, sin cambiar prácticamene nada, usando [Ionic](http://ionicframework.com).
+>    Si **tu aplicación** está desarrollada con AngularJS puedes convertirla **en una aplicación móvil** para iOS, Android o Windows Phone, **sin cambiar** prácticamene **nada**, usando [Ionic](http://ionicframework.com).
 
 [Pincha en el este enlace para más información &rarr;](http://abirtone.com/formacion/angularjs/)
 
