@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87302408-16ac-4ffc-8733-bf3c990a1b10" name="Default" comment="- Updated Buguroo Logo.&#10;- Added books sections and updated AngularJS books info.">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2015-06-18-lanzamiento-blog-abirtone.md" afterPath="$PROJECT_DIR$/_posts/2015-06-07-lanzamiento-blog-abirtone.md" />
+    <list default="true" id="87302408-16ac-4ffc-8733-bf3c990a1b10" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -66,8 +65,8 @@
           <file leaf-file-name="header.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/_includes/header.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.33663365" vertical-offset="0" max-vertical-offset="1224">
-                  <caret line="17" column="151" selection-start-line="17" selection-start-column="151" selection-end-line="17" selection-end-column="151" />
+                <state vertical-scroll-proportion="0.4950495" vertical-offset="0" max-vertical-offset="1224">
+                  <caret line="25" column="154" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="154" />
                   <folding />
                 </state>
               </provider>
@@ -616,7 +615,13 @@
       <option name="project" value="LOCAL" />
       <updated>1434624194222</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="- Fix: Some HTML issues">
+      <created>1434624370329</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1434624370329</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -635,7 +640,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17467949" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17467949" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3163435" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -660,7 +665,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Added colaborator companies" />
     <MESSAGE value="Updated back colors" />
     <MESSAGE value="Added sitemap file" />
     <MESSAGE value="Updated sitemap links" />
@@ -685,7 +689,8 @@
     <MESSAGE value="- Fix: removed duplicated HTML headers&#10;- Fix: updated language mode for more informal way &#10; &#10; Thx @wesobi :)" />
     <MESSAGE value="Fix: Closed &quot;meta&quot; and &quot;link&quot; to be compatible with XHTML" />
     <MESSAGE value="- Updated sitemap" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Updated sitemap" />
+    <MESSAGE value="- Fix: Some HTML issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Fix: Some HTML issues" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1133,8 +1138,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33663365" vertical-offset="0" max-vertical-offset="1224">
-          <caret line="17" column="151" selection-start-line="17" selection-start-column="151" selection-end-line="17" selection-end-column="151" />
+        <state vertical-scroll-proportion="0.4950495" vertical-offset="0" max-vertical-offset="1224">
+          <caret line="25" column="154" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="154" />
           <folding />
         </state>
       </provider>
