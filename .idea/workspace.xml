@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87302408-16ac-4ffc-8733-bf3c990a1b10" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/companies/buguroo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/publicaciones/libros/angularjs.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/books.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/slider_libros.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/courses/bolsa_trabajo.html" afterPath="$PROJECT_DIR$/pages/bolsa_trabajo.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/courses/angularjs/libro.png" afterPath="$PROJECT_DIR$/static/books/libro_angularjs.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/books/libro_angularjs.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/companies/buguroo.png" afterPath="$PROJECT_DIR$/static/companies/buguroo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/courses/angujarjs.html" afterPath="$PROJECT_DIR$/pages/courses/angujarjs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/custom.css" afterPath="$PROJECT_DIR$/static/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/publicaciones/libros/angularjs.html" afterPath="$PROJECT_DIR$/pages/publicaciones/libros/angularjs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -37,130 +36,11 @@
     <splitter split-orientation="vertical" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="ionic.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pages/courses/ionic.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-20.666666" vertical-offset="0" max-vertical-offset="792">
-                  <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="bolsa_trabajo.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pages/bolsa_trabajo.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-25.962963" vertical-offset="163" max-vertical-offset="1080">
-                  <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="angularjs.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pages/publicaciones/libros/angularjs.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-24.62963" vertical-offset="613" max-vertical-offset="1458">
-                  <caret line="71" column="14" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="angujarjs.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pages/courses/angujarjs.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-18.62963" vertical-offset="2953" max-vertical-offset="4212">
-                  <caret line="251" column="14" selection-start-line="251" selection-start-column="14" selection-end-line="251" selection-end-column="14" />
-                  <folding>
-                    <element signature="n#div#1;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#2;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#6;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#6;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#1;n#div#6;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#0;n#div#1;n#div#6;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#a#0;n#div#0;n#div#0;n#div#1;n#div#6;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#0;n#div#1;n#div#6;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#7;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#8;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#9;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#0;n#div#9;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#0;n#div#0;n#div#9;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#0;n#div#0;n#div#9;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#div#9;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#13;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#p#7;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#14;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#15;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#ul#1;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#16;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#ul#2;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#1;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#0;n#div#1;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="false" />
-                    <element signature="n#div#2;n#div#1;n#div#0;n#div#1;n#!!top" expanded="false" />
-                    <element signature="n#div#3;n#div#1;n#div#0;n#div#1;n#!!top" expanded="false" />
-                    <element signature="n#div#4;n#div#1;n#div#0;n#div#1;n#!!top" expanded="false" />
-                    <element signature="n#div#5;n#div#1;n#div#0;n#div#1;n#!!top" expanded="false" />
-                    <element signature="n#div#6;n#div#1;n#div#0;n#div#1;n#!!top" expanded="false" />
-                    <element signature="n#div#7;n#div#1;n#div#0;n#div#1;n#!!top" expanded="false" />
-                    <element signature="n#div#8;n#div#1;n#div#0;n#div#1;n#!!top" expanded="false" />
-                    <element signature="n#div#9;n#div#1;n#div#0;n#div#1;n#!!top" expanded="false" />
-                    <element signature="n#div#10;n#div#1;n#div#0;n#div#1;n#!!top" expanded="false" />
-                    <element signature="n#div#11;n#div#1;n#div#0;n#div#1;n#!!top" expanded="false" />
-                    <element signature="n#div#12;n#div#1;n#div#0;n#div#1;n#!!top" expanded="false" />
-                    <element signature="n#div#13;n#div#1;n#div#0;n#div#1;n#!!top" expanded="false" />
-                    <element signature="n#div#14;n#div#1;n#div#0;n#div#1;n#!!top" expanded="false" />
-                    <element signature="n#div#15;n#div#1;n#div#0;n#div#1;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#15;n#div#1;n#div#0;n#div#1;n#!!top" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="slider_libros.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/_includes/slider_libros.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-17.333334" vertical-offset="0" max-vertical-offset="1620">
-                  <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="header.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/_includes/header.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7881657" vertical-offset="18" max-vertical-offset="1170">
-                  <caret line="38" column="65" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="books.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="books.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pages/books.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-26.0" vertical-offset="0" max-vertical-offset="1674">
-                  <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="bootstrap.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pages/courses/bootstrap.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="792">
-                  <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+                <state vertical-scroll-proportion="0.5764706" vertical-offset="115" max-vertical-offset="558">
+                  <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
                   <folding />
                 </state>
               </provider>
@@ -173,8 +53,8 @@
           <file leaf-file-name="angularjs.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pages/publicaciones/libros/angularjs.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.3" vertical-offset="54" max-vertical-offset="1458">
-                  <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+                <state vertical-scroll-proportion="0.4" vertical-offset="444" max-vertical-offset="1548">
+                  <caret line="34" column="92" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="92" />
                   <folding />
                 </state>
               </provider>
@@ -190,8 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_includes/courses/angularjs.html" />
-        <option value="$PROJECT_DIR$/static/js/script.js" />
         <option value="$PROJECT_DIR$/pages/courses/angujarjs_old.html" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
         <option value="$PROJECT_DIR$/_includes/courses/angularjs_slider_orig.html" />
@@ -228,19 +106,21 @@
         <option value="$PROJECT_DIR$/pages/contact_thanks.html" />
         <option value="$PROJECT_DIR$/pages/course_info_thanks.html" />
         <option value="$PROJECT_DIR$/pages/teachers.html" />
-        <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/_includes/slider_formacion.html" />
         <option value="$PROJECT_DIR$/pages/courses/bolsa_trabajo.html" />
-        <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_layouts/page.html" />
         <option value="$PROJECT_DIR$/pages/courses.html" />
         <option value="$PROJECT_DIR$/pages/courses/bootstrap.html" />
         <option value="$PROJECT_DIR$/pages/libros/angularjs.html" />
         <option value="$PROJECT_DIR$/static/css/custom.css" />
         <option value="$PROJECT_DIR$/pages/bolsa_trabajo.html" />
-        <option value="$PROJECT_DIR$/pages/courses/angujarjs.html" />
+        <option value="$PROJECT_DIR$/_includes/footer.html" />
+        <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/pages/publicaciones/libros/angularjs.html" />
+        <option value="$PROJECT_DIR$/pages/courses/angujarjs.html" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
+        <option value="$PROJECT_DIR$/_includes/slider_libros.html" />
+        <option value="$PROJECT_DIR$/pages/books.html" />
       </list>
     </option>
   </component>
@@ -250,8 +130,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="4" />
     <option name="y" value="23" />
-    <option name="width" value="1076" />
-    <option name="height" value="1897" />
+    <option name="width" value="1916" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -763,11 +643,17 @@
       <option name="project" value="LOCAL" />
       <updated>1434546740902</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Updated AngularJS">
+      <created>1434558570825</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1434558570826</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1076" height="1897" extended-state="6" />
+    <frame x="4" y="23" width="1916" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6349031" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -782,7 +668,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24612403" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17467949" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3163435" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1065,14 +951,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22813036" vertical-offset="65" max-vertical-offset="648">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/head.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43003413" vertical-offset="0" max-vertical-offset="918">
@@ -1108,14 +986,6 @@
     <entry file="file://$PROJECT_DIR$/static/images/social_icons.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5777778" vertical-offset="0" max-vertical-offset="1152">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/page.html">
@@ -1163,14 +1033,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/books.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.0" vertical-offset="0" max-vertical-offset="1674">
-          <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13945173" vertical-offset="12591" max-vertical-offset="14238">
@@ -1189,7 +1051,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/courses/ionic.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.666666" vertical-offset="0" max-vertical-offset="792">
+        <state vertical-scroll-proportion="0.66035503" vertical-offset="0" max-vertical-offset="845">
           <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
           <folding />
         </state>
@@ -1197,38 +1059,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/bolsa_trabajo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.962963" vertical-offset="163" max-vertical-offset="1080">
-          <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.6591716" vertical-offset="163" max-vertical-offset="1080">
+          <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/publicaciones/libros/angularjs.html">
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.62963" vertical-offset="613" max-vertical-offset="1458">
-          <caret line="71" column="14" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.6591716" vertical-offset="307" max-vertical-offset="1152">
+          <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5751479" vertical-offset="0" max-vertical-offset="845">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="437" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59294116" vertical-offset="288" max-vertical-offset="1224">
+          <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/courses/angujarjs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.62963" vertical-offset="2953" max-vertical-offset="4212">
-          <caret line="251" column="14" selection-start-line="251" selection-start-column="14" selection-end-line="251" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.5153061" vertical-offset="3146" max-vertical-offset="4590">
+          <caret line="205" column="43" selection-start-line="205" selection-start-column="43" selection-end-line="205" selection-end-column="43" />
           <folding>
             <element signature="n#div#1;n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#6;n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#1;n#div#6;n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#1;n#div#6;n#div#0;n#!!top" expanded="false" />
             <element signature="n#a#0;n#div#0;n#div#0;n#div#1;n#div#6;n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#1;n#div#6;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#7;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#8;n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#9;n#div#0;n#!!top" expanded="false" />
@@ -1270,16 +1143,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/slider_libros.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.333334" vertical-offset="0" max-vertical-offset="1620">
-          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.42352942" vertical-offset="18" max-vertical-offset="540">
+          <caret line="11" column="97" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="97" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/publicaciones/libros/angularjs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4" vertical-offset="444" max-vertical-offset="1548">
+          <caret line="34" column="92" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="92" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+    <entry file="file://$PROJECT_DIR$/pages/books.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7881657" vertical-offset="18" max-vertical-offset="1170">
-          <caret line="38" column="65" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
+        <state vertical-scroll-proportion="0.5764706" vertical-offset="115" max-vertical-offset="558">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
           <folding />
         </state>
       </provider>

@@ -46,7 +46,7 @@
             set_contact();
         {% endif%}
 
-        {% if page.active_tab contains "course_" or page.active_tab == "blog" or page.type == "post" %}
+        {% if page.active_tab contains "course_" or page.active_tab contains "book_" or  page.active_tab == "blog" or  page.type == "post"  %}
             load_social();
         {% endif %}
 
