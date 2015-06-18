@@ -35,8 +35,8 @@
                 <state />
               </provider>
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.53485715" vertical-offset="0" max-vertical-offset="875">
-                  <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.20571429" vertical-offset="0" max-vertical-offset="875">
+                  <caret line="10" column="110" selection-start-line="10" selection-start-column="110" selection-end-line="10" selection-end-column="110" />
                   <folding />
                 </state>
               </provider>
@@ -673,7 +673,13 @@
       <option name="project" value="LOCAL" />
       <updated>1434643132465</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Updated some improvements for usability">
+      <created>1434643223101</created>
+      <option name="number" value="00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1434643223102</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1177,8 +1183,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53485715" vertical-offset="0" max-vertical-offset="875">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.20571429" vertical-offset="0" max-vertical-offset="875">
+          <caret line="10" column="110" selection-start-line="10" selection-start-column="110" selection-end-line="10" selection-end-column="110" />
           <folding />
         </state>
       </provider>
