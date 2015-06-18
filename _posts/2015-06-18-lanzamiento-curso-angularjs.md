@@ -10,7 +10,7 @@ description: "Ya te puedes apuntar al curso presencial de especialista en Angula
 
 ¡Tras mucho esfuerzo abrimos la <a class="link" href="http://abirtone.com/formacion/angularjs/">Incripción</a> para el **curso de AngularJS** en **Madrid**!.
 
-Serán **20 horas** intensas y **sin desperdicio** alguno. <a class="link" href="https://www.linkedin.com/in/requerogarciaraul">Raúl</a> (tu profesor) y tu iréis construyendo y creando un sitio web profesional y completamente funcional en AngularJS, desde cero.
+Serán **20 horas** intensas y **sin desperdicio** alguno. <a class="link" href="https://www.linkedin.com/in/requerogarciaraul">Raúl</a> (tu profesor) y tú iréis construyendo y creando un sitio web profesional y completamente funcional en AngularJS, desde cero.
 
 Porque sabemos que **la teoría** por si sola no vale para nada (¡eso **lo puedes leer en internet**!), aprenderás practicando, tecleando y **escribiéndo código desde el primer día**.
 
