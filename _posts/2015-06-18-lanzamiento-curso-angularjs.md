@@ -22,5 +22,5 @@ Una nota curiosa:
 >
 >    Si **tu aplicación** está desarrollada con AngularJS puedes convertirla **en una aplicación móvil** para iOS, Android o Windows Phone, **sin cambiar** prácticamene **nada**, usando [Ionic](http://ionicframework.com).
 
-[Pincha en el este enlace para más información &rarr;](http://abirtone.com/formacion/angularjs/)
+<a class="link" href="http://abirtone.com/formacion/angularjs/">Pincha en el este enlace para más información &rarr;</a>
 
