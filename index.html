@@ -11,7 +11,7 @@ description: "Bienvenido a Abirtone: Formación, consultoría y asesoramiento te
     {% for post in site.posts %}
     <div class="row">
         <div class="col-sm-2">
-            <time class="tdate-1" datetime="{{ post.date | date: "%b %-d, %Y" }}"><strong>{{ post.date | date: "%-d" }}</strong>dec</time>
+            <time class="tdate-1" datetime="{{ post.date | date: "%b %-d, %Y" }}"><strong>{{ post.date | date: "%-d" }}</strong>{{ post.date | date: "%b" }}</time>
         </div>
         <div class="col-sm-10">
             <a class="link center-block" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
