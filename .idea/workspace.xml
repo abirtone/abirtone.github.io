@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87302408-16ac-4ffc-8733-bf3c990a1b10" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/course_info_books.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/publicaciones/libros/angularjs.html" afterPath="$PROJECT_DIR$/pages/publicaciones/libros/angularjs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/course_info_thanks.html" afterPath="$PROJECT_DIR$/pages/course_info_thanks.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="last.iws" />
@@ -23,14 +25,14 @@
     <favorites_list name="last" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.26298702">
       <split-first>
         <leaf>
           <file leaf-file-name="footer.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/_includes/footer.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.62857145">
-                  <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.40063593">
+                  <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -63,8 +65,8 @@
           <file leaf-file-name="angularjs.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pages/publicaciones/libros/angularjs.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.14285715">
-                  <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+                <state vertical-scroll-proportion="0.74244833">
+                  <caret line="77" column="69" selection-start-line="77" selection-start-column="69" selection-end-line="77" selection-end-column="69" />
                   <folding />
                 </state>
               </provider>
@@ -73,8 +75,18 @@
           <file leaf-file-name="drupal.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pages/courses/drupal.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-2.0">
-                  <caret line="3" column="40" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="40" />
+                <state vertical-scroll-proportion="-17.962963">
+                  <caret line="37" column="91" selection-start-line="37" selection-start-column="91" selection-end-line="37" selection-end-column="91" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="course_info_books.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pages/course_info_books.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-6.0">
+                  <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -90,7 +102,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_includes/courses/angularjs_slider_orig.html" />
         <option value="$PROJECT_DIR$/_includes/courses/angularjs_slider.html" />
         <option value="$PROJECT_DIR$/static/css/jchart.css" />
         <option value="$PROJECT_DIR$/static/js/jchart.js" />
@@ -117,7 +128,6 @@
         <option value="$PROJECT_DIR$/pages/courses/scapy.html" />
         <option value="$PROJECT_DIR$/pages/blog.html" />
         <option value="$PROJECT_DIR$/pages/contact_thanks.html" />
-        <option value="$PROJECT_DIR$/pages/course_info_thanks.html" />
         <option value="$PROJECT_DIR$/pages/teachers.html" />
         <option value="$PROJECT_DIR$/_includes/slider_formacion.html" />
         <option value="$PROJECT_DIR$/pages/courses/bolsa_trabajo.html" />
@@ -140,6 +150,8 @@
         <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/pages/bolsa_trabajo.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/pages/course_info_thanks.html" />
+        <option value="$PROJECT_DIR$/pages/course_info_books.html" />
         <option value="$PROJECT_DIR$/pages/publicaciones/libros/angularjs.html" />
       </list>
     </option>
@@ -364,9 +376,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages" />
       <recent name="$PROJECT_DIR$/_posts" />
       <recent name="$PROJECT_DIR$/_includes" />
-      <recent name="$PROJECT_DIR$/pages" />
       <recent name="$PROJECT_DIR$/pages/libros" />
       <recent name="$PROJECT_DIR$/pages/courses" />
     </key>
@@ -439,12 +451,6 @@
       <created>1431530857373</created>
       <option name="number" value="Default" />
       <updated>1431530857373</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Updated about section">
-      <created>1433953749546</created>
-      <option name="number" value="00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1433953749546</updated>
     </task>
     <task id="LOCAL-00003" summary="Updated about section">
       <created>1433954090476</created>
@@ -734,7 +740,13 @@
       <option name="project" value="LOCAL" />
       <updated>1435310446106</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Fixed contanct form in books section">
+      <created>1435497349537</created>
+      <option name="number" value="00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1435497349538</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -742,22 +754,22 @@
     <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33673468" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2637987" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3148688" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290441" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290441" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290859" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2637987" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3148688" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6341969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -775,7 +787,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add new post" />
     <MESSAGE value="Upps" />
     <MESSAGE value="Improved Facebook support and some code." />
     <MESSAGE value="Added bolsa de trabajo" />
@@ -800,20 +811,14 @@
     <MESSAGE value="- Adjusted images&#10;- Added Robert Walters company" />
     <MESSAGE value="- Added Robert Walters company" />
     <MESSAGE value="Fixed month" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed month" />
+    <MESSAGE value="Fixed contanct form in books section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed contanct form in books section" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/js/all.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14774282">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/fonts/fonts.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -867,6 +872,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -929,13 +935,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/course_info_thanks.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15437393">
-          <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/teachers.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15437393">
@@ -976,13 +975,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5751479">
           <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="437" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22619048">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1070,13 +1062,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/contact_thanks.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.114285715">
-          <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015-06-18-lanzamiento-curso-angularjs.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34449762">
@@ -1098,6 +1083,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1142,26 +1128,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/courses/drupal.html">
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.40063593">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+    <entry file="file://$PROJECT_DIR$/pages/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62857145">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.0015898251">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/course_info_thanks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14308426">
+          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/contact_thanks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20031796">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/courses/drupal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.962963">
+          <caret line="37" column="91" selection-start-line="37" selection-start-column="91" selection-end-line="37" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/course_info_books.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/publicaciones/libros/angularjs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14285715">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.74244833">
+          <caret line="77" column="69" selection-start-line="77" selection-start-column="69" selection-end-line="77" selection-end-column="69" />
           <folding />
         </state>
       </provider>
