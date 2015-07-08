@@ -2,29 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87302408-16ac-4ffc-8733-bf3c990a1b10" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/courses_chunks/bolsa.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/courses_chunks/estadisticas_empleo_titulo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/courses_chunks/imparticion.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/courses_chunks/indice_temario_titulo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/courses_chunks/inscripcion_detalles.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/courses_chunks/inscripcion_titulo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/courses_chunks/material_detalles_row1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/courses_chunks/material_detalles_row2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/courses_chunks/material_titulo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/courses_chunks/pago.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/courses_chunks/referencias_titulo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/courses_chunks/subvencion.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/courses/common/logo_tripartita.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/tab.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/tab.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/courses_chunks/ubicacion.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/courses/common/pycharm.png" afterPath="$PROJECT_DIR$/static/courses/common/pycharm.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/courses/angujarjs.html" afterPath="$PROJECT_DIR$/pages/courses/angujarjs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/courses.html" afterPath="$PROJECT_DIR$/pages/courses.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/custom.css" afterPath="$PROJECT_DIR$/static/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/courses/python.html" afterPath="$PROJECT_DIR$/pages/courses/python.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/courses/scapy.html" afterPath="$PROJECT_DIR$/pages/courses/scapy.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="last.iws" />
@@ -59,8 +40,8 @@
       <file leaf-file-name="scapy.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/courses/scapy.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09977827">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.21975583">
+              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
               <folding>
                 <element signature="n#div#3;n#div#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#!!top" expanded="false" />
@@ -221,6 +202,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Abirtone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="last" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Abirtone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="last" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="courses" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -401,12 +422,6 @@
       <created>1431530857373</created>
       <option name="number" value="Default" />
       <updated>1431530857373</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Updated about section">
-      <created>1434007635486</created>
-      <option name="number" value="00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1434007635486</updated>
     </task>
     <task id="LOCAL-00005" summary="Last version of website">
       <created>1434043364765</created>
@@ -696,19 +711,26 @@
       <option name="project" value="LOCAL" />
       <updated>1435497760574</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Updated:&#10;- Added tripartita fundation&#10;- Added new Scapy course&#10;- Fixed some issues&#10;- Splitted angularJS in pieces&#10;">
+      <created>1436371916289</created>
+      <option name="number" value="00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1436371916293</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1076" height="1897" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="top" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46300447" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="top" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46326417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31410256" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290441" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -719,7 +741,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33673468" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -759,7 +780,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Improved Facebook support and some code." />
     <MESSAGE value="Added bolsa de trabajo" />
     <MESSAGE value="Fixed link." />
     <MESSAGE value="Fixed magin in Safari" />
@@ -784,20 +804,14 @@
     <MESSAGE value="Fixed month" />
     <MESSAGE value="Fixed contanct form in books section" />
     <MESSAGE value="Updated contanct forms" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated contanct forms" />
+    <MESSAGE value="Updated:&#10;- Added tripartita fundation&#10;- Added new Scapy course&#10;- Fixed some issues&#10;- Splitted angularJS in pieces&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated:&#10;- Added tripartita fundation&#10;- Added new Scapy course&#10;- Fixed some issues&#10;- Splitted angularJS in pieces&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/courses/ionic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66035503">
-          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/post.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5751479">
@@ -1193,10 +1207,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/courses/common/logo_tripartita.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/courses/scapy.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09977827">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.21975583">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding>
             <element signature="n#div#3;n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#!!top" expanded="false" />
