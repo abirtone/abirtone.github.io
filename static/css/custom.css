@@ -791,3 +791,6 @@ h2.media-heading  {
     background-color: #c00001;
 }
 
+.not-available {
+    opacity: 0.4;
+}

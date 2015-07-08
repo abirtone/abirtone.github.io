@@ -3,14 +3,15 @@ layout: course
 title: Curso AngularJS
 active_tab: "course_angularjs"
 permalink: /formacion/angularjs/
-description: "Curso presencial especialista de AngularJS"
+description: "Curso presencial y bonificado avanzado de especialista de Google AngularJS en Madrid"
+link_icon: "http://abirtone.com/static/images/angular.png"
 ---
 
 <div class="col-xs-12 col-sm-8">
 
     <div class="page-header first-3 first-section">
         <img class="img-responsive pull-right" src="/static/images/angular.png" alt="Logo AngujarJS"/>
-        <h1>Curso presencial especialista de AngularJS</h1>
+        <h1>Curso presencial especialista de AngularJS (subvencionado)</h1>
     </div>
 
     <div class="page-header section-title">
@@ -25,9 +26,7 @@ description: "Curso presencial especialista de AngularJS"
     </blockquote>
 
     <!-- Indice del curso -->
-    <div class="page-header section-title">
-        <h2><i class="glyphicon glyphicon-list-alt" aria-hidden="true"></i> Índice del temario</h2>
-    </div>
+    {% include courses_chunks/indice_temario_titulo.html %}
     <ul class="list-group">
         <li class="list-group-item">AngularJS: Que es y en que consiste</li>
         <li class="list-group-item">WebStorm: incrementando la productividad</li>
@@ -134,16 +133,10 @@ description: "Curso presencial especialista de AngularJS"
 
 
     <!-- Metodo Abirtone -->
-    <div class="page-header section-title">
-        <h2><i class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></i>Método de impartición</h2>
-    </div>
-    <p>En Abirtone nos gusta ser prácticos. Por este motivo empezarás a <b>escribir código desde el primer día</b>. Intercalando la teoría con la práctica, de forma que cuando acabes seas capaz de reptirlo todo tu solo.</p>
+    {% include courses_chunks/imparticion.html %}
 
     <!-- Material -->
-    <div class="page-header section-title">
-        <h2><i class="glyphicon glyphicon-briefcase" aria-hidden="true"></i>Material adicional</h2>
-    </div>
-    <p>Como complemento al curso, y para que le saques el máximo partido a lo aprendido durante y después de asistir, el curso incluye estos materiales, software y acceso a recursos:</p>
+    {% include courses_chunks/material_titulo.html %}
     <div class="row">
         <div class="col-xs-12 col-sm-6">
             <div class="media">
@@ -162,21 +155,6 @@ description: "Curso presencial especialista de AngularJS"
             <div class="media">
                 <div class="media-left media-top">
                     <a href="#">
-                        <img width="100px" class="media-object" src="/static/courses/common/github.jpg" alt="Logo Github"/>
-                    </a>
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading">6 meses de contenidos</h2>
-                    <p>Podrás acceder a nuestro respositorio GitHub privado con: actualizaciones, ejemplos avanzados y material adicional, durante 6 meses.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-12 col-sm-6">
-            <div class="media">
-                <div class="media-left media-top">
-                    <a href="#">
                         <img width="90px" class="media-object"src="/static/books/angularjs.png" alt="Libro AngujarJS práctico paso a paso"/>
                     </a>
                 </div>
@@ -186,42 +164,14 @@ description: "Curso presencial especialista de AngularJS"
                 </div>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-6">
-            <div class="media">
-                <div class="media-left media-top">
-                    <a href="#">
-                        <img width="80px" class="media-object" src="/static/courses/common/ppt.jpg" alt="PPT logo"/>
-                    </a>
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading">3 meses material de profesor</h2>
-                    <p>Se dará al alumno el acceso durante 3 meses al material del profesor, utilizado en clase, para que puedas recordar las lecciones como si siguieras en clase.</p>
-                </div>
-            </div>
-        </div>
     </div>
-    <div class="row">
-        <div class="col-xs-12 col-sm-6">
-            <div class="media">
-                <div class="media-left media-top">
-                    <a href="#">
-                        <img width="100px" class="media-object" src="/static/courses/common/certificate.jpg" alt="Logo certificado"/>
-                    </a>
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading">Certificación de conocimientos</h2>
-                    <p>Tras superar el examen final, se emitirá al alumno un certificado con los conocimientos aprendidos. En caso de no superarlo se emitirá un diploma de asistencia.</p>
-                </div>
-            </div>
-        </div>
-    </div>
+    {% include courses_chunks/material_detalles_row1.html %}
+    {% include courses_chunks/material_detalles_row2.html %}
+
 
     <!-- Empleo -->
-    <a name="empleo"></a>
-    <div class="page-header section-title">
-        <h2><i class="glyphicon glyphicon-stats" aria-hidden="true"></i>Estadísticas de empleo</h2>
-    </div>
-    <p>Los siguientes gráficos muestran el número de ofertas de trabajo para AngujarJS activas en este momento en los principales portales de empleo:</p>
+    {% include courses_chunks/estadisticas_empleo_titulo.html %}
+    <p>Los siguientes gráficos muestran el número de ofertas de <b>trabajo</b> para <b>AngujarJS</b> activas en este momento en los principales portales de empleo:</p>
     <div class="row">
         <div class="col-xs-12 col-sm-11 col-sm-offset-1">
             <div class="row">
@@ -241,61 +191,28 @@ description: "Curso presencial especialista de AngularJS"
     </div>
 
     <!-- Bolsa trabajo -->
-    <a name="bolsa"></a>
-    <div class="page-header section-title">
-        <h2><i class="glyphicon glyphicon-pencil" aria-hidden="true"></i>Bolsa de trabajo</h2>
-    </div>
-    <p>Abirtone tiene acuerdos con compañías especializadas del sector, que te abrirán las puertas a nuevas aventuras y retos profesionales:</p>
-    <div class="row top-space-2 grid-img">
-        <div class="col-xs-12 col-sm-6">
-            <a href="http://www.paradigmatecnologico.com/" target="_blank"><img class="img-responsive img-responsive-border" src="/static/companies/paradigma.png" alt="Logo Paradigma Tecnologico"/></a>
-            <a class="link clearfix" href="http://www.paradigmatecnologico.com/" target="_blank"><i class="glyphicon glyphicon-globe"></i> Paradigma Tecnológico &rarr;</a>
-        </div>
-        <div class="col-xs-12 col-sm-6">
-            <a href="http://www.stratio.com" target="_blank"><img class="img-responsive img-responsive-border" src="/static/companies/stratio.png" alt="Logo Stratio"/></a>
-            <a class="link clearfix" href="http://www.stratio.com" target="_blank"><i class="glyphicon glyphicon-globe"></i> Stratio &rarr;</a>
-        </div>
-    </div>
-    <div class="row top-space-2 grid-img">
-        <div class="col-xs-12 col-sm-6">
-            <a href="https://buguroo.com" target="_blank"><img class="img-responsive img-responsive-border" src="/static/companies/buguroo.png" alt="Logo Buguroo"/></a>
-            <a class="link clearfix" href="https://buguroo.com" target="_blank"><i class="glyphicon glyphicon-globe"></i> Buguroo Offensive Security &rarr;</a>
+    {% include courses_chunks/bolsa.html %}
+
+    <!-- Subvención -->
+    {% include courses_chunks/subvencion.html %}
+
+    <!-- Inscripcion-->
+    {% include courses_chunks/inscripcion_titulo.html %}
+    {% include courses_chunks/inscripcion_detalles.html %}
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 form-group">
+            <a name="inscribirse" href="https://docs.google.com/forms/d/1mPhhSlz-QopY04UrLDkUBoiEybd4fuVf4wEeAGvM5DY/viewform" target="_blank" class="btn btn-danger">Inscríbirse &rarr;</a>
         </div>
     </div>
 
     <!-- Inscripcion-->
-    <div class="page-header section-title">
-        <h2><i class="glyphicon glyphicon-pencil" aria-hidden="true"></i>Inscripción</h2>
-    </div>
-    <p>¿Te gustaría asistir? Tan solo tienes que incribirte pulsando el botón <i><a class="link" href="#inscribirse">Inscribirse</a></i>, disponible más abajo.</p>
-    <p>Los cursos se impartirán cuando se llegue a un mínimo de 10 asistentes. En ese momento nos pondremos en contacto contigo para concretar la fecha de comienzo y el lugar dónde se impartirá el curso.</p>
-    <p class="btn-inscription">
-        <a name="inscribirse" href="https://docs.google.com/forms/d/1mPhhSlz-QopY04UrLDkUBoiEybd4fuVf4wEeAGvM5DY/viewform" target="_blank" class="btn btn-danger">Inscríbirse &rarr;</a>
-    </p>
-
-    <!-- Inscripcion-->
-    <a name="ubicacion"></a>
-    <div class="page-header section-title">
-        <h2><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Ubicación</h2>
-    </div>
-    <p>Todavía no contamos con aulas propias, por este motivo contamos con compañías que ponen a nuestra disposición instalaciones perfectamente acondicionadas y preparadas para impartir formación profesional.</p>
+    {% include courses_chunks/ubicacion.html %}
 
     <!-- Modo de pago -->
-    <div class="page-header section-title">
-        <h2><i class="glyphicon glyphicon-euro" aria-hidden="true"></i>Modo de pago</h2>
-    </div>
-    <p>Para formalizar tu asistencia y reservar tu plaza el pago habrá de realizarse, como mínimo, <b>10 días laborables antes</b> del inicio del curso.</p>
-    <p>Los métodos de pago disponibles actualmente son:</p>
-    <ul>
-        <li>Transferencia bancaria</li>
-        <li>Ingreso en ventanilla</li>
-    </ul>
-    <p><small><b>*</b> Muy pronto aceptaremos el pago con <b>tarjeta o Paypal</b>, pero <b>de momento no es posible</b>, lo sentimos</small>.</p>
+    {% include courses_chunks/pago.html %}
 
     <!-- Referencias -->
-    <div class="page-header section-title">
-        <h2><i class="glyphicon glyphicon-globe" aria-hidden="true"></i> Enlaces interesantes de AngujarJS</h2>
-    </div>
+    {% include courses_chunks/referencias_titulo.html %}
     <ul>
         <li><a class="link" href="http://www.desarrolloweb.com/articulos/que-es-angularjs-descripcion-framework-javascript-conceptos.html">AngujarJS a vista de pájaro &rarr;</a></li>
         <li><a class="link" href="http://pablolazarodev.blogspot.com.es/2013/05/que-es-angularjs-una-breve-introduccion.html">¿Qué es AngularJS? Una breve introducción &rarr;</a></li>

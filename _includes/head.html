@@ -22,7 +22,7 @@
     <meta property="og:locale" content="es_ES" />
     <meta property="article:author" content="https://www.facebook.com/abirtone" />
     <meta property="article:publisher" content="https://www.facebook.com/abirtone" />
-    <meta property="og:image" content="http://abirtone.com/static/images/banner_cuadrado.png" />
+    <meta property="og:image" content="{% if page.link_icon != "" %}{{page.link_icon}}{%else%}http://abirtone.com/static/images/banner_cuadrado.png{% endif %}" />
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
