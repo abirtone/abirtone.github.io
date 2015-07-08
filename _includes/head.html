@@ -13,7 +13,7 @@
     <link rel="icon" href="/static/images/favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon" />
     <link rel="apple-touch-icon-precomposed" href="/static/images/apple-touch-icon-precomposed.png" />
     <link rel="apple-touch-icon" href="/static/images/apple-touch-icon-precomposed.png" />
-    <link rel="image_src" href="http://abirtone.com/static/images/facebook.png" />
+    <link rel="image_src" href="{% if page.link_icon != "" %}{{page.link_icon}}{%else%}http://abirtone.com/static/images/banner_cuadrado.png{% endif %}" />
 
     <meta property="og:site_name" content="{% if page.type == "post" or page.active_tab == "blog" %}El blog de Abirtone{%else%}Abirtone{% endif %}" />
     <meta property="og:description" content="{{page.description}}" />
