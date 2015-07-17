@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87302408-16ac-4ffc-8733-bf3c990a1b10" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/courses_chunks/level_advanced.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/courses_chunks/level_basic.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/courses_chunks/level_elementary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/courses_chunks/level_expert.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/courses_chunks/level_intermediate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/courses/mongodb_avanzado.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/courses/mongodb_esencial.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/courses/nmap_plugins.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/courses_chunks/relacionado.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/tab.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/tab.min.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/courses/mongodb.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/courses_chunks/bolsa.html" afterPath="$PROJECT_DIR$/_includes/courses_chunks/bolsa.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/custom.css" afterPath="$PROJECT_DIR$/static/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/courses_chunks/imparticion.html" afterPath="$PROJECT_DIR$/_includes/courses_chunks/imparticion.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/courses/mongodb_avanzado.html" afterPath="$PROJECT_DIR$/pages/courses/mongodb_avanzado.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/courses/python.html" afterPath="$PROJECT_DIR$/pages/courses/python.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/courses/scapy.html" afterPath="$PROJECT_DIR$/pages/courses/scapy.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="last.iws" />
@@ -45,10 +31,10 @@
       <file leaf-file-name="mongodb_avanzado.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/courses/mongodb_avanzado.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28816468">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.38250428">
+              <caret line="232" column="66" selection-start-line="232" selection-start-column="62" selection-end-line="232" selection-end-column="66" />
               <folding>
-                <element signature="n#div#1;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -473,12 +459,6 @@
       <option name="number" value="Default" />
       <updated>1431530857373</updated>
     </task>
-    <task id="LOCAL-00008" summary="Added colaborator companies">
-      <created>1434123794586</created>
-      <option name="number" value="00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1434123794586</updated>
-    </task>
     <task id="LOCAL-00009" summary="Updated back colors">
       <created>1434124129650</created>
       <option name="number" value="00009" />
@@ -767,19 +747,26 @@
       <option name="project" value="LOCAL" />
       <updated>1436860098111</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Added tripartita logo">
+      <created>1437140634078</created>
+      <option name="number" value="00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1437140634080</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1076" height="1897" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17054264" sideWeight="0.49806094" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17054264" sideWeight="0.49806094" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31295338" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17054264" sideWeight="0.50193906" order="1" side_tool="true" content_ui="tabs" />
@@ -790,7 +777,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33673468" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1231,10 +1217,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/courses/mongodb_avanzado.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28816468">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.38250428">
+          <caret line="232" column="66" selection-start-line="232" selection-start-column="62" selection-end-line="232" selection-end-column="66" />
           <folding>
-            <element signature="n#div#1;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
