@@ -1,80 +1,100 @@
 ---
 layout: default
-title: Curso Scapy
-active_tab: "course_scapy"
-permalink: /formacion/scapy/
-description: "Curso bonificado y avanzado de Scapy en Madrid y presencial"
-link_icon: "http://abirtone.com/static/images/icon-scapy.png"
+title: Curso esencial MongoDB
+active_tab: "course_mongodb"
+permalink: /formacion/mongodb_esencial/
+description: "Curso bonificado y, nivel esencial, de MongoDB en Madrid y presencial"
+link_icon: "http://abirtone.com/static/images/icon-mongodb.png"
 ---
 
 <div class="col-xs-12 col-sm-8">
 
     <div class="page-header first-3 first-section">
-        <img class="img-responsive pull-right" src="/static/images/icon-scapy.png" alt="Logo Scapy"/>
-        <h1>Curso avanzado Scapy (subvencionado)</h1>
+        <div class="pull-right text-center">
+            <img class="img-responsive" src="/static/images/icon-mongodb.png" alt="Logo MongoDB"/>
+            {% include courses_chunks/level_elementary.html %}
+        </div>
+        <h1>Curso <b>MongoDB</b>. Nivel Esencial (subvencionado) - MB01</h1>
     </div>
 
     <div class="page-header section-title">
-        <h2><i class="glyphicon glyphicon-question-sign" aria-hidden="true"></i> ¿ Qué es Scapy ?</h2>
+        <h2><i class="glyphicon glyphicon-question-sign" aria-hidden="true"></i> ¿ Qué es MongoDB ?</h2>
     </div>
 
-    <p>Scapy es una de las <b>herramientas más potentes</b> para el análisis y <b>hacking en redes</b>. Con ella podrás generar paquetes de red de prácticamente todos los protocolos conocidos (<b>no solo TCP/IP</b>).</p>
+    <p>MongoDB es un <b>sistema de base de datos</b>, de la nueva familia <b>NoSQL</b> u orientado a documentos, Open Source y <b>gratuita</b>.</p>
 
-    <p>Scapy te permite configurar y ajustar los paquetes <b>a nivel de bits</b>. Esnifar tráfico de red y modificarlo al vuelo, hacer escáneres extremadamente personalizados o, en su modo más avanzado, <b>simular pilas</b> completas de <b>protocolos</b>, con modelos de estados y autómatas finitos.</p>
+    <p>MongoDB es una base de datos ágil que permite a los esquemas cambiar rápidamente cuando las aplicaciones evolucionan. Ha sido <b>creado para</b> brindar <b>escalabilidad, rendimiento</b> y gran disponibilidad.</p>
 
-    <p>En este curso comenzarás con el uso básico de Scapy, hasta <b>llegar a su uso más avanzado</b>.</p>
-
-    <!-- Indice del curso -->
     {% include courses_chunks/indice_temario_titulo.html %}
     <ul class="list-group">
-        <li class="list-group-item">Módulo 1: Introducción a Scapy</li>
+        <li class="list-group-item">Módulo 1: Bases de datos NOSQL</li>
         <li class="list-group-item list-subgroup">
             <ul>
-                <li>Qué es scapy</li>
-                <li>El modo interactivo</li>
-                <li>Funciones de ayuda</li>
-                <li>Construcción de un paquete básico</li>
+                <li>Introducción al concepto de NoSQL</li>
+                <li>Revisión de las diferentes bases de datos NoSQL existentes</li>
+                <li>Revisión de características y diferencias entre bases de datos NoSQL</li>
             </ul>
         </li>
-        <li class="list-group-item">Módulo 2: Uso avanzado de Scapy</li>
+        <li class="list-group-item">Módulo 2: Introducción a MongoDB</li>
         <li class="list-group-item list-subgroup">
             <ul>
-                <li>¿ Qué es un <code>layer</code> ?</li>
-                <li>Pila TCP/IP y layers de Scapy</li>
-                <li>Layers más usados</li>
-                <li>Parámetros de los layers</li>
-                <li>Modos de envío <code>send</code>, <code>sendp</code> y <code>sr1</code></li>
-                <li>Análisis de respuestas</li>
-                <li>Formateo de cabeceras</li>
-                <li>Lectura de fichero <code>.pcap</code></li>
-                <li>Reinyección en modo flood</li>
-                <li>Construcción de nuevo layer</li>
-                <li>Exportar información y gráficas de datos</li>
+                <li>Introducción a la base de datos MongoDB</li>
+                <li>Versiones y principales características.</li>
+                <li>Revisión de <code>JSON</code>/<code>BSON</code></li>
             </ul>
         </li>
-        <li class="list-group-item">Módulo 3: Usando Scapy como librería</li>
+        <li class="list-group-item">Módulo 3: Conceptos Básicos de MongoDB</li>
         <li class="list-group-item list-subgroup">
             <ul>
-                <li>Importando objetos</li>
-                <li>Funciones y llamadas</li>
-                <li>Envío de información</li>
-                <li>Disección de un paquete</li>
-                <li>Scapy y <code>multithreading</code></li>
-                <li>Interceptación de paquetes, modificación al vuelo, firewalls y el sistema operativo</li>
-                <li>Logging remoto con <code>syslog-ng</code> y Scapy</li>
-                <li>Automaton: el autómata de estados finitos de Scapy</li>
+                <li><b>Instalación</b> de MongoDB</li>
+                <li>Cómo conectarse a MongoDB</li>
+                <li>Revisión de los conceptos de base de datos y colección</li>
             </ul>
         </li>
-        <li class="list-group-item">Prácticas:</li>
+        <li class="list-group-item">Módulo 4: Operaciones CRUD con MongoDB</li>
         <li class="list-group-item list-subgroup">
             <ul>
-                <li>Práctica 1: Suplantación de un servidor DHCP con scapy y multithreading</li>
-                <li>Práctica 2: Sniffing de paquetes de red y logging remoto de credenciales</li>
-                <li>Práctica 3: Emular la pila TCP/IP usando Automation de Scapy</li>
+                <li>Proyecciones de Datos</li>
+                <li><code>Filters</code></li>
+                <li>Operadores</li>
+                <li>Ordenaciones</li>
+                <li>Manejo de Límites</li>
+                <li>Uso de Cursores</li>
+                <li>Inserciones de Datos</li>
+                <li>Campos <code>autoincrementales</code></li>
+                <li>Actualizaciones de Datos</li>
+                <li><code>Upserts</code></li>
+                <li>Borrados de Datos</li>
+                <li>Índices en MongoDB</li>
+                <li>Creación de índices en MongoDB</li>
+                <li>Análisis de <code>explain plans</code></li>
             </ul>
         </li>
-    </ul>
-
+        <li class="list-group-item">Módulo 5: Framework de Agregación de MongoDB</li>
+        <li class="list-group-item list-subgroup">
+            <ul>
+                <li><code>Pipeline</code> del framework de agregación</li>
+                <li>Contadores</li>
+                <li><code>Distinct</code></li>
+                <li>Agrupaciones</li>
+            </ul>
+        </li>
+        <li class="list-group-item">Módulo 6: Shell Javascript en MongoDB</li>
+        <li class="list-group-item list-subgroup">
+            <ul>
+                <li>Conexión con la linea de comandos de Mongo</li>
+                <li>Operaciones desde el <code>Shell</code> Javascript de MongoDB</li>
+            </ul>
+        </li>
+        <li class="list-group-item">Módulo 7: Desarrollando con MongoDB</li>
+        <li class="list-group-item list-subgroup">
+            <ul>
+                <li>MongoDB y Java</li>
+                <li>MongoDB y Spring</li>
+                <li>MongoDB y Python</li>
+                <li>MongoDB y NodeJS</li>
+            </ul>
+        </li>
 
     <!-- Metodo Abirtone -->
     {% include courses_chunks/imparticion.html %}
@@ -87,12 +107,12 @@ link_icon: "http://abirtone.com/static/images/icon-scapy.png"
             <div class="media">
                 <div class="media-left media-top">
                     <a href="#">
-                        <img width="100px" class="media-object" src="/static/courses/common/pycharm.png" alt="PyCharm logo" />
+                        <img width="100px" class="media-object" src="/static/courses/common/webstorm.png" alt="WebStorm logo" />
                     </a>
                 </div>
                 <div class="media-body">
-                    <h2 class="media-heading">Licencia PyCharm</h2>
-                    <p>Licencia PyCharm Student. Completamente funcional. Para que puedas seguir usándola durante 1 año.</p>
+                    <h2 class="media-heading">Licencia WebStorm</h2>
+                    <p>Licencia WebStorm Student. Completamente funcional. Para que puedas seguir usándola durante 1 año.</p>
                 </div>
             </div>
         </div>
@@ -136,7 +156,7 @@ link_icon: "http://abirtone.com/static/images/icon-scapy.png"
                         <button type="submit" class="btn btn-danger">Enviar &rarr;</button>
                     </div>
                 </div>
-                <input name="_subject" type="hidden" value="[informacion-scapy]">
+                <input name="_subject" type="hidden" value="[informacion-mongodb]">
                 <input type="hidden" name="_next" value="http://abirtone.com/formacion/info_cursos/" >
             </form>
         </div>
@@ -149,37 +169,45 @@ link_icon: "http://abirtone.com/static/images/icon-scapy.png"
     {% include courses_chunks/pago.html %}
 
     <!-- Referencias -->
+    {% include courses_chunks/relacionado.html %}
+    <p>Puede que también te interesen estos cursos:</p>
+    <ul>
+        <li><a class="link" href="/formacion/mongodb_avanzado/">Curso subvencionado de MongoDB Avanzado  &rarr;</a></li>
+    </ul>
+
+    <!-- Referencias -->
     {% include courses_chunks/referencias_titulo.html %}
     <ul>
-        <li><a class="link" href="http://www.secdev.org/projects/scapy/">Web oficial de Scapy &rarr;</a></li>
-        <li><a class="link" href="https://theitgeekchronicles.files.wordpress.com/2012/05/scapyguide1.pdf">Fantásitica guía (NO OFICIAL) para dummies &rarr;</a></li>
-        <li><a class="link" href="http://bt3gl.github.io/black-hat-python-infinite-possibilities-with-the-scapy-module.html">BlackHat Python &rarr;</a></li>
-        <li><a class="link" href="http://www.securitytube.net/video/7876">Fundamentals of Scapy and usage on Kali Linux &rarr;</a></li>
+        <li><a class="link" href="http://docs.mongodb.org/manual/installation/">Manual de instalación oficial de MongoDB &rarr;</a></li>
+        <li><a class="link" href="https://dzone.com/articles/when-use-mongodb-rather-mysql">Cuándo usar NoSQL y MongoDB &rarr;</a></li>
+        <li><a class="link" href="https://blog.udemy.com/es/nosql-vs-sql-tiempo-para-un-cambio/">Porqué usar NoSQL y MongoDB &rarr;</a></li>
+        <li><a class="link" href="http://developer.telerik.com/featured/decide-neo-blue-pill-red-pill/">NoSQL vs SQL &rarr;</a></li>
+        <li><a class="link" href="http://s3.amazonaws.com/info-mongodb-com/MongoDB-Performance-Best-Practices.pdf">Mejora de rendimiento y buenas prácticas en MongoDB &rarr;</a></li>
     </ul>
 </div>
 
 <div class="col-xs-12 col-sm-4 first-2">
     <div class="panel panel-abirtone">
         <div class="panel-heading">
-            <h3 class="panel-title">Resumen curso Scapy</h3>
+            <h3 class="panel-title">Resumen curso MongoDB Esencial</h3>
         </div>
         <div class="panel-body">
             <!-- Entradas resumen curso -->
             <div class="row alt-row-color">
                 <div class="col-xs-6 col-sm-7 box-col-l"><b>Precio</b><i class="glyphicon glyphicon-info-sign color-grey" data-toggle="tooltip" data-placement="bottom" title="Subvencionable a través de la fundación TriPartita. IVA incluido"></i></div>
-                <div class="col-xs-6 col-sm-5 box-col-r"><b class="color-green">400€</b></div>
+                <div class="col-xs-6 col-sm-5 box-col-r"><b class="color-green">800€</b></div>
             </div>
             <div class="row">
                 <div class="col-xs-6 col-sm-7 box-col-l"><b>Horas lectivas</b></div>
-                <div class="col-xs-6 col-sm-5 box-col-r"><b>5</b> horas</div>
+                <div class="col-xs-6 col-sm-5 box-col-r"><b>20</b> horas</div>
             </div>
             <div class="row alt-row-color">
                 <div class="col-xs-6 col-sm-7 box-col-l"><b>Duración</b></div>
-                <div class="col-xs-6 col-sm-5 box-col-r">1 días</div>
+                <div class="col-xs-6 col-sm-5 box-col-r">5 días</div>
             </div>
             <div class="row">
                 <div class="col-xs-6 col-sm-7 box-col-l"><b>Horario</b><i class="glyphicon glyphicon-info-sign color-grey" data-toggle="tooltip" data-placement="bottom" title="El horario puede adaptarse a la disponibilidad y agenda de los asistentes"></i></div>
-                <div class="col-xs-6 col-sm-5 box-col-r">17:00 - 22:00</div>
+                <div class="col-xs-6 col-sm-5 box-col-r">Tardes</div>
             </div>
             <div class="row alt-row-color">
                 <div class="col-xs-6 col-sm-7 box-col-l"><b>Modo</b></div>
@@ -191,14 +219,14 @@ link_icon: "http://abirtone.com/static/images/icon-scapy.png"
             </div>
             <div class="row alt-row-color">
                 <div class="col-xs-6 col-sm-7 box-col-l"><b>Grupos</b></div>
-                <div class="col-xs-6 col-sm-5 box-col-r">10 pax máximo</div>
+                <div class="col-xs-6 col-sm-5 box-col-r">15 pax máximo</div>
             </div>
             <div class="row">
                 <div class="col-xs-6 col-sm-7 box-col-l"><b>Bolsa de trabajo</b></div>
                 <div class="col-xs-6 col-sm-5 box-col-r"><i class="glyphicon glyphicon-ok color-green"></i></div>
             </div>
             <div class="row alt-row-color">
-                <div class="col-xs-6 col-sm-7 box-col-l"><b>Licencia incluida</b><i class="glyphicon glyphicon-info-sign color-grey" data-toggle="tooltip" data-placement="bottom" title="Licencia PyCharm Educational incluida"></i></div>
+                <div class="col-xs-6 col-sm-7 box-col-l"><b>Licencia incluida</b><i class="glyphicon glyphicon-info-sign color-grey" data-toggle="tooltip" data-placement="bottom" title="Licencia WebStorm Educational incluida"></i></div>
                 <div class="col-xs-6 col-sm-5 box-col-r"><i class="glyphicon glyphicon-ok color-green"></i></div>
             </div>
             <div class="row">
@@ -215,7 +243,7 @@ link_icon: "http://abirtone.com/static/images/icon-scapy.png"
             </div>
             <div class="row alt-row-color">
                 <div class="col-xs-6 col-sm-7 box-col-l"><b>Profesor</b></div>
-                <div class="col-xs-6 col-sm-5 box-col-r"><a class="link" href="https://es.linkedin.com/in/garciagarciadaniel" target="_blank">Daniel García (cr0hn) &rarr;</a></div>
+                <div class="col-xs-6 col-sm-5 box-col-r"><a class="link" href="https://www.linkedin.com/in/victorcuervo/es" target="_blank">Víctor Cuervo &rarr;</a></div>
             </div>
 
             <!-- Ofertas especiales -->

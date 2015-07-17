@@ -147,13 +147,13 @@ h5 {
     padding-left: 30px;
 }
 
-
 .dropdown-header-top {
     font-size: 12px;
     color: #777;
     border-bottom: 1px dashed #777;
     margin-bottom: 5px;
 }
+
 
 .dropdown-header {
     border-bottom: 1px dashed #777;
@@ -166,6 +166,63 @@ h5 {
     height: 105px;
     margin-top: 14px;
 }
+
+.navbar-inverse .dropdown-menu > li > a {
+    padding-left: 10px;
+}
+
+.navbar-inverse .dropdown-menu .entry > a {
+    padding-left: 25px;
+}
+
+/* Sub-menu */
+.marginBottom-0 {
+    margin-bottom: 0;
+}
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+    top:0;
+    left:100%;
+    margin-top:-6px;
+    margin-left: -10px;
+    -webkit-border-radius:0 6px 6px 6px;
+    -moz-border-radius:0 6px 6px 6px;
+    border-radius:0 6px 6px 6px;
+}
+.dropdown-submenu > .dropdown-menu li {
+    margin-left: 10px;
+}
+
+.dropdown-submenu > a:after{
+    display:block;
+    content:" ";
+    float:right;
+    width:0;
+    height:0;
+    border: 5px solid transparent;
+    border-right-width: 0;
+    border-left-color: #cccccc;
+    margin-top:5px;
+    margin-right: 30%;
+}
+.dropdown-submenu:hover > a:after{
+    border-left-color:#555;
+}
+.dropdown-submenu.pull-left {
+    float: none;
+}
+.dropdown-submenu.pull-left > .dropdown-menu{
+    left:-90%;
+    margin-left: 10px;
+    -webkit-border-radius:6px 0 6px 6px;
+    -moz-border-radius:6px 0 6px 6px;
+    border-radius:6px 0 6px 6px;
+}
+/* END sub-menu */
+
 
 @media (max-width: 789px) {
     .navbar-header {
@@ -207,6 +264,19 @@ h5 {
     .navbar-nav .open .dropdown-menu .dropdown-header > a {
         margin-left: 15px;
         padding-left: 0px;
+    }
+
+    /* Sub-menu */
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus,
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover
+    {
+        color: #9d9d9d;
+        background-color: white;
+        background-image: none;
+    }
+
+    .dropdown-submenu > .dropdown-menu {
+        margin-left: 15px;
     }
 }
 
@@ -480,6 +550,20 @@ h5 {
     background-color: #24b82b;
 }
 
+.color-dark-blue {
+    color: #3202b8;
+}
+.bg-color-dark-blue {
+    background-color: #3202b8;
+}
+
+.color-light-blue {
+    color: #8fb8b7;
+}
+.bg-color-light-blue {
+    background-color: #8fb8b7;
+}
+
 .color-yellow {
     color: #f3bc09;
 }
@@ -499,6 +583,13 @@ h5 {
 }
 .bg-color-grey {
     background-color: #4d4d4d;
+}
+
+.color-grey-light {
+    color: #cacaca;
+}
+.bg-color-grey-light {
+    background-color: #cacaca;
 }
 
 
@@ -794,3 +885,4 @@ h2.media-heading  {
 .not-available {
     opacity: 0.4;
 }
+
