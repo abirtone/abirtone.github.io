@@ -50,7 +50,7 @@
             load_social();
         {% endif %}
 
-        {% if page.active_tab contains "_not_available" %}
+        {% if page.active_tab contains "_not_available" or page.enabled == 1 %}
             set_alert_contact();
         {% endif %}
 
