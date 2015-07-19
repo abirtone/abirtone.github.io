@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87302408-16ac-4ffc-8733-bf3c990a1b10" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/cucumber-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/courses/cucumber.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/courses/nmap_plugins.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/tab.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/tab.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/courses/angujarjs.html" afterPath="$PROJECT_DIR$/pages/courses/angujarjs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/courses/mongodb_avanzado.html" afterPath="$PROJECT_DIR$/pages/courses/mongodb_avanzado.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/courses/mongodb_esencial.html" afterPath="$PROJECT_DIR$/pages/courses/mongodb_esencial.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/courses/python.html" afterPath="$PROJECT_DIR$/pages/courses/python.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/courses/scapy.html" afterPath="$PROJECT_DIR$/pages/courses/scapy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/courses/cucumber.html" afterPath="$PROJECT_DIR$/pages/courses/cucumber.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="last.iws" />
@@ -37,8 +29,8 @@
       <file leaf-file-name="cucumber.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/courses/cucumber.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54213035">
-              <caret line="160" column="82" selection-start-line="160" selection-start-column="82" selection-end-line="160" selection-end-column="82" />
+            <state vertical-scroll-proportion="0.8855326">
+              <caret line="208" column="167" selection-start-line="208" selection-start-column="167" selection-end-line="208" selection-end-column="167" />
               <folding />
             </state>
           </provider>
@@ -503,18 +495,6 @@
       <option name="number" value="Default" />
       <updated>1431530857373</updated>
     </task>
-    <task id="LOCAL-00010" summary="Added sitemap file">
-      <created>1434295028401</created>
-      <option name="number" value="00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1434295028401</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Updated sitemap links">
-      <created>1434295337256</created>
-      <option name="number" value="00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1434295337256</updated>
-    </task>
     <task id="LOCAL-00012" summary="Added robots.txt">
       <created>1434295890349</created>
       <option name="number" value="00012" />
@@ -797,7 +777,19 @@
       <option name="project" value="LOCAL" />
       <updated>1437140776476</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Fixed some bugs and prices.&#10;&#10;Added new course: ATDD + Cucumber!">
+      <created>1437313507249</created>
+      <option name="number" value="00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1437313507249</updated>
+    </task>
+    <task id="LOCAL-00060" summary="add cucumeber icon">
+      <created>1437313646838</created>
+      <option name="number" value="00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1437313646839</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -860,8 +852,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed link." />
-    <MESSAGE value="Fixed magin in Safari" />
     <MESSAGE value=" Added new company in Job Board: Bross Group." />
     <MESSAGE value="Added Linkedin page" />
     <MESSAGE value="Added tow new courses: Scapy and Boostrap. Added also, teachers." />
@@ -885,7 +875,9 @@
     <MESSAGE value="Updated contanct forms" />
     <MESSAGE value="Updated:&#10;- Added tripartita fundation&#10;- Added new Scapy course&#10;- Fixed some issues&#10;- Splitted angularJS in pieces&#10;" />
     <MESSAGE value="Added tripartita logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added tripartita logo" />
+    <MESSAGE value="Fixed some bugs and prices.&#10;&#10;Added new course: ATDD + Cucumber!" />
+    <MESSAGE value="add cucumeber icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="add cucumeber icon" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1258,8 +1250,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/courses/cucumber.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54213035">
-          <caret line="160" column="82" selection-start-line="160" selection-start-column="82" selection-end-line="160" selection-end-column="82" />
+        <state vertical-scroll-proportion="0.8855326">
+          <caret line="208" column="167" selection-start-line="208" selection-start-column="167" selection-end-line="208" selection-end-column="167" />
           <folding />
         </state>
       </provider>
