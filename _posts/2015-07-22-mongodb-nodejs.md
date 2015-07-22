@@ -107,3 +107,5 @@ Si quieres **aprender MongoDB y NodeJS**, te recomendamos que mires **nuestros c
 
 <a class="btn btn-danger" href="/formacion/#mongodb">Ir a cursos de MongoDB</a>
 <a class="btn btn-danger" href="/formacion/nodejs/">Ir a curso de NodeJS</a>
+
+**Recuerda que para estar al tanto de novedades puedes seguirnos en Twitter, Facebook y Linkedin!** (al final de la web están los enlaces.
