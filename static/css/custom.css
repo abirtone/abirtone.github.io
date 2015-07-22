@@ -885,3 +885,23 @@ h2.media-heading  {
 .not-available {
     opacity: 0.4;
 }
+
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px dashed #4d4d4d;
+    width: 40%;
+    min-width: 200px;
+    margin-bottom: 10px;
+}
+
+th{
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+td{
+    border: 1px dashed #4d4d4d;
+    text-align: center;
+}
