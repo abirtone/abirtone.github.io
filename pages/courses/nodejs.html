@@ -1,39 +1,338 @@
 ---
 layout: default
-title: Curso Ionic
-active_tab: "course_nodejs_not_available"
+title: Curso presencial de NodeJS para la web
+active_tab: "course_nodejs"
+enabled: 1
 permalink: /formacion/nodejs/
-description: "Curso presencial especialista de NodeJS"
+description: "Curso bonificado NodeJS para web, presencial en Madrid"
+link_icon: "http://abirtone.com/static/images/nodejs.png"
 ---
 
-<div class="col-sm-12 clearfix">
+<div class="col-xs-12 col-sm-8">
+
     <div class="page-header first-3 first-section">
-        <h1>Curso presencial de especialista NodeJS</h1>
+        <div class="pull-right text-center">
+            <img class="img-responsive" src="/static/images/nodejs.png" alt="Logo NodeJS"/>
+            {% include courses_chunks/level_advanced.html %}
+        </div>
+        <h1>Curso presencial de <b>NodeJS</b> para web (subvencionado) - DEV02</h1>
     </div>
-</div>
 
+    <div class="page-header section-title">
+        <h2><i class="glyphicon glyphicon-question-sign" aria-hidden="true"></i> ¿ Qué es NodeJS ?</h2>
+    </div>
 
-<div class="col-sm-offset-1 col-sm-3 top-space-4">
-    <img width="220px" class="img-responsive pull-left" src="/static/images/proximamente.gif" alt="proximamente"/>
-</div>
+    <p>NodeJS es un intérprete <b>Javascript del lado del servidor</b> que cambia la noción de cómo debería trabajar un servidor. Su meta es permitir a un programador construir aplicaciones altamente escalables y escribir código que maneje <b>decenas de miles de conexiones simultáneas en una sólo una máquina</b> física.</p>
 
-<div class="col-sm-6 top-space-2">
-    <h5>Este curso estará disponible próximamente</h5>
-    <p class="top-space-1">Si lo deseas, puedes dejarnos tu mail y te avisaremos cuando esté disponible. </p>
+    <p>La meta número uno declarada de NodeJS es <b>proporcionar una manera fácil para construir programas de red escalables</b>.</p>
+
+    {% include courses_chunks/indice_temario_titulo.html %}
+    <ul class="list-group">
+        <li class="list-group-item">Módulo 1: Visión general de NodeJS</li>
+
+        <li class="list-group-item">Módulo 2: Introducción a NodeJS</li>
+
+        <li class="list-group-item">Módulo 3: WebStorm: incrementando la productividad</li>
+        <li class="list-group-item list-subgroup">
+            <ul>
+                <li>Introducción a WebStorm</li>
+                <li>Creación y configuración de proyectos AngularJS</li>
+                <li>Atajos de teclado</li>
+                <li>Uso de plantillas dinámicas</li>
+                <li>Depuración en tiempo real</li>
+                <li>Uso avanzado</li>
+            </ul>
+        </li>
+
+        <li class="list-group-item">Módulo 4: Patrones de desarrollo Javascript</li>
+        <li class="list-group-item list-subgroup">
+            <ul>
+                <li><code>Module</code></li>
+                <li>Revealing Module</li>
+                <li>Proxy</li>
+            </ul>
+        </li>
+
+        <li class="list-group-item">Módulo 5: Toma de contacto con NodeJS</li>
+
+        <li class="list-group-item">Módulo 6: Gestión de paquetes y dependencias</li>
+        <li class="list-group-item list-subgroup">
+            <ul>
+                <li>El gestor <code>NPM</code></li>
+                <li>Uso e instalación de paquetes en NodeJS</li>
+                <li>Creación y publicación de módulos en NPM</li>
+            </ul>
+        </li>
+
+        <li class="list-group-item">Módulo 7: Servidores de aplicaciones para NodeJS</li>
+        <li class="list-group-item list-subgroup">
+            <ul>
+                <li>Patrón en capas</li>
+                <li>Módulo http</li>
+                <li><code>ExpressJS</code></li>
+                <li>Configuración</li>
+                <li>Creación de un api REST</li>
+                <li>Creación de una aplicación web</li>
+                <li>Uso de plantillas</li>
+                <li>Creación y uso de filtros</li>
+                <li><code>Restify</code>: Configuración y creación de APIs</li>
+            </ul>
+        </li>
+
+        <li class="list-group-item">Módulo 8: Autenticación</li>
+        <li class="list-group-item list-subgroup">
+            <ul>
+                <li>Protocolo <code>OAuth</code></li>
+                <li><code>PassportJS</code></li>
+            </ul>
+        </li>
+
+        <li class="list-group-item">Módulo 9: EcmaScript 6</li>
+        <li class="list-group-item list-subgroup">
+            <ul>
+                <li>For-of loop</li>
+                <li><code>Map</code> y <code>set</code></li>
+                <li><code>Promise</code></li>
+                <li><code>Generators</code></li>
+                <li>Uso en NodeJS</li>
+            </ul>
+        </li>
+
+        <li class="list-group-item">Módulo 10: KoaJS: Framework web con generadores</li>
+        <li class="list-group-item list-subgroup">
+            <ul>
+                <li>Co y <code>thunkify</code></li>
+                <li>Creación de una aplicación web completa y un API REST</li>
+                <li>Uso de plantillas</li>
+                <li>Filtros</li>
+                <li>Adaptación de librerías para su uso con generadores</li>
+            </ul>
+        </li>
+
+        <li class="list-group-item">Módulo 11: Bases de datos</li>
+        <li class="list-group-item list-subgroup">
+            <ul>
+                <li>MongoDB</li>
+                <li>Gestión de conexiones y drivers</li>
+                <li>ORM Mongoose</li>
+                <li>Prácticas</li>
+                <li>MySql/PostgresSQL</li>
+                <li>Gestión de conexiones y <code>drivers</code></li>
+                <li>ORM <code>Sequelize</code></li>
+                <li>Prácticas</li>
+            </ul>
+        </li>
+
+        <li class="list-group-item">Módulo 12: El día a día programando en NodeJS</li>
+        <li class="list-group-item list-subgroup">
+            <ul>
+                <li>Calidad de código</li>
+                <li>Automatizador de tareas</li>
+                <li><code>GruntJS</code></li>
+                <li><code>Gulp</code></li>
+            </ul>
+        </li>
+
+        <li class="list-group-item">Módulo 13: Logger: Configuración y uso de <code>Log4js</code></li>
+
+        <li class="list-group-item">Módulo 14: Testing con MochaJS</li>
+        <li class="list-group-item list-subgroup">
+            <ul>
+                <li>Configuración</li>
+                <li>Creación de test de servicios y end points</li>
+            </ul>
+        </li>
+
+        <li class="list-group-item">Módulo 15: Otras librerías</li>
+        <li class="list-group-item list-subgroup">
+            <ul>
+                <li>Envío de mails</li>
+                <li>Zip</li>
+                <li>PDF</li>
+            </ul>
+        </li>
+
+        <li class="list-group-item">Módulo 16: Gestión de la configuración y buenas prácticas para puesta en producción</li>
+
+        <li class="list-group-item">Módulo 17: NodeJS para el escritorio con Node webkit</li>
+        <li class="list-group-item list-subgroup">
+            <ul>
+                <li>Instalación</li>
+                <li>Configuración</li>
+                <li>Practicas</li>
+            </ul>
+        </li>
+
+        <li class="list-group-item">Módulo 18: Mejorar el rendimiento de las aplicaciones y <code>clustering</code></li>
+    </ul>
+
+    <!-- Metodo Abirtone -->
+    {% include courses_chunks/imparticion.html %}
+
+    <!-- Material -->
+    {% include courses_chunks/material_titulo.html %}
+    {% include courses_chunks/material_detalles_row1.html %}
+    <div class="row">
+        <div class="col-xs-12 col-sm-6">
+            <div class="media">
+                <div class="media-left media-top">
+                    <a href="https://www.jetbrains.com/webstorm/" target="_blank">
+                        <img width="100px" class="media-object" src="/static/courses/common/webstorm.png" alt="WebStorm logo" />
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h2 class="media-heading">Licencia WebStorm</h2>
+                    <p>Licencia WebStorm Student. Completamente funcional. Para que puedas seguir usándola durante 1 año.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+            <div class="media">
+                <div class="media-left media-top">
+                    <a href="#">
+                        <img width="100px" class="media-object" src="/static/courses/common/certificate.jpg" alt="Logo certificado"/>
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h2 class="media-heading">Certificación de conocimientos</h2>
+                    <p>Tras superar el examen final, se emitirá al alumno un certificado con los conocimientos aprendidos. En caso de no superarlo se emitirá un diploma de asistencia.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bolsa trabajo -->
+    {% include courses_chunks/bolsa.html %}
+
+    <!-- Subvención -->
+    {% include courses_chunks/subvencion.html %}
+
+    <!-- Inscripcion-->
+    <a name="inscripcion"></a>
+    {% include courses_chunks/inscripcion_titulo.html %}
+    <p>Este curso no está disponible todavía. Si nos dejas un mail, te avisaremos cuando esté disponible para ser cursado.</p>
     <p><small><b>*</b> La información que nos facilites <b>SOLAMENTE</b> la utilizaremos para enviar información de <b>ESTE</b> curso.</small> </p>
-    <form class="form-horizontal" id="contact-form" method="POST" action="//formspree.io/">
-        <div class="form-group">
-            <label for="inputEmail3" class="col-xs-12 col-sm-2 control-label">Tu email:</label>
-            <div class="col-xs-12 col-sm-10">
-                <input type="email" name="_replyto" class="form-control" id="inputEmail3" placeholder="Escribe tu mail" required>
+    <div class="row">
+        <div class="col-xs-12 col-sm-12">
+            <form class="form-horizontal" id="contact-form" method="POST" action="//formspree.io/">
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-xs-12 col-sm-2 control-label">Tu email:</label>
+                    <div class="col-xs-12 col-sm-8">
+                        <input type="email" name="_replyto" class="form-control" id="inputEmail3" placeholder="Escribe tu mail" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12 col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-danger">Enviar &rarr;</button>
+                    </div>
+                </div>
+                <input name="_subject" type="hidden" value="[informacion-nodejs]">
+                <input type="hidden" name="_next" value="http://abirtone.com/formacion/info_cursos/" >
+            </form>
+        </div>
+    </div>
+
+    <!-- Inscripcion-->
+    {% include courses_chunks/ubicacion.html %}
+
+    <!-- Modo de pago -->
+    {% include courses_chunks/pago.html %}
+
+    <!-- Relacionado -->
+    {% include courses_chunks/relacionado.html %}
+    <p>Puede que también te interesen estos cursos:</p>
+    <ul>
+        <li><a class="link" href="/formacion/mongodb_esencial/">Curso subvencionado de <b>MongoDB</b> esencial  &rarr;</a></li>
+        <li><a class="link" href="/formacion/mongodb_avanzado/">Curso subvencionado de MongoDB <b   >Avanzado</b>&rarr;</a></li>
+        <li><a class="link" href="/formacion/mongodb_angularjs/">Curso subvencionado <b>AngularJS</b>&rarr;</a></li>
+    </ul>
+
+    <!-- Referencias -->
+    {% include courses_chunks/referencias_titulo.html %}
+    <ul>
+        <li><a class="link" href="http://www.ibm.com/developerworks/ssa/opensource/library/os-nodejs/">Qué es NodeJS: Definición de IBM&rarr;</a></li>
+        <li><a class="link" href="http://www.genbetadev.com/frameworks/como-funciona-node-js">Cómo funciona NodeJS &rarr;</a></li>
+        <li><a class="link" href="https://learn.bevry.me/node/server-part2">Servidores avanzados con NodeJS &rarr;</a></li>
+        <li><a class="link" href="https://github.com/tamaspiros/advanced-chat">Ejemplo de chat escrito en NodeJS &rarr;</a></li>
+</div>
+
+<div class="col-xs-12 col-sm-4 first-2">
+    <div class="panel panel-abirtone">
+        <div class="panel-heading">
+            <h3 class="panel-title">Resumen curso NodeJS web</h3>
+        </div>
+        <div class="panel-body">
+            <!-- Entradas resumen curso -->
+            <div class="row alt-row-color">
+                <div class="col-xs-6 col-sm-7 box-col-l"><b>Precio</b><i class="glyphicon glyphicon-info-sign color-grey" data-toggle="tooltip" data-placement="bottom" title="Subvencionable a través de la fundación TriPartita. IVA incluido"></i></div>
+                <div class="col-xs-6 col-sm-5 box-col-r"><b class="color-green">600</b></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-sm-7 box-col-l"><b>Horas lectivas</b></div>
+                <div class="col-xs-6 col-sm-5 box-col-r"><b>5</b> horas</div>
+            </div>
+            <div class="row alt-row-color">
+                <div class="col-xs-6 col-sm-7 box-col-l"><b>Duración</b></div>
+                <div class="col-xs-6 col-sm-5 box-col-r">1 día</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-sm-7 box-col-l"><b>Horario</b><i class="glyphicon glyphicon-info-sign color-grey" data-toggle="tooltip" data-placement="bottom" title="El horario puede adaptarse a la disponibilidad y agenda de los asistentes"></i></div>
+                <div class="col-xs-6 col-sm-5 box-col-r">Tardes</div>
+            </div>
+            <div class="row alt-row-color">
+                <div class="col-xs-6 col-sm-7 box-col-l"><b>Modo</b></div>
+                <div class="col-xs-6 col-sm-5 box-col-r"><b>Presencial</b></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-sm-7 box-col-l"><b>Lugar</b></div>
+                <div class="col-xs-6 col-sm-5 box-col-r"><a class="link" href="#ubicacion">Madrid &rarr;</a></div>
+            </div>
+            <div class="row alt-row-color">
+                <div class="col-xs-6 col-sm-7 box-col-l"><b>Grupos</b></div>
+                <div class="col-xs-6 col-sm-5 box-col-r">10 pax máximo</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-sm-7 box-col-l"><b>Bolsa de trabajo</b></div>
+                <div class="col-xs-6 col-sm-5 box-col-r"><i class="glyphicon glyphicon-ok color-green"></i></div>
+            </div>
+            <div class="row alt-row-color">
+                <div class="col-xs-6 col-sm-7 box-col-l"><b>Licencia incluida</b><i class="glyphicon glyphicon-info-sign color-grey" data-toggle="tooltip" data-placement="bottom" title="Licencia IntelliJ Educational incluida"></i></div>
+                <div class="col-xs-6 col-sm-5 box-col-r"><i class="glyphicon glyphicon-ok color-green"></i></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-sm-7 box-col-l"><b>Materia adicional</b><i class="glyphicon glyphicon-info-sign color-grey" data-toggle="tooltip" data-placement="bottom" title="Pendrives, libretas, bolígrafos o cualquier otro material que fuese necesario."></i></div>
+                <div class="col-xs-6 col-sm-5 box-col-r"><i class="glyphicon glyphicon-ok color-green"></i></div>
+            </div>
+            <div class="row alt-row-color">
+                <div class="col-xs-6 col-sm-7 box-col-l"><b>Documentación impresa</b></div>
+                <div class="col-xs-6 col-sm-5 box-col-r"><i class="glyphicon glyphicon-ok color-green"></i></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-sm-7 box-col-l"><b>Subvencionado</b></div>
+                <div class="col-xs-6 col-sm-5 box-col-r"><i class="glyphicon glyphicon-ok color-green"></i> <i class="glyphicon glyphicon-info-sign color-grey" data-toggle="tooltip" data-placement="bottom" title="Subvencionable a través de la fundación TriPartita. Consultanos para más información."></i></div>
+            </div>
+            <div class="row alt-row-color">
+                <div class="col-xs-6 col-sm-7 box-col-l"><b>Profesor</b></div>
+                <div class="col-xs-6 col-sm-5 box-col-r"><a class="link" href="https://www.linkedin.com/in/requerogarciaraul" target="_blank">Raúl Requero &rarr;</a></div>
+            </div>
+
+            <!-- Ofertas especiales -->
+            <div class="row box-border-top">
+                <div class="col-xs-6 col-sm-7 box-col-l"><b>Descuentos para grupos</b><i class="glyphicon glyphicon-info-sign color-grey" data-toggle="tooltip" data-placement="bottom" title="Si sois 5 o más, podréis tener un descuento de hasta uno 10% por alumno. Contactanos para más información"></i></div>
+                <div class="col-xs-6 col-sm-5 box-col-r"><i class="glyphicon glyphicon-ok color-green"></i></div>
+            </div>
+
+            <div class="row alt-row-color">
+                <div class="col-xs-6 col-sm-7 box-col-l"><b>Descuentos para estudiantes</b><i class="glyphicon glyphicon-info-sign color-grey" data-toggle="tooltip" data-placement="bottom" title="Si eres estudiante universitario desempleado, podrás tener un descuento de hasta unt 15%. Contáctanos para más información"></i></div>
+                <div class="col-xs-6 col-sm-5 box-col-r"><i class="glyphicon glyphicon-ok color-green"></i></div>
+            </div>
+
+            <!--Boton de reservar-->
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 box-border-top box-col-button">
+                    <a href="#inscripcion" class="btn btn-danger"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Inscribirse &rarr;</a>
+                </div>
             </div>
         </div>
-        <input name="_subject" type="hidden" value="[informacion-nodejs]">
-        <div class="form-group">
-            <div class="col-xs-12 col-sm-offset-2 col-sm-10">
-                <button type="submit" class="btn btn-danger">Enviar &rarr;</button>
-            </div>
-        </div>
-        <input type="hidden" name="_next" value="http://abirtone.com/formacion/info_cursos/" >
-    </form>
+    </div>
 </div>

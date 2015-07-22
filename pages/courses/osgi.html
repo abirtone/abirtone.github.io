@@ -1,39 +1,272 @@
 ---
 layout: default
 title: Curso OSGI
-active_tab: "course_osgi_not_available"
+active_tab: "course_osgi"
+enabled: 1
 permalink: /formacion/osgi/
-description: "Curso presencial especialista de OSGI"
+description: "Curso bonificado de OSGi, presencial en Madrid"
+link_icon: "http://abirtone.com/static/images/icon-osgi.png"
 ---
 
-<div class="col-sm-12 clearfix">
+<div class="col-xs-12 col-sm-8">
+
     <div class="page-header first-3 first-section">
-        <h1>Curso presencial de especialista OSGI</h1>
+        <div class="pull-right text-center">
+            <img class="img-responsive" src="/static/images/icon-osgi.png" alt="Logo Cucumber"/>
+            {% include courses_chunks/level_advanced.html %}
+        </div>
+        <h1>Curso avanzado de desarrollo con <b>OSGi</b> (subvencionado) - DEV03</h1>
     </div>
-</div>
 
+    <div class="page-header section-title">
+        <h2><i class="glyphicon glyphicon-question-sign" aria-hidden="true"></i> ¿ Qué es OSGI ?</h2>
+    </div>
 
-<div class="col-sm-offset-1 col-sm-3 top-space-4">
-    <img width="220px" class="img-responsive pull-left" src="/static/images/proximamente.gif" alt="proximamente"/>
-</div>
+    <p>OSGi es la respuesta en la plataforma Java a la <b>programación modular</b>, logrando <b>reducir la complejidad</b> y el despliegue en grandes sistemas.</p>
 
-<div class="col-sm-6 top-space-2">
-    <h5>Este curso estará disponible próximamente</h5>
-    <p class="top-space-1">Si lo deseas, puedes dejarnos tu mail y te avisaremos cuando esté disponible. </p>
+    <p>Gracias a esto OSGi consigue una alta cohesión y un bajo acoplamiento, características más que desaeables para crear un <b>sistema altamente escalable</b>.</p>
+
+    {% include courses_chunks/indice_temario_titulo.html %}
+    <ul class="list-group">
+        <li class="list-group-item">Módulo 1: <b>Modularity</b></li>
+        <li class="list-group-item list-subgroup">
+            <ul>
+                <li>Definition</li>
+                <li>Complexity & Reuse</li>
+                <li>Modular architecture</li>
+                <li>Modularity Patterns</li>
+                <li>Anti-patterns</li>
+            </ul>
+        </li>
+
+        <li class="list-group-item">Módulo 2: <b>Java Modularity: OSGi</b></li>
+        <li class="list-group-item list-subgroup">
+            <ul>
+                <li>Specification</li>
+                <li>Implementations</li>
+                <li>Execution Environments</li>
+                <li>Enterprise Specification: Web Applications, <code>JPA, JMX, JNDI, JDBC</code></li>
+            </ul>
+        </li>
+
+        <li class="list-group-item">Módulo 3: <b>Bundles</b></li>
+        <li class="list-group-item list-subgroup">
+            <ul>
+                <li>Lifecycle</li>
+                <li>Manifest</li>
+                <li>Package <code>dependencies</code></li>
+                <li>Versioning</li>
+                <li>Activators</li>
+            </ul>
+        </li>
+
+        <li class="list-group-item">Módulo 4: <b>Services</b></li>
+        <li class="list-group-item list-subgroup">
+            <ul>
+                <li>Service <code>Dynamics</code></li>
+                <li>Service <code>Registry</code></li>
+                <li>Modules</li>
+                <li>API <code>Bundle</code></li>
+                <li>Service Implementation Bundle</li>
+                <li>Declarative Services, Service <code>Tracker</code>, <code>Blueprint</code> Services</li>
+                <li>Remote services</li>
+            </ul>
+        </li>
+
+        <li class="list-group-item">Módulo 5: <b>OSGi Specification Services</b></li>
+        <li class="list-group-item list-subgroup">
+            <ul>
+                <li>HTTP Service</li>
+                <li>Log Service</li>
+                <li>Configuration Admin Service</li>
+                <li><code>Event</code> Admin Service</li>
+            </ul>
+        </li>
+
+        <li class="list-group-item">Módulo 6: <b>OSGi Tooling</b></li>
+        <li class="list-group-item list-subgroup">
+            <ul>
+                <li>IDE & development tools Eclipse</li>
+                <li>Repositories</li>
+                <li>Dependencies & packages management</li>
+                <li>Debugging & Testing</li>
+                <li>Application Servers (Glassfish, JBoss, WAS, Virgo) vs Standalone (Jetty)</li>
+                <li>Packaging & <code>Delivery</code></li>
+                <li><code>Clustering</code></li>
+            </ul>
+        </li>
+
+        <li class="list-group-item">Módulo 7: <b>Project</b></li>
+        <li class="list-group-item list-subgroup">
+            <ul>
+                <li>Web App</li>
+                <li>Rest API</li>
+                <li>Security</li>
+                <li>Persistence</li>
+                <li><code>Cloud</code> deployment</li>
+            </ul>
+        </li>
+    </ul>
+
+    <!-- Metodo Abirtone -->
+    {% include courses_chunks/imparticion.html %}
+
+    <!-- Material -->
+    {% include courses_chunks/material_titulo.html %}
+    {% include courses_chunks/material_detalles_row1.html %}
+    <div class="row">
+        <div class="col-xs-12 col-sm-6">
+            <div class="media">
+                <div class="media-left media-top">
+                    <a href="https://www.jetbrains.com/idea/" target="_blank">
+                        <img width="100px" class="media-object" src="/static/courses/common/intellij.png" alt="IntelliJ logo" />
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h2 class="media-heading">Licencia IntelliJ</h2>
+                    <p>Licencia IntelliJ Student. Completamente funcional. Para que puedas seguir usándola durante 1 año.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+            <div class="media">
+                <div class="media-left media-top">
+                    <a href="#">
+                        <img width="100px" class="media-object" src="/static/courses/common/certificate.jpg" alt="Logo certificado"/>
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h2 class="media-heading">Certificación de conocimientos</h2>
+                    <p>Tras superar el examen final, se emitirá al alumno un certificado con los conocimientos aprendidos. En caso de no superarlo se emitirá un diploma de asistencia.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bolsa trabajo -->
+    {% include courses_chunks/bolsa.html %}
+
+    <!-- Subvención -->
+    {% include courses_chunks/subvencion.html %}
+
+    <!-- Inscripcion-->
+    <a name="inscripcion"></a>
+    {% include courses_chunks/inscripcion_titulo.html %}
+    <p>Este curso no está disponible todavía. Si nos dejas un mail, te avisaremos cuando esté disponible para ser cursado.</p>
     <p><small><b>*</b> La información que nos facilites <b>SOLAMENTE</b> la utilizaremos para enviar información de <b>ESTE</b> curso.</small> </p>
-    <form class="form-horizontal" id="contact-form" method="POST" action="//formspree.io/">
-        <div class="form-group">
-            <label for="inputEmail3" class="col-xs-12 col-sm-2 control-label">Tu email:</label>
-            <div class="col-xs-12 col-sm-10">
-                <input type="email" name="_replyto" class="form-control" id="inputEmail3" placeholder="Escribe tu mail" required>
+    <div class="row">
+        <div class="col-xs-12 col-sm-12">
+            <form class="form-horizontal" id="contact-form" method="POST" action="//formspree.io/">
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-xs-12 col-sm-2 control-label">Tu email:</label>
+                    <div class="col-xs-12 col-sm-8">
+                        <input type="email" name="_replyto" class="form-control" id="inputEmail3" placeholder="Escribe tu mail" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12 col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-danger">Enviar &rarr;</button>
+                    </div>
+                </div>
+                <input name="_subject" type="hidden" value="[informacion-osgi]">
+                <input type="hidden" name="_next" value="http://abirtone.com/formacion/info_cursos/" >
+            </form>
+        </div>
+    </div>
+
+    <!-- Inscripcion-->
+    {% include courses_chunks/ubicacion.html %}
+
+    <!-- Modo de pago -->
+    {% include courses_chunks/pago.html %}
+
+    <!-- Referencias -->
+    {% include courses_chunks/referencias_titulo.html %}
+    <ul>
+        <li><a class="link" href="http://blog.justoaguilar.com/2009/08/que-es-osgi-y-para-que-sirve/">Qué es OSGi y para qué sirve &rarr;</a></li>
+        <li><a class="link" href="https://www.linkedin.com/pulse/20140903145139-12717948-qu%C3%A9-es-osgi">OSGi: Beneficios y casos reales &rarr;</a></li>
+        <li><a class="link" href="https://unpocodejava.wordpress.com/2010/06/07/osgi-primeros-pasos-y-el-inevitable-hello-world/">Primero pasos con OSGi &rarr;</a></li>
+        <li><a class="link" href="http://static1.1.sqspcdn.com/static/f/923743/15025178/1320739253190/OSGI_Roberto_Montero.pdf">Libro para aprender OSGi paso a paso &rarr;</a></li>
+    </ul>
+</div>
+
+<div class="col-xs-12 col-sm-4 first-2">
+    <div class="panel panel-abirtone">
+        <div class="panel-heading">
+            <h3 class="panel-title">Resumen curso OSGi</h3>
+        </div>
+        <div class="panel-body">
+            <!-- Entradas resumen curso -->
+            <div class="row alt-row-color">
+                <div class="col-xs-6 col-sm-7 box-col-l"><b>Precio</b><i class="glyphicon glyphicon-info-sign color-grey" data-toggle="tooltip" data-placement="bottom" title="Subvencionable a través de la fundación TriPartita. IVA incluido"></i></div>
+                <div class="col-xs-6 col-sm-5 box-col-r"><b class="color-green">900€</b></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-sm-7 box-col-l"><b>Horas lectivas</b></div>
+                <div class="col-xs-6 col-sm-5 box-col-r"><b>20</b> horas</div>
+            </div>
+            <div class="row alt-row-color">
+                <div class="col-xs-6 col-sm-7 box-col-l"><b>Duración</b></div>
+                <div class="col-xs-6 col-sm-5 box-col-r">5 día</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-sm-7 box-col-l"><b>Horario</b><i class="glyphicon glyphicon-info-sign color-grey" data-toggle="tooltip" data-placement="bottom" title="El horario puede adaptarse a la disponibilidad y agenda de los asistentes"></i></div>
+                <div class="col-xs-6 col-sm-5 box-col-r">Tardes</div>
+            </div>
+            <div class="row alt-row-color">
+                <div class="col-xs-6 col-sm-7 box-col-l"><b>Modo</b></div>
+                <div class="col-xs-6 col-sm-5 box-col-r"><b>Presencial</b></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-sm-7 box-col-l"><b>Lugar</b></div>
+                <div class="col-xs-6 col-sm-5 box-col-r"><a class="link" href="#ubicacion">Madrid &rarr;</a></div>
+            </div>
+            <div class="row alt-row-color">
+                <div class="col-xs-6 col-sm-7 box-col-l"><b>Grupos</b></div>
+                <div class="col-xs-6 col-sm-5 box-col-r">15 pax máximo</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-sm-7 box-col-l"><b>Bolsa de trabajo</b></div>
+                <div class="col-xs-6 col-sm-5 box-col-r"><i class="glyphicon glyphicon-ok color-green"></i></div>
+            </div>
+            <div class="row alt-row-color">
+                <div class="col-xs-6 col-sm-7 box-col-l"><b>Licencia incluida</b><i class="glyphicon glyphicon-info-sign color-grey" data-toggle="tooltip" data-placement="bottom" title="Licencia IntelliJ Educational incluida"></i></div>
+                <div class="col-xs-6 col-sm-5 box-col-r"><i class="glyphicon glyphicon-ok color-green"></i></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-sm-7 box-col-l"><b>Materia adicional</b><i class="glyphicon glyphicon-info-sign color-grey" data-toggle="tooltip" data-placement="bottom" title="Pendrives, libretas, bolígrafos o cualquier otro material que fuese necesario."></i></div>
+                <div class="col-xs-6 col-sm-5 box-col-r"><i class="glyphicon glyphicon-ok color-green"></i></div>
+            </div>
+            <div class="row alt-row-color">
+                <div class="col-xs-6 col-sm-7 box-col-l"><b>Documentación impresa</b></div>
+                <div class="col-xs-6 col-sm-5 box-col-r"><i class="glyphicon glyphicon-ok color-green"></i></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-sm-7 box-col-l"><b>Subvencionado</b></div>
+                <div class="col-xs-6 col-sm-5 box-col-r"><i class="glyphicon glyphicon-ok color-green"></i> <i class="glyphicon glyphicon-info-sign color-grey" data-toggle="tooltip" data-placement="bottom" title="Subvencionable a través de la fundación TriPartita. Consultanos para más información."></i></div>
+            </div>
+            <div class="row alt-row-color">
+                <div class="col-xs-6 col-sm-7 box-col-l"><b>Profesor</b></div>
+                <div class="col-xs-6 col-sm-5 box-col-r"><a class="link" href="https://www.eclipsecon.org/europe2013/user/301" target="_blank">Rubén de Dios &rarr;</a></div>
+            </div>
+
+            <!-- Ofertas especiales -->
+            <div class="row box-border-top">
+                <div class="col-xs-6 col-sm-7 box-col-l"><b>Descuentos para grupos</b><i class="glyphicon glyphicon-info-sign color-grey" data-toggle="tooltip" data-placement="bottom" title="Si sois 5 o más, podréis tener un descuento de hasta uno 10% por alumno. Contactanos para más información"></i></div>
+                <div class="col-xs-6 col-sm-5 box-col-r"><i class="glyphicon glyphicon-ok color-green"></i></div>
+            </div>
+
+            <div class="row alt-row-color">
+                <div class="col-xs-6 col-sm-7 box-col-l"><b>Descuentos para estudiantes</b><i class="glyphicon glyphicon-info-sign color-grey" data-toggle="tooltip" data-placement="bottom" title="Si eres estudiante universitario desempleado, podrás tener un descuento de hasta unt 15%. Contáctanos para más información"></i></div>
+                <div class="col-xs-6 col-sm-5 box-col-r"><i class="glyphicon glyphicon-ok color-green"></i></div>
+            </div>
+
+            <!--Boton de reservar-->
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 box-border-top box-col-button">
+                    <a href="#inscripcion" class="btn btn-danger"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Inscribirse &rarr;</a>
+                </div>
             </div>
         </div>
-        <input name="_subject" type="hidden" value="[informacion-osgi]">
-        <div class="form-group">
-            <div class="col-xs-12 col-sm-offset-2 col-sm-10">
-                <button type="submit" class="btn btn-danger">Enviar &rarr;</button>
-            </div>
-        </div>
-        <input type="hidden" name="_next" value="http://abirtone.com/formacion/info_cursos/" >
-    </form>
+    </div>
 </div>
