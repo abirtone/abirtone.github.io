@@ -10,4 +10,4 @@ github_username:  abirtone
 # Build settings
 markdown: kramdown
 permalink: pretty
-#highlighter: pygments
+highlighter: pygments

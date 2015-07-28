@@ -437,7 +437,7 @@ Todos sabemos que los tutoriales son muy útiles, aunque realmente aprendemos cu
 
 ##  Codigo fuente
 
-El código fuente de este proyecto puede ser encontrado en nuestro repositorio público de Github, en el siguiente enlace:  **[Abirtone Blog Agenda API](https://github.com/abirtone/blog-examples/tree/master/2015-07-28-uso-de-docker-en-aplicacion-de-nodejs)**
+El código fuente de este proyecto puede ser encontrado en nuestro repositorio público de Github, en el siguiente enlace:  <a target="_blank" class="link" href="https://github.com/abirtone/blog-examples/tree/master/2015-07-28-uso-de-docker-en-aplicacion-de-nodejs">Abirtone Blog Agenda API</a>**
 
 ##  Sobre el autor de este post
 
