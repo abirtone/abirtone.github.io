@@ -5,6 +5,7 @@ date:   2015-07-28 08:30:33
 categories: docker
 tags: nodejs supertest docker-compose docker chain mocha
 type: post
+link_icon: "http://abirtone.com/static/post/2015-07-28-uso-de-docker-en-aplicacion-de-nodejs/docker.png"
 description: "Despliegue de aplicaciones nodejs con contenedores y Docker"
 ---
 
