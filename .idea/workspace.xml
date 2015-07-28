@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87302408-16ac-4ffc-8733-bf3c990a1b10" name="Default" comment="New post!!!">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-07-28-uso-de-docker-en-aplicacion-de-nodejs.md" />
+    <list default="true" id="87302408-16ac-4ffc-8733-bf3c990a1b10" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-28-uso-de-docker-en-aplicacion-de-nodejs.md" afterPath="$PROJECT_DIR$/_posts/2015-07-28-uso-de-docker-en-aplicacion-de-nodejs.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="last.iws" />
@@ -30,7 +30,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="8.692392">
+            <state vertical-scroll-proportion="8.701986">
               <caret line="438" column="151" selection-start-line="438" selection-start-column="151" selection-end-line="438" selection-end-column="151" />
               <folding />
             </state>
@@ -438,12 +438,6 @@
       <option name="number" value="Default" />
       <updated>1431530857373</updated>
     </task>
-    <task id="LOCAL-00022" summary="Fixed magin in Safari">
-      <created>1434377802402</created>
-      <option name="number" value="00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1434377802402</updated>
-    </task>
     <task id="LOCAL-00023" summary=" Added new company in Job Board: Bross Group.">
       <created>1434444460744</created>
       <option name="number" value="00023" />
@@ -732,7 +726,13 @@
       <option name="project" value="LOCAL" />
       <updated>1437572850803</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="New post!!!">
+      <created>1438094286295</created>
+      <option name="number" value="00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1438094286296</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TodoView">
@@ -748,6 +748,7 @@
     <frame x="4" y="23" width="1916" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.49806094" order="0" side_tool="false" content_ui="tabs" />
@@ -763,7 +764,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33643892" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.310559" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -804,7 +804,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="- Updated sitemap" />
     <MESSAGE value="- Fix: Some HTML issues" />
     <MESSAGE value="Added new post" />
     <MESSAGE value="Updated some improvements for usability" />
@@ -829,7 +828,8 @@
     <MESSAGE value="New post: NodeJS + MongoDB" />
     <MESSAGE value="Re-enabled post comments" />
     <MESSAGE value="forgot info" />
-    <option name="LAST_COMMIT_MESSAGE" value="forgot info" />
+    <MESSAGE value="New post!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="New post!!!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1197,7 +1197,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="8.692392">
+        <state vertical-scroll-proportion="8.701986">
           <caret line="438" column="151" selection-start-line="438" selection-start-column="151" selection-end-line="438" selection-end-column="151" />
           <folding />
         </state>
