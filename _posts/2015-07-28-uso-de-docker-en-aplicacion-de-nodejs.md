@@ -27,7 +27,7 @@ En el tutorial **desarrollaremos** una `API rest` desde  con haciendo uso de `No
 
 ## Estructura del proyecto
 
-El **código fuente** de este proyecto, como el del resto de tutoriales desarrollados en Abirtone, **<a target="_blank" class="link" href=""> puede ser descargado desde nuestro repositorio público de Github &rarr;</a>**. A continuación explicamos la estructura de directorio que encontrarás en este proyecto:
+El **código fuente** de este proyecto, como el del resto de tutoriales desarrollados en Abirtone, **<a target="_blank" class="link" href="https://github.com/abirtone/blog-examples/tree/master/2015-07-28-uso-de-docker-en-aplicacion-de-nodejs">puede ser descargado desde nuestro repositorio público de Github &rarr;</a>**. A continuación explicamos la estructura de directorio que encontrarás en este proyecto:
 
 
 *  abirtone-blog-agenda-api
@@ -437,7 +437,7 @@ Todos sabemos que los tutoriales son muy útiles, aunque realmente aprendemos cu
 
 ##  Codigo fuente
 
-El código fuente de este proyecto puede ser encontrado en nuestro repositorio público de Github, en el siguiente enlace:  **[Abirtone Blog Agenda API](https://github.com/abirtone/blog-examples)**
+El código fuente de este proyecto puede ser encontrado en nuestro repositorio público de Github, en el siguiente enlace:  **[Abirtone Blog Agenda API](https://github.com/abirtone/blog-examples/tree/master/2015-07-28-uso-de-docker-en-aplicacion-de-nodejs)**
 
 ##  Sobre el autor de este post
 
