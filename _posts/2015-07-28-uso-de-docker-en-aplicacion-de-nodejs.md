@@ -2,7 +2,7 @@
 layout: post
 title:  "Docker en la ejecución de test de integración en NodeJS"
 date:   2015-07-28 08:30:33
-categories: nodejs emberjs docker
+categories: docker
 tags: nodejs supertest docker-compose docker chain mocha
 type: post
 description: "Despliegue de aplicaciones nodejs con contenedores y Docker"
