@@ -905,3 +905,11 @@ td{
     border: 1px dashed #4d4d4d;
     text-align: center;
 }
+
+#carousel-scapy .carousel {
+    margin: 0;
+}
+
+#carousel-scapy .slide {
+    margin: 0;
+}

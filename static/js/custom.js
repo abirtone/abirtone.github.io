@@ -17,6 +17,12 @@ function load_common(){
     var _ji1iiii = k91 + _K9919;
     var mskoo_ = "<i class=\"glyphicon glyphicon-phone\"></i> Teléfono: <a href=\"te" + "l:" + _ji1iiii + "\" >" + _ji1iiii + " <i class='glyphicon glyphicon-earphone'></i></a>";
     $('#_ksi82').html(mskoo_);
+
+    // Enable modal images
+    $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+    });
 }
 
 function set_contact(){
