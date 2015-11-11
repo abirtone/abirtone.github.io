@@ -2,9 +2,12 @@ body {
     padding-top: 70px;
     padding-bottom: 30px;
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
-    background: #f7f7f7;
     color: #4d4d4d;
     line-height: 1.785em;
+}
+
+body, .breadcrumb, .navbar-inverse {
+    background: #f7f7f7;
 }
 
 p, blockquote {
@@ -49,6 +52,17 @@ h5 {
     font-weight: bold;
 }
 
+.breadcrumb {
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+    border: none;
+    margin-left: 0;
+}
+
+.navbar {
+    margin-top: 0;
+}
 
 .theme-dropdown .dropdown-menu {
     position: static;
@@ -64,13 +78,24 @@ h5 {
     width: auto;
 }
 
+.page-header, .page-header h1 {
+    margin-bottom: 0px;
+}
+
+.cuadricula h5 {
+    margin-bottom: 15px;
+}
+.cuadricula img {
+    margin: 0 auto 15px;
+}
+
 @media (min-width: 789px) {
     .theme-showcase .first {
         margin: 80px 0 0px;
     }
 
     .theme-showcase .first-2 {
-        margin: 120px 0 0px;
+        margin: 60px 0 0px;
     }
 
     .theme-showcase .first-3 {
@@ -120,7 +145,7 @@ h5 {
 **************************************/
 
 .navbar-inverse {
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
 }
 .navbar-inverse .navbar-nav > li > a,
 .navbar-inverse .navbar-nav > li > a:focus {
@@ -163,8 +188,8 @@ h5 {
 }
 
 .navbar-header {
-    height: 105px;
-    margin-top: 14px;
+    /*height: 105px;*/
+    margin-top: 0px;
 }
 
 .navbar-inverse .dropdown-menu > li > a {
@@ -173,6 +198,30 @@ h5 {
 
 .navbar-inverse .dropdown-menu .entry > a {
     padding-left: 25px;
+}
+
+.navbar-brand {
+    background: transparent;
+}
+
+.box {
+    /*padding: 15px 30px;*/
+    /*margin-top: 10px;*/
+    padding: 0;
+    background: #fff;
+    /*border-bottom: 1px solid #e9e9e9;*/
+    border: 1px solid #e9e9e9;
+    position: relative;
+}
+.box.first {
+    border-radius: 0 0 10px 10px;
+}
+.box-border {
+    border: 1px solid #e9e9e9;
+    border-radius: 0 0 10px 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fcfcfc;
 }
 
 /* Sub-menu */
@@ -278,6 +327,10 @@ h5 {
     .dropdown-submenu > .dropdown-menu {
         margin-left: 15px;
     }
+
+    .first-1 {
+        margin-top: 20px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -324,7 +377,7 @@ h5 {
 
     .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
         margin-right: -15px;
-        margin-left: -15px;
+        /*margin-left: -15px;*/
     }
 
     .navbar-brand {
@@ -338,6 +391,9 @@ h5 {
     max-width: 20px;
 }
 
+.navbar-inverse {
+    background-color: #f7f7f7;
+}
 /* End header & menu */
 
 /**************************************
@@ -346,141 +402,123 @@ h5 {
 
 **************************************/
 .carousel {
-    position: relative;
-    background-color: #f0f0f5;
-    padding-top: 20px;
-    margin-top: 20px;
-    height: 400px;
-}
-
-.carousel-inner {
-    max-height: 350px;
-}
-
-.carousel-indicators li {
-    border: 1px solid #999696;
-}
-.carousel-indicators .active {
-    background-color: #f4451c;
-}
-
-.carousel-inner .img-responsive {
-    max-width: 550px;
-    margin: 0 auto;
+    margin-top: 30px;
 }
 
 .carousel-caption {
-    position: relative;
-    left: 0%;
-    right: 0%;
-    bottom: 0px;
-    z-index: 10;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin-left: 15px;
-    color: #000;
-    text-shadow: none;
-& .btn {
-      text-shadow: none; // No shadow for button elements in carousel-caption
-  }
+    padding-bottom: 45px;
+    right: 15%;
+    left: 15%;
+}
+.carousel-caption h4 {
+    color: white;
+    font-size: 40px;
+}
+.carousel-caption p, .carousel-caption span {
+    font-size: 26px;
+    line-height: 1.20em;
+    margin: 0 auto;
 }
 
-.carousel-caption, .carousel-caption p, .carousel-caption h2 {
-    font-family: "Open Sans", Arial, Helvetica, sans-serif;
-    text-align: left;
-    line-height: 1.2em;
+.carousel-caption a {
+    margin-top: 15px;
 }
 
-.carousel-caption h2 {
-    text-transform: uppercase;
-    font-size: 50px;
-    font-weight: bold;
-    color: #4d4d4d;
+.carousel-inner {
+    background-color: #ffffff;
 }
 
-.carousel-caption p {
-    font-size: 29px;
-    font-style: italic;
-    color: #808080;
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+    margin: auto;
+    border-radius: 20px;
 }
-
-@media (max-width: 789px) {
-
-    #carousel-example-generic {
-        margin-top: 0px;
-    }
-
-    .carousel {
-        height: 250px;
-    }
-
-    .carousel-caption h2 {
-        font-size: 25px;
-        font-weight: bold;
-    }
-
-    .carousel-caption p {
-        font-size: 19px;
-    }
-}
-
-
-.controllers {
-    margin-top: 20px;
-}
-
-@media (max-width: 789px) {
-    .controllers {
-        margin-top: 5px;
-    }
-
-    .carousel-indicators {
-        bottom: auto;
-    }
-}
-
-.carousel-control.left,
-.carousel-control.right {
+.carousel-control.right, .carousel-control.left {
     background-image: none;
 }
 
-.valign {
-    display: flex;
-    align-items: center;
+@media (max-width: 789px) {
+    .carousel {
+        display: none;
+    }
+}
+@media (min-width: 790px) and (max-width: 900px) {
+    .carousel {
+        margin-top: 80px;
+    }
+    .carousel-indicators {
+        display: none;
+    }
+    .carousel-caption {
+        padding-bottom: 0px;
+        right: 10%;
+        left: 10%;
+    }
+    .carousel-caption h4 {
+        color: white;
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+    .carousel-caption p {
+        font-size: 14px;
+        line-height: 1.00em;
+    }
+
+    .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+        margin-top: 25px;
+    }
+}
+@media (min-width: 901px) and (max-width: 992px) {
+    .carousel {
+        margin-top: 80px;
+    }
+}
+@media (min-width: 901px) and (max-width: 1201px) {
+    .carousel-indicators {
+        display: none;
+    }
+    .carousel-caption {
+        padding-bottom: 0px;
+        right: 15%;
+        left: 15%;
+    }
+    .carousel-caption h4 {
+        color: white;
+        font-size: 35px;
+        /*margin-bottom: 5px;*/
+    }
+    .carousel-caption p {
+        font-size: 20px;
+        line-height: 1.10em;
+    }
+
+    .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+        margin-top: 25px;
+    }
+}
+@media (min-width: 1550px){
+    .carousel-control.right {
+        right: 8%;
+    }
+    .carousel-control.left {
+        left: 8%;
+    }
 }
 
-.carousel-caption strong {
-    display:block;
-    font-size:50px;
-    line-height:1.2em;
-    color:#ee4311;
-    text-transform:uppercase;
-    letter-spacing:-1px;
-    margin-bottom:10px;
-    padding-left: 4px;
+@media (min-width: 1850px){
+    .carousel-control.right {
+        right: 12%;
+    }
+    .carousel-control.left {
+        left: 12%;
+    }
 }
-
-.container-fluid .img-responsive  {
-    max-width: 400px;
-}
-.height-400 {
-    max-height: 300px;
-}
-.height-200 {
-    max-height: 200px;
-}
-
-.carousel-small {
-    top: 0px;
-    margin-top: 0px;
-    padding-top: -20px;
-    max-height: 200px;
-    background-color: transparent;
-}
-.carousel-inner-small {
-    top: 0px;
-    padding-top: -20px;
-    max-height: 200px;
+@media (min-width: 2100px){
+    .carousel-control.right {
+        right: 0;
+    }
+    .carousel-control.left {
+        left: 0;
+    }
 }
 /* End Carousel */
 
@@ -505,6 +543,9 @@ h5 {
 **************************************/
 .top-space-1 {
     margin-top: 15px;
+}
+.top-space-1_1 {
+    margin-top: 5px;
 }
 .top-space-2 {
     margin-top: 30px;
@@ -665,7 +706,7 @@ a {color: #808080;}
     border: 1px solid #fff;
     background: url(/static/images/time-tail.gif) 0 0 repeat-x #f2f2f2;
     border-radius: 20px;
-    box-shadow: 0 0 4px #ccc;
+    box-shadow: 0rou 0 4px #ccc;
     -moz-box-shadow: 0 0 3px #ccc;
     -webkit-box-shadow: 0 0 5px #ccc;
     float: left;
@@ -684,10 +725,9 @@ a {color: #808080;}
     margin-top: 15px;
 }
 
-.entry-link {
-    margin-top: 10px;
-    margin-left: 15px;
-
+.entry-p {
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .fb-like {
@@ -906,10 +946,3 @@ td{
     text-align: center;
 }
 
-#carousel-scapy .carousel {
-    margin: 0;
-}
-
-#carousel-scapy .slide {
-    margin: 0;
-}

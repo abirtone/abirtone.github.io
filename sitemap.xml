@@ -5,13 +5,13 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>http://abirtone.com/formacion/</loc>
+        <loc>http://abirtone.com/servicios/</loc>
         <lastmod>2015-06-12T15:46:19+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>http://abirtone.com/sobre/</loc>
+        <loc>http://abirtone.com/formacion/</loc>
         <lastmod>2015-06-12T15:46:19+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -23,7 +23,13 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>http://abirtone.com/formacion/bolsa_trabajo/</loc>
+        <loc>http://abirtone.com/head_hunting/</loc>
+        <lastmod>2015-06-12T15:46:19+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://abirtone.com/bolsa_trabajo/</loc>
         <lastmod>2015-06-12T15:46:19+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>

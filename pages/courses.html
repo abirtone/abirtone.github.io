@@ -5,39 +5,88 @@ active_tab: "courses"
 description: "Listado de cursos especializados disponibles"
 permalink: /formacion/
 ---
+<div class="carousel slide" id="carousel-133831">
+    <ol class="carousel-indicators">
+        <li class="active" data-slide-to="0" data-target="#carousel-133831"></li>
+        <li data-slide-to="1" data-target="#carousel-133831"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="item active">
+            <img alt="" src="/static/images/slider/slider-courses-01.jpg">
+            <div class="carousel-caption">
+                <h4>
+                    Como siempre soñaste
+                </h4>
+                <span class="clearfix">
+                    Por desarrolladores y para desarrolladores.
+                </span>
+                <a class="btn btn-danger" href="#develop">Ir &rarr;</a>
+            </div>
+        </div>
+        <div class="item">
+            <img alt="" src="/static/images/slider/slider-courses-02.jpg">
+            <div class="carousel-caption">
+                <h4>
+                    Seguridad & hacking
+                </h4>
+                <span class="clearfix">
+                    Solo te podrá enseñar seguridad aquel que la ha vivido.
+                </span>
+                <a class="btn btn-danger" href="#security">Ir &rarr;</a>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#carousel-133831" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-133831" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+</div>
+
 <div class="row">
-    <div class="col-sm-12 clearfix">
+    <div class="col-sm-12 first-1 clearfix">
         <div class="page-header">
             <h1>Catálogo de formación</h1>
         </div>
     </div>
 </div>
 
-<div class="row">
-    <div class="col-sm-12">
-        <p>La formación más especializada. Impartida por formadores especializados. Con experiencia en proyectos reales en grandes compañías.</p>
+<h4 class="first-1">Seguridad</h4>
+<a name="security"></a>
+<div class="row top-space-1">
+    <div class="col-xs-12 col-sm-4" >
+        <a href="/formacion/scapy/"><img class="img-responsive img-responsive-border" src="/static/images/courses/icon-scapy.png" alt="Curso Scapy"/></a>
+        <div class="pull-right">{% include courses_chunks/level_advanced.html %}</div>
+        <b>Seguridad en redes con Scapy</b>
+        <p>Curso-taller de <a href="http://www.secdev.org/projects/scapy/doc/usage.html">Scapy</a> avanzada, pasando por un repaso de sus principales funcionalidades. Impartido por <a class="link" href="https://es.linkedin.com/in/garciagarciadaniel" target="_blank">Daniel García (cr0hn)</a></p>
+        <a class="link" href="/formacion/scapy/">Ver temario &rarr;</a>
+    </div>
+    <div class="col-xs-12 col-sm-4 not-available" >
+        <a href="/formacion/owasp-t10/"><img class="img-responsive img-responsive-border" src="/static/images/courses/icon-owasp.png" alt="Curso Scapy"/></a>
+        <div class="pull-right">{% include courses_chunks/level_basic.html %}</div>
+        <b>OWASP Top 10</b>
+        <p>Curso de seguridad web basada en el <a href="https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project">OWASP Top 10</a>. Impartido por <a class="link" href="https://es.linkedin.com/in/garciagarciadaniel" target="_blank">Daniel García (cr0hn)</a></p>
+        <a class="link" href="/formacion/owasp-t10/">Ver temario &rarr;</a>
     </div>
 </div>
 
-<h4>Desarrollo</h4>
+<hr>
 
+<h4>Desarrollo</h4>
+<a name="develop"></a>
 <div class="row">
     <div class="col-xs-12 col-sm-4">
-        <a href="/formacion/nodejs/"><img class="img-responsive img-responsive-border" src="/static/images/icon-nodejs.png" alt="Curso NodeJS"/></a>
+        <a href="/formacion/nodejs/"><img class="img-responsive img-responsive-border" src="/static/images/courses/icon-nodejs.png" alt="Curso NodeJS"/></a>
         <div class="pull-right">{% include courses_chunks/level_intermediate.html %}</div>
         <b>NodeJS para la web</b>
         <p>Curso avanzado de NodeJS impartido por: <a class="link" href="https://www.linkedin.com/in/requerogarciaraul" target="_blank">Raúl Requero</a></p>
         <a class="link" href="/formacion/nodejs/">Ver temario &rarr;</a>
     </div>
     <div class="col-xs-12 col-sm-4">
-        <a href="/formacion/angularjs/"><img class="img-responsive img-responsive-border" src="/static/images/icon-angularjs.png" alt="Curso AngujarJS"/></a>
+        <a href="/formacion/angularjs/"><img class="img-responsive img-responsive-border" src="/static/images/courses/icon-angularjs.png" alt="Curso AngujarJS"/></a>
         <div class="pull-right">{% include courses_chunks/level_intermediate.html %}</div>
         <b>Curso avanzado de AngujarJs</b>
         <p>Formación en AngularJS, en la que aprenderás todos los puntos para contruir aplicaciones con el framework de Google <a class="link" href="https://www.linkedin.com/in/requerogarciaraul" target="_blank">Raúl Requero</a></p>
         <a class="link" href="/formacion/angularjs/">Ver temario &rarr;</a>
     </div>
     <div class="col-xs-12 col-sm-4" >
-        <a href="/formacion/osgi/"><img class="img-responsive img-responsive-border" src="/static/images/icon-osgi.png" alt="Curso OSGI"/></a>
+        <a href="/formacion/osgi/"><img class="img-responsive img-responsive-border" src="/static/images/courses/icon-osgi.png" alt="Curso OSGI"/></a>
         <div class="pull-right">{% include courses_chunks/level_advanced.html %}</div>
         <b>OSGI avanzado</b>
         <p>Curso avanzado de OSGI impartido por <a class="link" href="https://www.eclipsecon.org/europe2013/user/301" target="_blank">Rubén de Dios &rarr;</a></p>
@@ -48,7 +97,7 @@ permalink: /formacion/
 <h5>Calidad de código (<b>Q & A</b>)</h5>
 <div class="row top-space-1">
     <div class="col-xs-12 col-sm-4" >
-        <a href="/formacion/cucumber/"><img class="img-responsive img-responsive-border" src="/static/images/icon-cucumber.png" alt="Curso Cucumber"/></a>
+        <a href="/formacion/cucumber/"><img class="img-responsive img-responsive-border" src="/static/images/courses/icon-cucumber.png" alt="Curso Cucumber"/></a>
         <div class="pull-right">{% include courses_chunks/level_intermediate.html %}</div>
         <b>Test de aceptación (ATDD) con Cucumber</b>
         <p>Curso-taller de test de aceptación de cliente e implementación con Cucumber. Impartido por: <a class="link" href="https://es.linkedin.com/pub/iván-corrales-solera/1b/88/b9" target="_blank">Iván Corrales</a></p>
@@ -60,14 +109,14 @@ permalink: /formacion/
 <h5>Bases de datos </h5>
 <div class="row top-space-1">
     <div class="col-xs-12 col-sm-4" >
-        <a href="/formacion/mongodb_esencial/"><img class="img-responsive img-responsive-border" src="/static/images/icon-mongodb.png" alt="Curso MongoDB"/></a>
+        <a href="/formacion/mongodb_esencial/"><img class="img-responsive img-responsive-border" src="/static/images/courses/icon-mongodb.png" alt="Curso MongoDB"/></a>
         <div class="pull-right">{% include courses_chunks/level_basic.html %}</div>
         <b>MongoDB esencial</b>
         <p>Curso avanzado de MongoDB impartido por <a target="bl" href="https://www.linkedin.com/in/victorcuervo/es" class="link">Victor Cuervo</a></p>
         <a class="link" href="/formacion/mongodb_esencial/">Ver temario &rarr;</a>
     </div>
     <div class="col-xs-12 col-sm-4" >
-        <a href="/formacion/mongodb_avanzado/"><img class="img-responsive img-responsive-border" src="/static/images/icon-mongodb.png" alt="Curso MongoDB"/></a>
+        <a href="/formacion/mongodb_avanzado/"><img class="img-responsive img-responsive-border" src="/static/images/courses/icon-mongodb.png" alt="Curso MongoDB"/></a>
         <div class="pull-right">{% include courses_chunks/level_intermediate.html %}</div>
         <b>MongoDB avanzado</b>
         <p>Curso avanzado de MongoDB impartido por <a target="_blank" href="https://www.linkedin.com/in/victorcuervo/es" class="link">Victor Cuervo</a></p>
@@ -75,55 +124,34 @@ permalink: /formacion/
     </div>
 </div>
 
-
-<h4>Seguridad</h4>
-
+<hr>
+<h4 class="first-1">Próximamente...</h4>
 <div class="row top-space-1">
-    <div class="col-xs-12 col-sm-4" >
-        <a href="/formacion/scapy/"><img class="img-responsive img-responsive-border" src="/static/images/icon-scapy.png" alt="Curso Scapy"/></a>
-        <div class="pull-right">{% include courses_chunks/level_advanced.html %}</div>
-        <b>Seguridad en redes con Scapy</b>
-        <p>Curso-taller de <a href="http://www.secdev.org/projects/scapy/doc/usage.html">Scapy</a> avanzada, pasando por un repaso de sus principales funcionalidades. Impartido por <a class="link" href="https://es.linkedin.com/in/garciagarciadaniel" target="_blank">Daniel García (cr0hn)</a></p>
-        <a class="link" href="/formacion/scapy/">Ver temario &rarr;</a>
-    </div>
-</div>
-
-
-<h4>Próximamente...</h4>
-
-<div class="row top-space-1">
-    <div class="col-xs-12 col-sm-4 not-available" >
-        <a href="/formacion/owasp-t10/"><img class="img-responsive img-responsive-border" src="/static/images/icon-owasp.png" alt="Curso Scapy"/></a>
-        <div class="pull-right">{% include courses_chunks/level_basic.html %}</div>
-        <b>OWASP Top 10</b>
-        <p>Curso de seguridad web basada en el <a href="https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project">OWASP Top 10</a>. Impartido por <a class="link" href="https://es.linkedin.com/in/garciagarciadaniel" target="_blank">Daniel García (cr0hn)</a></p>
-        <a class="link" href="/formacion/owasp-t10/">Ver temario &rarr;</a>
-    </div>
     <div class="col-xs-12 col-sm-4 not-available">
-        <a href="/formacion/ionic/"><img class="img-responsive img-responsive-border" src="/static/images/icon-ionic.png" alt="Curso Ionic"/></a>
+        <a href="/formacion/ionic/"><img class="img-responsive img-responsive-border" src="/static/images/courses/icon-ionic.png" alt="Curso Ionic"/></a>
         <b>Ionic avanzado</b>
         <p>Curso avanzado de Ionic impartido por <a class="link" href="https://www.linkedin.com/in/requerogarciaraul" target="_blank">Raúl Requero &rarr;</a></p>
         <a class="link" href="/formacion/ionic/">Ver temario &rarr;</a>
     </div>
     <div class="col-xs-12 col-sm-4 not-available" >
-        <a href="/formacion/bootstrap/"><img class="img-responsive img-responsive-border" src="/static/images/icon-bootstrap.png" alt="Curso Bootstrap"/></a>
+        <a href="/formacion/bootstrap/"><img class="img-responsive img-responsive-border" src="/static/images/courses/icon-bootstrap.png" alt="Curso Bootstrap"/></a>
         <b>CSS Bootstrap avanzado</b>
         <p>Curso avanzado de Bootstrap impartido por <i class="glyphicon glyphicon-question-sign" data-toggle="tooltip" data-placement="bottom" title="Aún no se ha decidido quién será el profesor"></i></p>
         <a class="link" href="/formacion/bootstrap/">Ver temario &rarr;</a>
+    </div>
+    <div class="col-xs-12 col-sm-4 not-available" >
+        <a href="/formacion/drupal/"><img class="img-responsive img-responsive-border" src="/static/images/courses/icon-drupal.png" alt="Curso Drupal"/></a>
+        <b>Drupal avanzado</b>
+        <p>Curso avanzado de Drupal impartido por <i class="glyphicon glyphicon-question-sign" data-toggle="tooltip" data-placement="bottom" title="Aún no se ha decidido quién será el profesor"></i></p>
+        <a class="link" href="/formacion/drupal/">Ver temario &rarr;</a>
     </div>
 </div>
 
 <div class="row top-space-1">
     <div class="col-xs-12 col-sm-4 not-available">
-        <a href="/formacion/python/"><img class="img-responsive img-responsive-border" src="/static/images/icon-python.png" alt="Curso Python"/></a>
+        <a href="/formacion/python/"><img class="img-responsive img-responsive-border" src="/static/images/courses/icon-python.png" alt="Curso Python"/></a>
         <b>Cursos Python</b>
         <p>Cursos de Python, de diferentes niveles de dificultad, impartidos por <a class="link" href="https://es.linkedin.com/in/garciagarciadaniel" target="_blank">Daniel García (cr0hn)</a></p>
         <a class="link" href="/formacion/python/">Ver temario &rarr;</a>
-    </div>
-    <div class="col-xs-12 col-sm-4 not-available" >
-        <a href="/formacion/drupal/"><img class="img-responsive img-responsive-border" src="/static/images/icon-drupal.png" alt="Curso Drupal"/></a>
-        <b>Drupal avanzado</b>
-        <p>Curso avanzado de Drupal impartido por <i class="glyphicon glyphicon-question-sign" data-toggle="tooltip" data-placement="bottom" title="Aún no se ha decidido quién será el profesor"></i></p>
-        <a class="link" href="/formacion/drupal/">Ver temario &rarr;</a>
     </div>
 </div>

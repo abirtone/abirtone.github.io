@@ -17,10 +17,10 @@
                 <ul class="list-unstyled list-1">
                     <li><a href="/">Inicio</a></li>
                     <li><a href="{{ "/blog/" | prepend: site.baseurl }}">Blog</a></li>
+                    <li><a href="{{ "/seguridad/" | prepend: site.baseurl }}">Hacking ético & seguridad</a></li>
                     <li><a href="{{ "/formacion/" | prepend: site.baseurl }}">Formación</a></li>
-                    <li><a href="{{ "/consultoria/" | prepend: site.baseurl }}">Consultoría</a></li>
-                    <li><a href="{{ "/formacion/bolsa_trabajo/" | prepend: site.baseurl }}">Bolsa de trabajo</a></li>
-                    <li><a href="{{ "/sobre/" | prepend: site.baseurl }}">Nosotros</a></li>
+                    <li><a href="{{ "/bolsa_trabajo/" | prepend: site.baseurl }}">Bolsa de trabajo</a></li>
+                    <li><a href="{{ "/head_hunting/" | prepend: site.baseurl }}">Head Hunting</a></li>
                     <li><a href="{{ "/contacto/" | prepend: site.baseurl }}">Contacto</a></li>
                 </ul>
             </article>
@@ -49,6 +49,14 @@
 
         {% if page.active_tab contains "course_" or page.active_tab contains "book_" or  page.active_tab == "blog" or  page.type == "post"  %}
             load_social();
+        {% endif %}
+
+        {% if page.active_tab contains "trabajo_bolsa" %}
+            set_bolsa_trabajo_mail();
+        {% endif %}
+
+        {% if page.active_tab contains "trabajo_headhunting" %}
+            set_head_hunting_mail();
         {% endif %}
 
         {% if page.active_tab contains "_not_available" or page.enabled == 1 %}

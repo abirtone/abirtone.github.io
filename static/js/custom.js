@@ -45,6 +45,25 @@ function set_alert_contact(){
     $('#contact-form').attr('action', '//formspree.io/' + contact);
 }
 
+function set_head_hunting_mail(){
+    var val2 = "-" + "hunting";
+    var vai20 = "head";
+    var emailHost = "abir" + String.fromCharCode(116) + "one." + "com";
+    var arroba = String.fromCharCode(64)
+    var contact = vai20 + val2 + arroba + emailHost;
+    $('#contact-form').attr('action', '//formspree.io/' + contact);
+}
+
+function set_bolsa_trabajo_mail(){
+    var val2 = "-" + "trabajo";
+    var vai20 = "bolsa";
+    var emailHost = "abir" + String.fromCharCode(116) + "one." + "com";
+    var arroba = String.fromCharCode(64)
+    var contact = vai20 + val2 + arroba + emailHost;
+    $('#contact-form').attr('action', '//formspree.io/' + contact);
+}
+
+
 function load_social () {
     $(window).load(function() {
         (function (d, s, id) {
