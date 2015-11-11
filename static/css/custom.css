@@ -6,7 +6,7 @@ body {
     line-height: 1.785em;
 }
 
-body, .breadcrumb, .navbar-inverse {
+body, .breadcrumb {
     background: #f7f7f7;
 }
 
@@ -145,7 +145,7 @@ h5 {
 **************************************/
 
 .navbar-inverse {
-    /*background-color: #ffffff;*/
+    background-color: transparent;
 }
 .navbar-inverse .navbar-nav > li > a,
 .navbar-inverse .navbar-nav > li > a:focus {
