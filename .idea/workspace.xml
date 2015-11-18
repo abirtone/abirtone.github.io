@@ -25,86 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="scapy.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/publicaciones/libros/scapy.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.148149">
-              <caret line="205" column="17" selection-start-line="205" selection-start-column="17" selection-end-line="205" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.666667">
-              <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
-              <folding>
-                <element signature="n#article#0;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="false" />
-                <element signature="n#article#1;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="courses.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="courses.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_data/courses.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="consulting.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/services/consulting.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.444445">
-              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6739974">
-              <caret line="104" column="157" selection-start-line="104" selection-start-column="157" selection-end-line="104" selection-end-column="157" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/contact.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.814816">
-              <caret line="123" column="45" selection-start-line="123" selection-start-column="45" selection-end-line="123" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="source_analysis.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/services/source_analysis.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tools.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/services/tools.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.27">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -175,8 +100,8 @@
         <option value="$PROJECT_DIR$/pages/services/tools.html" />
         <option value="$PROJECT_DIR$/static/css/custom.css" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
-        <option value="$PROJECT_DIR$/_data/courses.yml" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/_data/courses.yml" />
       </list>
     </option>
   </component>
@@ -451,12 +376,6 @@
       <created>1431530857373</created>
       <option name="number" value="Default" />
       <updated>1431530857373</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Added new post">
-      <created>1434642168059</created>
-      <option name="number" value="00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1434642168059</updated>
     </task>
     <task id="LOCAL-00039" summary="Updated some improvements for usability">
       <created>1434642987687</created>
@@ -746,7 +665,13 @@
       <option name="project" value="LOCAL" />
       <updated>1447842895429</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="Add angularJS course and courses format">
+      <created>1447869083065</created>
+      <option name="number" value="00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1447869083065</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TodoView">
@@ -818,7 +743,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated:&#10;- Added tripartita fundation&#10;- Added new Scapy course&#10;- Fixed some issues&#10;- Splitted angularJS in pieces&#10;" />
     <MESSAGE value="Added tripartita logo" />
     <MESSAGE value="Fixed some bugs and prices.&#10;&#10;Added new course: ATDD + Cucumber!" />
     <MESSAGE value="add cucumeber icon" />
@@ -843,7 +767,8 @@
     <MESSAGE value="missing images" />
     <MESSAGE value="minos visual fix" />
     <MESSAGE value="Added mail list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added mail list" />
+    <MESSAGE value="Add angularJS course and courses format" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add angularJS course and courses format" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1093,14 +1018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/services/tools.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.115030676">
@@ -1109,25 +1026,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/publicaciones/libros/scapy.html">
+    <entry file="file://$PROJECT_DIR$/pages/services/consulting.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.148149">
-          <caret line="205" column="17" selection-start-line="205" selection-start-column="17" selection-end-line="205" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.32988358">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/contact.html">
+    <entry file="file://$PROJECT_DIR$/pages/publicaciones/libros/scapy.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.814816">
-          <caret line="123" column="45" selection-start-line="123" selection-start-column="45" selection-end-line="123" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.44113842">
+          <caret line="205" column="17" selection-start-line="205" selection-start-column="17" selection-end-line="205" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.666667">
+        <state vertical-scroll-proportion="0.51228976">
           <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
           <folding>
             <element signature="n#article#0;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="false" />
@@ -1136,29 +1053,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/services/consulting.html">
+    <entry file="file://$PROJECT_DIR$/pages/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.444445">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_data/courses.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.7438551">
+          <caret line="123" column="45" selection-start-line="123" selection-start-column="45" selection-end-line="123" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6739974">
-          <caret line="104" column="157" selection-start-line="104" selection-start-column="157" selection-end-line="104" selection-end-column="157" />
+        <state vertical-scroll-proportion="0.6274256">
+          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#p#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#1;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#p#1;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/services/tools.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0232859">
+          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/courses.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>

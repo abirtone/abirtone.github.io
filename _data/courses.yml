@@ -4,6 +4,7 @@
   location: Madrid
   when: Enero 2016
   mode: Presencial
+  duration: 10h
 
 - name: Desarrollo web avanzado con AngularJS 1.4 by Google
   date: 11/01/2016
@@ -11,3 +12,4 @@
   location: Madrid
   when: Enero 2016
   mode: Presencial
+  duration: 10h
