@@ -1,0 +1,60 @@
+title: Curso completo de desarrollo de web práctico con AngularJS - DEV01
+logo: http://abirtone.com/static/images/angular.png
+category: desarrollo
+sub_category: AngularJS
+course_url: /formacion/desarrollo-web-angularjs/
+logo: /static/images/courses/icon-angularjs.png
+Angular001:
+  description: >
+    El curso dará comienzo el 25 de Enero del 2016 y se impartirá en dias alternos, tal y como sigue: <br />
+    Enero:
+    <ul>
+    <li>25 - 19:30 - 22:00 (2,5h)</li>
+    <li>27 - 19:30 - 22:00 (2,5h)</li>
+    <li>29 - 17:00 - 21:00 (4h)</li>
+    </ul>
+    Febrero: <br />
+    <ul>
+    <li>1 - 19:30 - 22:00 (2,5h)</li>
+    <li>3 - 19:30 - 22:00 (2,5h)</li>
+    <li>5 - 17:00 - 21:00 (4h)</li>
+    </ul>
+  prize: 280€
+  city: Madrid
+  location: Calle Marqués de Ahumada, 7, 2º planta
+  location_map: https://www.google.com/maps/d/viewer?mid=zKjAsd1aI0KM.kFAwaRzRmL3g&z=15
+  mode: Presencial
+  date: 25/01/2016
+  duration: 18h
+  schedule: 19:30 - 22:00 (L-J) / 17:00 - 21:00 (V).
+  trainer: Raúl Requero
+  trainer_linkedin: https://www.linkedin.com/in/requerogarciaraul
+  paypal_btn: TCQUF6FFY2T7E
+
+Angular002:
+  description: >
+    El curso dará comienzo el 22 de Febrero del 2016 y se impartirá en dias alternos, tal y como sigue: <br />
+    Febrero:
+    <ul>
+    <li>22 - 19:30 - 22:00 (2,5h)</li>
+    <li>24 - 19:30 - 22:00 (2,5h)</li>
+    <li>26 - 17:00 - 21:00 (4h)</li>
+    </ul>
+    Marzo: <br />
+    <ul>
+    <li>29 - 19:30 - 22:00 (2,5h)</li>
+    <li>2 - 19:30 - 22:00 (2,5h)</li>
+    <li>4 - 17:00 - 21:00 (4h)</li>
+    </ul>
+    El curso será a través de una plataforma de video streaming. Una vez apuntado al curso, recibirás las instrucciones para conectarte.
+  prize: 220€
+  city: <b class="color-green">Online</b>
+  location:
+  location_map:
+  mode: Video-Presencial (a distancia)
+  date: 22/02/2016
+  duration: 18h
+  schedule: 19:30 - 22:00 (L-J) / 17:00 - 21:00 (V).
+  trainer: Raúl Requero
+  trainer_linkedin: https://www.linkedin.com/in/requerogarciaraul
+  paypal_btn: TCQUF6FFY2T7E

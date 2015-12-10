@@ -5,7 +5,31 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>http://abirtone.com/servicios/</loc>
+        <loc>http://abirtone.com/seguridad/</loc>
+        <lastmod>2015-06-12T15:46:19+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://abirtone.com/seguridad/hacking-etico/</loc>
+        <lastmod>2015-06-12T15:46:19+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://abirtone.com/seguridad/herramientas-a-medida/</loc>
+        <lastmod>2015-06-12T15:46:19+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://abirtone.com/seguridad/codigo/</loc>
+        <lastmod>2015-06-12T15:46:19+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://abirtone.com/seguridad/servicio-consultoria/</loc>
         <lastmod>2015-06-12T15:46:19+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -23,13 +47,13 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>http://abirtone.com/head_hunting/</loc>
+        <loc>http://abirtone.com/servicio-head-hunting/</loc>
         <lastmod>2015-06-12T15:46:19+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>http://abirtone.com/bolsa_trabajo/</loc>
+        <loc>http://abirtone.com/servicio-bolsa-trabajo/</loc>
         <lastmod>2015-06-12T15:46:19+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -41,18 +65,30 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>http://abirtone.com/libros/hacking-redes-python-y-scapy/</loc>
+        <lastmod>2015-06-18T15:46:19+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://abirtone.com/libros/desarrollo-web-con-angularjs/</loc>
+        <lastmod>2015-06-18T15:46:19+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>http://abirtone.com/blog/</loc>
         <lastmod>2015-06-12T15:46:19+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>http://abirtone.com/libros/angularjs/</loc>
+        <loc>http://abirtone.com/libros/desarrollo-web-con-angularjs/</loc>
         <lastmod>2015-06-18T15:46:19+00:00</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://abirtone.com/formacion/nodejs/</loc>
+        <loc>http://abirtone.com/formacion/desarrollo-web-nodejs/</loc>
         <lastmod>2015-06-12T15:46:19+00:00</lastmod>
         <changefreq>monthly</changefreq>
     </url>
@@ -62,18 +98,17 @@
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://abirtone.com/formacion/angularjs/</loc>
-        <lastmod>2015-06-12T15:46:19+00:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>http://abirtone.com/formacion/ionic/</loc>
+        <loc>http://abirtone.com/formacion/desarrollo-app-moviles-con-ionic/</loc>
         <lastmod>2015-06-12T15:46:19+00:00</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://abirtone.com/formacion/mongodb/</loc>
+        <loc>http://abirtone.com/formacion/mongodb-esencial/</loc>
+        <lastmod>2015-06-12T15:46:19+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>http://abirtone.com/formacion/mongodb-avanzado/</loc>
         <lastmod>2015-06-12T15:46:19+00:00</lastmod>
         <changefreq>monthly</changefreq>
     </url>
@@ -83,13 +118,21 @@
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://abirtone.com/formacion/drupal/</loc>
+        <loc>http://abirtone.com/formacion/hacking-redes-python-y-scapy/</loc>
         <lastmod>2015-06-12T15:46:19+00:00</lastmod>
         <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
     </url>
     <url>
-        <loc>http://abirtone.com/formacion/scapy/</loc>
+        <loc>http://abirtone.com/formacion/hacking-web-owasp-top-10/</loc>
         <lastmod>2015-06-12T15:46:19+00:00</lastmod>
         <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>http://abirtone.com/formacion/desarrollo_seguro_esencial/</loc>
+        <lastmod>2015-06-12T15:46:19+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
     </url>
 </urlset>

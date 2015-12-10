@@ -89,7 +89,65 @@ h5 {
     margin: 0 auto 15px;
 }
 
+/* Top margins */
+@media (max-width: 767px) {
+    .theme-showcase {
+        padding-top: 25px;
+    }
+
+    .theme-showcase .first-3 {
+        margin: 30px 0 0px;
+    }
+
+    .hidden-mail-list {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 789px) {
+    .theme-showcase {
+        padding-top: 130px;
+    }
+
+    .theme-showcase .first-3 {
+        margin: 30px 0 0px;
+    }
+}
+
+@media (min-width: 790px) and (max-width: 992px) {
+    .theme-showcase {
+        padding-top: 35px;
+    }
+
+    .theme-showcase .first-3 {
+        margin: 115px 0 0px;
+    }
+}
+
+@media (min-width: 993px) and (max-height: 1199px) {
+    .theme-showcase {
+        padding-top: 85px;
+    }
+
+    .theme-showcase .first-3 {
+        margin: 70px 0 0px;
+    }
+}
+@media (min-width: 1200px) {
+    .theme-showcase {
+        padding-top: 35px;
+    }
+
+    .theme-showcase .first-3 {
+        margin: 70px 0 0px;
+    }
+}
+/* END Top margins */
+
+
+
 @media (min-width: 789px) {
+
     .theme-showcase .first {
         margin: 80px 0 0px;
     }
@@ -98,9 +156,6 @@ h5 {
         margin: 60px 0 0px;
     }
 
-    .theme-showcase .first-3 {
-        margin: 80px 0 0px;
-    }
     .theme-showcase .first-3,
     .theme-showcase .first-3 h1 {
         margin-bottom: 0px;
@@ -169,23 +224,30 @@ h5 {
     padding-left: 30px;
 }
 
-.dropdown-header-top {
+.dropdown-header-top-first, .dropdown-header-top {
     font-size: 12px;
-    color: #777;
+    text-align: left;
     border-bottom: 1px dashed #777;
     margin-bottom: 5px;
 }
 
+.dropdown-header-top {
+    border-top: 1px solid #777;
+    margin-top: 10px;
+}
+.dropdown-header-top-first {
+    margin-top: 0;
+    border-top: none;
+}
 
 .dropdown-header {
-    border-bottom: 1px dashed #777;
-    margin-left: 20px;
-    padding-left: 0px;
-    margin-bottom: 5px;
+    border-bottom: 1px dotted #777;
+    padding-left: 10px;
+    text-align: center;
+    margin: 5px 20px;
 }
 
 .navbar-header {
-    /*height: 105px;*/
     margin-top: 0px;
 }
 
@@ -309,7 +371,7 @@ h5 {
     .navbar-nav .open .dropdown-menu .dropdown-header,
     .navbar-nav .open .dropdown-menu .dropdown-header > a {
         margin-left: 15px;
-        padding-left: 0px;
+        padding-left: 10px;
     }
 
     /* Sub-menu */
@@ -341,7 +403,7 @@ h5 {
     }
 
     #navbar {
-        padding: 50px 10px 0 0;
+        padding: 80px 10px 0 0;
         font-size: 20px;
     }
 
@@ -403,18 +465,25 @@ h5 {
 }
 
 .carousel-caption {
-    padding-bottom: 45px;
+    padding-bottom: 90px;
     right: 15%;
     left: 15%;
 }
-.carousel-caption h4 {
+.carousel-caption h4, .carousel-caption span {
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    display: block;
+    font-weight: bold;
     color: white;
     font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 25px;
 }
-.carousel-caption p, .carousel-caption span {
-    font-size: 26px;
+.carousel-caption p {
+    font-size: 22px;
     line-height: 1.20em;
     margin: 0 auto;
+    text-align: center;
 }
 
 .carousel-caption a {
@@ -446,14 +515,15 @@ h5 {
         display: none;
     }
     .carousel-caption {
-        padding-bottom: 0px;
+        padding-bottom: 50px;
         right: 10%;
         left: 10%;
     }
-    .carousel-caption h4 {
+    .carousel-caption h4, .carousel-caption span {
         color: white;
         font-size: 25px;
         margin-bottom: 5px;
+
     }
     .carousel-caption p {
         font-size: 14px;
@@ -470,18 +540,18 @@ h5 {
     }
 }
 @media (min-width: 901px) and (max-width: 1201px) {
+
     .carousel-indicators {
         display: none;
     }
     .carousel-caption {
-        padding-bottom: 0px;
+        padding-bottom: 40px;
         right: 15%;
         left: 15%;
     }
-    .carousel-caption h4 {
+    .carousel-caption h4, .carousel-caption span {
         color: white;
         font-size: 35px;
-        /*margin-bottom: 5px;*/
     }
     .carousel-caption p {
         font-size: 20px;
@@ -567,6 +637,9 @@ h5 {
     font-width: bold;
 }
 
+.color-white {
+    color: #ffffff;
+}
 .color-orange {
     color: #ee4311;
 }
@@ -696,7 +769,7 @@ a {color: #808080;}
 **************************************/
 .tdate-1 {
     display: inline-block;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.2em;
     color: #808080;
     text-transform: uppercase;
@@ -710,6 +783,7 @@ a {color: #808080;}
     margin: 3px 10px 3px 3px;
     text-align: center;
     padding: 2px 15px 10px;
+    width: 90px;
 }
 
 .tdate-1 strong {
@@ -943,3 +1017,20 @@ td{
     text-align: center;
 }
 
+
+.convocatoria-tags {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.row-box {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .075);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .075);
+    background-color: #ffffff;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #ddd;
+}

@@ -19,26 +19,16 @@
                     <li><a href="{{ "/blog/" | prepend: site.baseurl }}">Blog</a></li>
                     <li><a href="{{ "/seguridad/" | prepend: site.baseurl }}">Hacking ético & seguridad</a></li>
                     <li><a href="{{ "/formacion/" | prepend: site.baseurl }}">Formación</a></li>
-                    <li><a href="{{ "/bolsa_trabajo/" | prepend: site.baseurl }}">Bolsa de trabajo</a></li>
-                    <li><a href="{{ "/head_hunting/" | prepend: site.baseurl }}">Head Hunting</a></li>
+                    <li><a href="{{ "/libros/" | prepend: site.baseurl }}">Libros publicados</a></li>
+                    <li><a href="{{ "/servicio-bolsa-trabajo/" | prepend: site.baseurl }}">Bolsa de trabajo</a></li>
+                    <li><a href="{{ "/servicio-head-hunting/" | prepend: site.baseurl }}">Head Hunting</a></li>
                     <li><a href="{{ "/contacto/" | prepend: site.baseurl }}">Contacto</a></li>
                 </ul>
             </article>
             <article class="col-xs-12 col-sm-5">
                 <a name="mail_list"></a>
                 <h5>Lista de correo</h5>
-                <form class="form-horizontal" action="//abirtone.us12.list-manage.com/subscribe/post?u=b3431c396222bea9988e63116&amp;id=8ee1926f25" method="post">
-                    <div class="form-group">
-                        <div class="col-xs-12 col-sm-10">
-                            <input type="email" name="EMAIL" value="" class="form-control" id="mce-EMAIL" placeholder="Escribe tu mail..." required>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-xs-12 col-sm-10">
-                            <input type="submit" value="Apuntarse" name="subscribe" id="mc-embedded-subscribe" class="btn btn-danger">
-                        </div>
-                    </div>
-                </form>
+                {% include utils/mail_list.html %}
 
                 <h5>Contacto</h5>
                 <ul class="list-unstyled list-1">

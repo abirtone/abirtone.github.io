@@ -1,0 +1,17 @@
+{% for val_tuple in content %}
+    {% if val_tuple[0] == "title" %}
+        {% assign title = val_tuple[1] %}
+    {% endif %}
+    {% if val_tuple[0] == "logo" %}
+        {% assign logo = val_tuple[1] %}
+    {% endif %}
+    {% if val_tuple[0] == "category" %}
+        {% assign category = val_tuple[1] %}
+    {% endif %}
+    {% if val_tuple[0] == "sub_category" %}
+        {% assign sub_category = val_tuple[1] %}
+    {% endif %}
+    {% if val_tuple[0] == "course_url" %}
+        {% assign course_url = val_tuple[1] %}
+    {% endif %}
+{% endfor %}

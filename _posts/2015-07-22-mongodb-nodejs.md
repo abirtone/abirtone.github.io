@@ -9,7 +9,7 @@ type: post
 description: "Ya están aquí los cursos subvencionados de MongoDB y NodeJS"
 ---
 
-Aunque poco a poco, seguimos publicando nuevos cursos. Esta vez nos alegra anunciaros que **ya** están **aquí** los cursos  **<a class="link" href="/formacion/#mongodb">MongoDB</a> y <a class="link" href="/formacion/nodejs/">NodeJS</a>**.
+Aunque poco a poco, seguimos publicando nuevos cursos. Esta vez nos alegra anunciaros que **ya** están **aquí** los cursos  **<a class="link" href="/formacion/#mongodb">MongoDB</a> y <a class="link" href="/formacion/desarrollo-web-nodejs/">NodeJS</a>**.
 
 En los últimos años tanto **NodeJS como MongoDB** han ganado una gran **popularidad** entre no solo la comunidad de **desarralladores**, sino también muchas **empresas** han optado por empezar a desarrollar ellos. 
 
@@ -106,6 +106,6 @@ Te has quedado con ganas de más ¿verdad? No te preocupes, en Abirtone iremos p
 Si quieres **aprender MongoDB y NodeJS**, te recomendamos que mires **nuestros cursos de MongoDB y NodeJS**. Se te hará la boca agua :)
 
 <a class="btn btn-danger" href="/formacion/#mongodb">Ir a cursos de MongoDB</a>
-<a class="btn btn-danger" href="/formacion/nodejs/">Ir a curso de NodeJS</a>
+<a class="btn btn-danger" href="/formacion/desarrollo-web-nodejs/">Ir a curso de NodeJS</a>
 
 **Recuerda que para estar al tanto de novedades puedes seguirnos en Twitter, Facebook y Linkedin!** (al final de la web están los enlaces.

@@ -1,0 +1,31 @@
+{% include courses_chunks/course_load_vars.html %}
+
+{% for val_tuple in content %}
+
+{% assign course_code = val_tuple[0] %}
+{% assign course = val_tuple[1] %}
+
+{% assign months = "Enero|Febrero|Marzo|Abril|Mayo|Junio|Julio|Agosto|Septiembre|Octubre|Noviembre|Diciembre" | split: "|" %}
+{% assign m = course.date | date: "%-m" | minus: 1 %}
+{% assign mes = months[m] %}
+{% assign keys = "title|logo|category|sub_category|course_url" %}
+
+{% unless keys contains val_tuple[0] %}
+<div class="row" style="margin-bottom: 5px;">
+    <div class="col-sm-3">
+        <time class="tdate-1" datetime="{{ course.date | date: "%b %-d, %Y" }}"><strong>{{ course.date | date: "%-d" }}</strong>{{ mes }}</time>
+    </div>
+    <div class="col-sm-9">
+        <a class="link center-block" href="{{ course_url }}">{{ title }}</a>
+
+        <p class="entry-p">
+            <span style="margin-right: 10px"><i class="glyphicon glyphicon-time"></i> {{ course.duration }}</span>    -    <span style="margin-left: 10px"><i class="glyphicon glyphicon-blackboard"></i> {{ course.mode }}</span>
+        </p>
+        <p class="entry-p">
+            <span style="margin-right: 15px"><i class="glyphicon glyphicon-map-marker"></i> {{ course.city }}</span>    |    <span style="margin-left: 15px"><i class="glyphicon glyphicon-calendar"></i> {{ course.date | date: "%-d" }} de {{ mes }} de {{ course.date | date: "%-Y" }}</span>
+        </p>
+    </div>
+</div>
+{% endunless %}
+
+{% endfor %}

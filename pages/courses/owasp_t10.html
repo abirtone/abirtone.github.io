@@ -1,42 +1,107 @@
 ---
 layout: default
-title: Curso seguridad OWASP Top 10
-active_tab: "course_owasp_not_available"
-permalink: /formacion/owasp-t10/
+title: Hacking con OWASP Top 10
+active_tab: "course_owasp_t10"
+permalink: /formacion/hacking-web-owasp-top-10/
 description: "Curso subvencionado de seguridad basada en OWASP Top 10, presencial en Madrid"
+link_icon: "http://abirtone.com/static/images/courses/icon-owasp.png"
 ---
 
-<div class="col-sm-12 page-header first-3 first-section">
-    <div class="pull-right text-center">
-        <img class="img-responsive" src="/static/images/courses/owasp-logo.png" alt="Logo Cucumber"/>
+
+<div class="col-xs-12 col-sm-8">
+
+    <div class="page-header first-3 first-section">
+        <img class="img-responsive pull-right" src="/static/images/courses/icon-owasp.png" alt="Logo curso OWASP"/>
+        <h1>Curso de hacking web con OWASP Top 10 - SEC03</h1>
+        <ul class="breadcrumb">
+            <li><a class="link" href="/">Inicio</a></li>
+            <li><a class="link" href="/formacion/">Formación</a></li>
+            <li><a class="link" href="/formacion/#seguridad">Seguridad</a></li>
+            <li class="active">OWASP T10</li>
+        </ul>
         {% include courses_chunks/level_intermediate.html %}
     </div>
-    <h1>Curso seguridad basada en OWASP Top 10 (subvencionado) - SEC02</h1>
 
+    <div class="page-header section-title">
+        <h2><i class="glyphicon glyphicon-question-sign" aria-hidden="true"></i> ¿ Qué es OWASP Top 10 ?</h2>
+    </div>
+    <p>OWASP Top 10 es un listado de los principales fallos de seguridad que afectan a los servicios web expuestos a Internet. Se considera un referente a la hora de entender y enmarcar las vulnerabilidades que  suponen un riesgo de seguridad para los servicio web.</p>
+
+
+    <div class="page-header section-title">
+        <h2><i class="glyphicon glyphicon-pushpin" aria-hidden="true"></i> Objetivos del curso</h2>
+    <p>El objetivo de este curso es que los alumnos entiendan <b>de forma teórica y práctica los ataques relacionados con los fallos de seguridad presentados</b>.</p>
+
+    <p>Por cada uno de los dominios (o conceptos) presentados en OWASP Top 10, se presentarán diversos casos prácticos, guiando al alumno para que analice y entienda los distintos tipos de debilidades.
+    El desarrollo del trabajo y los casos prácticos están orientadas a la detección, explotación y solución de cada una de las vulnerabilidades presentadas.</p>
+    </div>
+
+    <!-- Indice del curso -->
+    {% include courses_chunks/indice_temario_titulo.html %}
+    <ul class="list-group">
+        <li class="list-group-item">Módulo 1 - OWASP: organización, orígenes, guías y proyectos.</li>
+        <li class="list-group-item">Módulo 2 - Preparación del entorno de pruebas: <code>DVWA</code> + <code>ZAP Proxy</code>.</li>
+        <li class="list-group-item">Módulo 3: OWASP TOP 10: Vulnerabilities, explotación y mitigación:</li>
+        <li class="list-group-item list-subgroup">
+            <ul>
+                <li><b>Bloque A1</b> - Ataques de <code>inyección</code>.<br />
+                    <p>Estos ataques se producen cuando el servidor acepta e interpreta información enviada desde parte del usuario (no confiable) y acaba siendo ejecutada en forma de comandos SQP, LADP, etc... </p>
+                </li>
+                <li><b>Bloque A2</b> - Ataques sobre sistemas de autenticación y sesión: <br />
+
+                    <p>Las funciones de autenticación y gestión de sesiones pueden no están implementadas correctamente, lo que puede facilitar el robo de contraseñas, claves de sesión o suplantación de usuarios.</p>
+                </li>
+                <li><b>Bloque A3</b> - Cross-Site Scripting (<code>XSS</code>). <br />
+                    <p>Este fallo sucede cuando una aplicación acepta información no confiable y que es enviada de vuelta al navegador sin haber realizado una adecuada validación. Un atacantes puede aprovechar esta situación para ejecutar código en el navegador de la víctima con fines maliciosos.</p>
+                </li>
+                <li><b>Bloque A4</b> - <code>Referencias inseguras</code> a objetos. <br />
+                    <p>Fallos de implementación que permiten que un atacante tenga acceso a información en el servidor de forma no controlada.</p>
+                </li>
+                <li><b>Bloque A5</b> - Fallos de seguridad en configuraciones. <br />
+                    <p>Todo servidor web tiene una configuración determinada, y muchas veces no se siguen las recomendaciones de seguridad adecuadas. Los fallos de configuración pueden provocar debilidades y exposición a diversos ataques desde Internet.</p>
+                </li>
+                <li><b>Bloque A6</b> - Exposición de <code>información sensible</code>. <br />
+                    <p>Muchas aplicaciones no protegen adecuadamente la información sensible que manejan como contraseñas o números de tarjetas de crédito, y en ocasiones es posible que un atacante puedan aprovechar estos fallos para sustraer esta información.</p>
+                </li>
+                <li><b>Bloque A7</b> - Deficiente control de acceso a funciones. <br />
+                    <p>Fallo producido cuando un servidor no controla adecuadamente los permisos para la ejecución de funciones. De esta forma, una petición HTTP especialmente modificada puede permitir a un atacante acceder a determinada funcionalidad sin la debida autorización.</p>
+                </li>
+                <li><b>Bloque A8</b> - Cross Site Request Forgery (<code>CSRF</code>). <br />
+                    <p>Este fallo hace posible que el navegador de una víctima acabe realizando peticiones HTTP no controladas aprovechando las sesiones activas de la víctima. De esta forma, un usuario puede acabar realizando operaciones sobre un portal web vulnerable de forma forzada sin ser consciente de ello.</p>
+                </li>
+                <li><b>Bloque A9</b> - Componentes con <code>vulnerabilidades</code> conocidas. <br />
+                    <p>Muchas aplicaciones utilizan componentes desactualizados que además pueden pueden presentar vulnerabilidades conocidas, esto supone un potencial punto de fallo y una vía de explotación al servicio.</p>
+                </li>
+                <li><b>Bloque A10</b> - Redirecciones no controladas. <br />
+                    <p>Las aplicaciones web utilizan frecuentemente redirecciones internas o externas a diferentes recursos web. Si la información utilizada para generar los destinos no es validada adecuadamente, un atacante podría aprovechar esta situación para redirigir a la víctima a una página maliciosa</p>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <!-- Inscripcion-->
+    <a name="convocatorias"></a>
+    {% include courses_chunks/convocatorias_titulo.html %}
+    <p>Estas son las convocotarias actualmente activas:</p>
+
+    {% assign content = site.data.owasp_top_10 %}
+    {% include courses_chunks/course_call.html %}
+
+    <!-- Bolsa trabajo -->
+    {% include courses_chunks/bolsa.html %}
+
+    <!-- Referencias -->
+    {% include courses_chunks/referencias_titulo.html %}
+    <ul>
+        <li><a class="link" href="https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project">OWASTP Top 10 (sitio oficial) &rarr;</a></li>
+        <li><a class="link" href="https://www.owasp.org/images/5/5f/OWASP_Top_10_-_2013_Final_-_Espa%C3%B1ol.pdf">Guía detallada de los ataques de OWASP Top 10 &rarr;</a></li>
+    </ul>
 </div>
 
-
-<div class="col-sm-offset-1 col-sm-3 top-space-4">
-    <img width="220px" class="img-responsive pull-left" src="/static/images/proximamente.gif" alt="proximamente"/>
-</div>
-
-<div class="col-sm-6">
-    <h5>Este curso estará disponible próximamente</h5>
-    <p class="top-space-1">Si lo deseas, puedes dejarnos tu mail y te avisaremos cuando esté disponible. </p>
-    <p><small><b>*</b> La información que nos facilites <b>SOLAMENTE</b> la utilizaremos para enviar información de <b>ESTE</b> curso.</small> </p>
-    <form class="form-horizontal" id="contact-form" method="POST" action="//formspree.io/">
-        <div class="form-group">
-            <label for="inputEmail3" class="col-xs-12 col-sm-2 control-label">Tu email:</label>
-            <div class="col-xs-12 col-sm-10">
-                <input type="email" name="_replyto" class="form-control" id="inputEmail3" placeholder="Escribe tu mail" required>
-            </div>
-        </div>
-        <input name="_subject" type="hidden" value="[informacion-owasp]">
-        <div class="form-group">
-            <div class="col-xs-12 col-sm-offset-2 col-sm-10">
-                <button type="submit" class="btn btn-danger">Enviar &rarr;</button>
-            </div>
-        </div>
-        <input type="hidden" name="_next" value="http://abirtone.com/formacion/info_cursos/" >
-    </form>
+<div class="col-xs-12 col-sm-4 first-3">
+    <div class="panel panel-abirtone">
+        {% assign prize = 280 %}
+        {% assign duration = 18 %}
+        {% include courses_chunks/lateral_table.html %}
+    </div>
 </div>

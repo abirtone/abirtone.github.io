@@ -8,7 +8,7 @@ type: post
 description: "Ya te puedes apuntar al curso presencial de especialista en AngularJS en Madrid"
 ---
 
-¡Tras mucho esfuerzo abrimos la <a class="link" href="http://abirtone.com/formacion/angularjs/">Incripción</a> para el **curso de AngularJS** en **Madrid**!.
+¡Tras mucho esfuerzo abrimos la <a class="link" href="http://abirtone.com/formacion/desarrollo-web-angularjs/">Incripción</a> para el **curso de AngularJS** en **Madrid**!.
 
 Serán **20 horas** intensas y **sin desperdicio** alguno. <a class="link" href="https://www.linkedin.com/in/requerogarciaraul">Raúl</a> (tu profesor) y tú iréis construyendo y creando un sitio web profesional y completamente funcional en AngularJS, desde cero.
 
@@ -22,5 +22,5 @@ Una nota curiosa:
 >
 >    Si **tu aplicación** está desarrollada con AngularJS puedes convertirla **en una aplicación móvil** para iOS, Android o Windows Phone, **sin cambiar** prácticamene **nada**, usando [Ionic](http://ionicframework.com).
 
-<a class="link" href="http://abirtone.com/formacion/angularjs/">Pincha en el este enlace para más información &rarr;</a>
+<a class="link" href="http://abirtone.com/formacion/desarrollo-web-angularjs/">Pincha en el este enlace para más información &rarr;</a>
 

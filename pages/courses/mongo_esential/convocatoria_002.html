@@ -1,0 +1,15 @@
+---
+layout: default
+title: Curso de MongoDB y Paradigma de bases de datos NoSQL
+active_tab: "course_mongodb"
+course_name: MongoDB-ES002
+permalink: /formacion/mongodb-esencial/MongoDB-ES002/
+description: "Curso de progración, installación y manejos MongoDB y Paradigma de bases de datos NoSQL"
+link_icon: "http://abirtone.com/static/images/icon-mongodb.png"
+---
+
+{% assign content = site.data.mongodb_esential %}
+{% include courses_chunks/course_load_vars.html %}
+
+{% assign course = content[page.course_name] %}
+{% include courses_chunks/course_booking.html %}

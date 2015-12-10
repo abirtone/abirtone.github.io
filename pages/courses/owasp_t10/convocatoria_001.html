@@ -1,0 +1,14 @@
+---
+layout: default
+title: Hacking con OWASP Top 10
+active_tab: "course_owasp_t10"
+course_name: OWASP001
+permalink: /formacion/hacking-web-owasp-top-10/OWASP001/
+description: "Curso subvencionado de seguridad basada en OWASP Top 10, presencial en Madrid"
+---
+
+{% assign content = site.data.owasp_top_10 %}
+{% include courses_chunks/course_load_vars.html %}
+
+{% assign course = content[page.course_name] %}
+{% include courses_chunks/course_booking.html %}

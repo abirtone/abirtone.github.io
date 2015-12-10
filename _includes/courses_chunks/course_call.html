@@ -1,0 +1,75 @@
+{% include courses_chunks/course_load_vars.html %}
+
+{% for val_tuple in content %}
+
+{% assign months = "Enero|Febrero|Marzo|Abril|Mayo|Junio|Julio|Agosto|Septiembre|Octubre|Noviembre|Diciembre" | split: "|" %}
+{% assign course = val_tuple[1] %}
+{% assign course_code = val_tuple[0] %}
+
+{% assign m = course.date | date: "%-m" | minus: 1 %}
+
+{% assign mes = months[m] %}
+{% assign keys = "title|category|sub_category|course_url|logo" %}
+{% assign call_counter = 0 %}
+
+{% unless keys contains val_tuple[0] %}
+{% assign call_counter = 1 %}
+<div class="row first-1 row-box">
+    <div class="col-sm-2">
+        <time class="tdate-1" datetime="{{ course.date | date: "%b %-d, %Y" }}"><strong>{{ course.date | date: "%-d" }}</strong>{{ mes }}</time>
+    </div>
+    <div class="col-sm-10">
+        <div class="row">
+            <div class="col-sm-7">
+                <p class="entry-p">
+                    <i class="glyphicon glyphicon-user"></i> <b>Formador</b>: <a target="_blank" class="link" href="{{ course.trainer_linkedin }}">{{ course.trainer }} &rarr;</a>
+                </p>
+                <p class="entry-p">
+                    <i class="glyphicon glyphicon-map-marker"></i> <b>Ubicación</b>: {{ course.city }}{% if course.location.blank %}<br /><a class="link" target="_blank" href="{{ course.location_map }}">{{ course.location }} &rarr;</a>{% endif %}
+                </p>
+                <p class="entry-p">
+                    <i class="glyphicon glyphicon-euro"></i> <b>Precio</b>: <b class="color-green">{{ course.prize }}</b>
+                </p>
+            </div>
+            <div class="col-sm-5">
+                <p class="entry-p">
+                    <i class="glyphicon glyphicon-time"></i> <b>Duración</b>: {{ course.duration }}
+                </p>
+                <p class="entry-p">
+                    <i class="glyphicon glyphicon-list-alt"></i> <b>Horario</b>: {{ course.schedule }}
+                </p>
+                <p class="entry-p">
+                    <i class="glyphicon glyphicon-calendar"></i> <b>Fechas:</b> <br />
+                    <span>{{ course.date | date: "%-d" }} de {{ mes }} de {{ course.date | date: "%-Y" }}</span>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <p class="entry-p"  style="border-top: 1px solid #ddd; margin-top: 5px; padding-top: 5px;"><b>Información adicional:</b></p>
+                <p class="entry-p">
+                    {{ course.description }}
+                </p>
+            </div>
+        </div>
+        <!--Boton de reservar-->
+        <div class="row" style="margin-top: 10px;">
+            <div class="col-xs-12 col-sm-12">
+                <a href="{{ page.url }}/{{ course_code }}/" class="btn btn-danger"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Reservar plaza &rarr;</a>
+            </div>
+        </div>
+    </div>
+</div>
+<hr />
+{% endunless %}
+
+{% endfor %}
+
+{% if call_counter == 0 %}
+<div class="row first-1">
+    <div class="col-sm-12">
+        <p><b>Actualmente no hay convocatorias activas</b>. Apúntate a nuestra lista de noticias y te informaremos cuando estén disponibles las nuevas convocatorias:</p>
+        {% include utils/mail_list.html %}
+    </div>
+</div>
+{% endif %}

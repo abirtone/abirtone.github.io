@@ -1,0 +1,52 @@
+title: Curso avanzado de MongoDB y operaciones especializadas - DEV05
+logo: http://abirtone.com/static/images/icon-mongodb.png
+category: desarrollo
+sub_category: MongoDB avanzado
+course_url: /formacion/mongodb-avanzado/
+logo: /static/images/icon-mongodb.png
+#MongoDB-ES001:
+#  description: >
+#    El curso dará comienzo el 25 de Enero del 2016 y se impartirá en dias consecutivos, tal y como sigue: <br />
+#    Enero:
+#    <ul>
+#    <li>25 - 18:00 - 22:00 (4h)</li>
+#    <li>26 - 18:00 - 22:00 (4h)</li>
+#    <li>28 - 18:00 - 21:00 (4h)</li>
+#    <li>29 - 18:00 - 21:00 (4h)</li>
+#    <li>29 - 16:00 - 20:00 (4h)</li>
+#    </ul>
+#  prize: 295€
+#  city: Madrid
+#  location: Calle Marqués de Ahumada, 7, 2º planta
+#  location_map: https://www.google.com/maps/d/viewer?mid=zKjAsd1aI0KM.kFAwaRzRmL3g&z=15
+#  mode: Presencial
+#  date: 25/01/2016
+#  duration: 20h
+#  schedule: 18:00 - 22:00 (L-J) / 16:00 - 20:00 (V)
+#  trainer: Víctor Cuervo
+#  trainer_linkedin: https://www.linkedin.com/in/victorcuervo/es
+#  paypal_btn: TCQUF6FFY2T7E
+#
+#MongoDB-ES002:
+#  description: >
+#    El curso dará comienzo el 25 de Enero del 2016 y se impartirá en dias consecutivos, tal y como sigue: <br />
+#    Febrero:
+#    <ul>
+#    <li>8 - 18:00 - 22:  00 (4h)</li>
+#    <li>9 - 18:00 - 22:00 (4h)</li>
+#    <li>10 - 18:00 - 21:00 (4h)</li>
+#    <li>11 - 18:00 - 21:00 (4h)</li>
+#    <li>12 - 16:00 - 20:00 (4h)</li>
+#    </ul>
+#    El curso será a través de una plataforma de video streaming. Una vez apuntado al curso, recibirás las instrucciones para conectarte.
+#  prize: 235€
+#  city: <b class="color-green">Online</b>
+#  location:
+#  location_map:
+#  mode: Video-Presencial (a distancia)
+#  date: 22/02/2016
+#  duration: 20h
+#  schedule: 18:00 - 22:00 (L-J) / 16:00 - 20:00 (V)
+#  trainer: Víctor Cuervo
+#  trainer_linkedin: https://www.linkedin.com/in/victorcuervo/es
+#  paypal_btn: TCQUF6FFY2T7E

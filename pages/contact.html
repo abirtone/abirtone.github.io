@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Contacto
+title: Contacto y quienes somos
 active_tab: "contact"
-description: "Información y contacto"
+description: "Informacion de contacto y quienes somos: Compañía, filosofia, nuestros profesionales y experiencia en el sector."
 permalink: /contacto/
 ---
 
@@ -12,21 +12,56 @@ permalink: /contacto/
             <img alt="" src="/static/images/slider/slider-contact.jpg">
         </div>
         <div class="carousel-caption" style="bottom: 80px;">
-            <h4>
-                Pregúntanos
-            </h4>
             <span>
-                Quienes somos, qué hacemos o cómo contactarnos
+                Pregúntanos
             </span>
+            <p>
+                Quienes somos, qué hacemos o cómo contactarnos
+            </p>
         </div>
     </div>
 </div>
 
-<div class="col-xs-12 col-sm-12 first-1 clearfix">
-    <div class="page-header">
-        <h1>Sobre Abirtone</h1>
-    </div>
+<div class="col-xs-12 col-sm-12 clearfix">
+    <h1>Contacta con nosotros</h1>
 </div>
+<div class="col-sm-12">
+    <p>Puedes ponerte en contacto con nosotros a través del correo <b id="ks91ksk"></b> o mediante el siguiente formulario:</p>
+</div>
+
+<div class="col-sm-9 clearfix">
+    <form class="form-horizontal" id="contact-form" method="POST" action="//formspree.io/">
+        <div class="form-group">
+            <label for="inputEmail3" class="col-xs-12 col-sm-2 control-label">Tu email:</label>
+            <div class="col-xs-12 col-sm-10">
+                <input type="email" name="_replyto" class="form-control" id="inputEmail3" placeholder="Escribe tu mail" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputPassword3" class="col-xs-12 col-sm-2 control-label">Asunto:</label>
+            <div class="col-xs-12 col-sm-10">
+                <input name="_subject" type="text" class="form-control" id="inputPassword3" placeholder="Quiero información sobre ..." required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="textarea1" class="col-xs-12 col-sm-2 control-label">Mensaje:</label>
+            <div class="col-xs-12 col-sm-10">
+                <textarea rows="5" class="form-control" name="message" id="textarea1" placeholder="Mensaje a enviar ..." required></textarea>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-xs-12 col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-danger">Enviar &rarr;</button>
+            </div>
+        </div>
+        <input type="hidden" name="_next" value="http://abirtone.com/contacto/enviado/" >
+    </form>
+</div>
+
+<div class="col-sm-12 clearfix">
+    <h2>Sobre Abirtone</h2>
+</div>
+
 <div class="col-sm-12">
     <h5 class="color-red">Abirtone en pocas palabras</h5>
     <p>Abirtone es una empresa de tecnología focalizada en <b>formación, consultoría y asesoramiento</b> especializado en <b>seguridad, hacking y programación</b>.</p>
@@ -74,7 +109,7 @@ permalink: /contacto/
         <div class="col-xs-12 col-sm-7">
             <p>En <b>Abirtone</b> sentimos <b>pasión por nuestro trabajo</b>.</p>
             <ul>
-                <li><span style="text-decoration: underline;">Nuestra máxima</span>: Poder sentirnos orgulloso de nuestro trabajo</li>
+                <li><span style="text-decoration: underline;">Nuestra máxima</span>: Poder sentirnos orgulloso de nuestro trabajo.</li>
                 <li><span style="text-decoration: underline;">Nuestra meta</span>: ofrecer el mejor servicio, con <b>la mejor calidad</b> haciendo lo que nos gusta, y en lo que <b>somos realmente buenos</b>.</li>
             </ul>
         </div>
@@ -89,41 +124,4 @@ permalink: /contacto/
     <p>Creemos firmemente en el valor del conocimiento y lo fomentamos interna y externamente (con charlas y talleres gratuitos, post, etc). Porque las cosas se pueden hacer de otro modo: donde <b>prime calidad frente a cantidad</b></p>
 
     <p>Nuestra forma de hacer las cosas nos permite llegar donde, para otros, es muy complicado: Porque somos capaces de adaptarnos al vertiginoso ritmo de la tecnología.</p>
-</div>
-
-
-<div class="col-xs-12 col-sm-12 clearfix">
-    <h1>Contacta con nosotros</h1>
-</div>
-<div class="col-sm-12">
-    <p>Puedes ponerte en contacto con nosotros a través del correo <b id="ks91ksk"></b> o mediante el siguiente formulario:</p>
-</div>
-
-<div class="col-sm-9 clearfix">
-    <form class="form-horizontal" id="contact-form" method="POST" action="//formspree.io/">
-        <div class="form-group">
-            <label for="inputEmail3" class="col-xs-12 col-sm-2 control-label">Tu email:</label>
-            <div class="col-xs-12 col-sm-10">
-                <input type="email" name="_replyto" class="form-control" id="inputEmail3" placeholder="Escribe tu mail" required>
-            </div>
-        </div>
-        <div class="form-group">
-            <label for="inputPassword3" class="col-xs-12 col-sm-2 control-label">Asunto:</label>
-            <div class="col-xs-12 col-sm-10">
-                <input name="_subject" type="text" class="form-control" id="inputPassword3" placeholder="Quiero información sobre ..." required>
-            </div>
-        </div>
-        <div class="form-group">
-            <label for="textarea1" class="col-xs-12 col-sm-2 control-label">Mensaje:</label>
-            <div class="col-xs-12 col-sm-10">
-                <textarea rows="5" class="form-control" name="message" id="textarea1" placeholder="Mensaje a enviar ..." required></textarea>
-            </div>
-        </div>
-        <div class="form-group">
-            <div class="col-xs-12 col-sm-offset-2 col-sm-10">
-                <button type="submit" class="btn btn-danger">Enviar &rarr;</button>
-            </div>
-        </div>
-        <input type="hidden" name="_next" value="http://abirtone.com/contacto/enviado/" >
-    </form>
 </div>

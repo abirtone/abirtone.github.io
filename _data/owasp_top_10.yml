@@ -1,0 +1,51 @@
+title: Curso de hacking web con OWASP Top 10 - SEC03
+logo: /static/images/courses/icon-owasp.png
+category: seguridad
+sub_category: OWASP Top 10
+course_url: /formacion/hacking-web-owasp-top-10/
+logo: /static/images/courses/icon-owasp.png
+OWASP001:
+  description: >
+     El curso dará comienzo el 1 de Febrero del 2016 y se impartirá en dias consecutivos, tal y como sigue: <br />
+     Febrero:
+     <ul>
+     <li>1 - 18:00 - 21:30 (3,5h)</li>
+     <li>2 - 18:00 - 21:30 (3,5h)</li>
+     <li>3 - 18:00 - 21:30 (3,5h)</li>
+     <li>4 - 18:00 - 21:30 (3,5h)</li>
+     <li>5 - 16:00-20:00 (4h)</li>
+     </ul>
+  prize: 280€
+  city: Madrid
+  location: Calle Marqués de Ahumada, 7, 2º planta
+  location_map: https://www.google.com/maps/d/viewer?mid=zKjAsd1aI0KM.kFAwaRzRmL3g&z=15
+  mode: Presencial
+  date: 01/02/2016
+  duration: 18h
+  schedule: 18:30 - 21:30
+  trainer: Rafael Sánchez
+  trainer_linkedin: https://www.linkedin.com/in/rafasanchezgomez
+  paypal_btn: TCQUF6FFY2T7E
+
+OWASP002:
+  description: >
+     El curso dará comienzo el 1 de Febrero del 2016 y se impartirá en dias consecutivos, tal y como sigue: <br />
+     Febrero:
+     <ul>
+     <li>22 - 18:00 - 21:30 (3,5h)</li>
+     <li>23 - 18:00 - 21:30 (3,5h)</li>
+     <li>24 - 18:00 - 21:30 (3,5h)</li>
+     <li>25 - 18:00 - 21:30 (3,5h)</li>
+     <li>26 - 16:00-20:00 (4h)</li>
+     </ul>
+  prize: 220€
+  city: <b class="color-green">Online</b>
+  location:
+  location_map:
+  mode: Video-Presencial (a distancia)
+  date: 22/02/2016
+  duration: 18h
+  schedule: 18:30 - 21:30
+  trainer: Rafael Sánchez
+  trainer_linkedin: https://www.linkedin.com/in/rafasanchezgomez
+  paypal_btn: TCQUF6FFY2T7E

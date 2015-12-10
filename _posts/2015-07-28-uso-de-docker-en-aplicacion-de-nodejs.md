@@ -78,7 +78,7 @@ Para **almancenar** los datos usaremos `MongoDB` como base de datos y la librer�
 {% endhighlight %}
 
 
-Como se puede ver en el ejemplo anterior, la definición de nuestras colecciones se realizada de modo muy sencillo, aunque para desarrollos más complejos os animamos a que realicéis nuestro **<a href="http://abirtone.com/formacion/nodejs/" class="link" target="_blank">cruso de especialista en nodejs</a>**.
+Como se puede ver en el ejemplo anterior, la definición de nuestras colecciones se realizada de modo muy sencillo, aunque para desarrollos más complejos os animamos a que realicéis nuestro **<a href="http://abirtone.com/formacion/desarrollo-web-nodejs/" class="link" target="_blank">cruso de especialista en nodejs</a>**.
 
 **Mongoose nos permite definir la estructura de nuestras colecciones**, definiendo tipo de datos, indices, así como nodos de nuestros documentos. Para desarrollos haciendo uso de MongoDB, os recomendamos que os forméis **<a href="http://abirtone.com/formacion/#mongodb" class="link" target="_blank">crusos de especialista en MongoDB</a>**, dónde conseguiréis una formación que os permitirá liderar desarrollos con MongoDB.
 

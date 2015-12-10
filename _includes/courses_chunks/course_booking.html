@@ -1,0 +1,76 @@
+<div class="col-xs-12 col-sm-10">
+
+    <div class="page-header first-3 first-section">
+        <h1>Reservar curso</h1>
+        <ul class="breadcrumb">
+            <li><a class="link" href="/">Inicio</a></li>
+            <li><a class="link" href="/formacion/">{{ category }}</a></li>
+            <li class="active">{{ sub_category }}</li>
+        </ul>
+    </div>
+</div>
+<div class="col-sm-9" style="margin-bottom: 20px;">
+    <h5>Asegúrate de que toda la información es correct antes de reservar el curso. Unas semanas antes del curso, te avisaremos mediante correo electrónico.</h5>
+</div>
+<div class="col-sm-8 clearfix first-1 row-box">
+    <form class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+
+        <div class="form-group">
+            <label class="col-xs-12 col-sm-2 control-label">Formador:</label>
+            <div class="col-xs-12 col-sm-10">
+                <span class="btn btn-danger"><a target="_blank" class="color-white" href="{{ course.trainer_linkedin }}">{{ course.trainer }}</a> &rarr;</span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="in1" class="col-xs-12 col-sm-2 control-label">Curso:</label>
+            <div class="col-xs-12 col-sm-10">
+                <input type="text" class="form-control" id="in1" value="{{ title }}" disabled>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="in2" class="col-xs-12 col-sm-2 control-label">Duración:</label>
+            <div class="col-xs-12 col-sm-10">
+                <input type="text" class="form-control" id="in2" value="{{ course.duration }}" disabled>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="in2" class="col-xs-12 col-sm-2 control-label">Horario:</label>
+            <div class="col-xs-12 col-sm-10">
+                <input type="text" class="form-control" id="in3" value="{{ course.schedule }}" disabled>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="in4" class="col-xs-12 col-sm-2 control-label">Fecha inicio:</label>
+            <div class="col-xs-12 col-sm-10">
+                <input type="text" class="form-control" id="in4" value="{{ course.date}}" disabled>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="in5" class="col-xs-12 col-sm-2 control-label">Precio:</label>
+            <div class="col-xs-12 col-sm-10">
+                <input type="text" class="form-control color-green" id="in5" value="{{ course.prize}}" disabled>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-xs-12 col-sm-2 control-label">Información adicional:</label>
+            <div class="col-xs-12 col-sm-10">
+                <div style="padding-top: 10px;font-size: 14px;">{{ course.description }}</div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-xs-12 col-sm-2 control-label">Ubicación:</label>
+            <div class="col-xs-12 col-sm-10">
+                <iframe src="https://www.google.com/maps/d/u/1/embed?mid=zKjAsd1aI0KM.kFAwaRzRmL3g&z=15" width="100%" height="250px"></iframe>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-xs-12 col-sm-offset-2 col-sm-10">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="{{ course.paypal_btn }}">
+                <!--<input class="pull-left" type="image" src="https://www.paypalobjects.com/es_ES/ES/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal. La forma rápida y segura de pagar en Internet.">-->
+                <img alt="" border="0" src="https://www.paypalobjects.com/es_ES/i/scr/pixel.gif" width="1" height="1">
+            </div>
+        </div>
+    </form>
+</div>
