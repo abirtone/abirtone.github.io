@@ -25,7 +25,8 @@ OWASP001:
   schedule: 18:30 - 21:30
   trainer: Rafael Sánchez
   trainer_linkedin: https://www.linkedin.com/in/rafasanchezgomez
-  paypal_btn: TCQUF6FFY2T7E
+  paypal_btn: KY58JE8DJUF4U
+  paypal_id: OWASP-T10-001-1
 
 OWASP002:
   description: >
@@ -48,4 +49,5 @@ OWASP002:
   schedule: 18:30 - 21:30
   trainer: Rafael Sánchez
   trainer_linkedin: https://www.linkedin.com/in/rafasanchezgomez
-  paypal_btn: TCQUF6FFY2T7E
+  paypal_btn: XXL4GRVXF5LZW
+  paypal_id: OWASP-T10-001-2

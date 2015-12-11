@@ -13,7 +13,7 @@ Scapy001:
      <li>2 - 18:00 - 21:30 (2,5h)</li>
      <li>2 - 18:00 - 22:00 (2h)</li>
      </ul>
-  prize: 130€
+  prize: 160€
   city: Madrid
   location: Calle Marqués de Ahumada, 7, 2º planta
   location_map: https://www.google.com/maps/d/viewer?mid=zKjAsd1aI0KM.kFAwaRzRmL3g&z=15
@@ -23,4 +23,5 @@ Scapy001:
   schedule: 18:30 - 21:30
   trainer: Daniel García (cr0hn)
   trainer_linkedin: https://es.linkedin.com/in/garciagarciadaniel
-  paypal_btn: TCQUF6FFY2T7E
+  paypal_btn: 6B6MUWUX4VXMN
+  paypal_id: SCAPY-001-1
