@@ -742,8 +742,8 @@ h5 {
 a {color: #808080;}
 
 .list-1 li {
-    line-height:20px;
-    padding:2px 0 3px 12px;
+    line-height:25px;
+    padding:2px 0 5px 12px;
     background:url(/static/images/marker-1.gif) 0 8px no-repeat;
 }
 
