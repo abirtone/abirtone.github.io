@@ -30,7 +30,7 @@
             <entry file="file://$PROJECT_DIR$/_data/angularjs.yml">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.74760383">
-                  <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+                  <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
                   <folding />
                 </state>
               </provider>
@@ -509,12 +509,6 @@
       <option name="number" value="Default" />
       <updated>1431530857373</updated>
     </task>
-    <task id="LOCAL-00051" summary="Fixed contanct form in books section">
-      <created>1435497349537</created>
-      <option name="number" value="00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1435497349538</updated>
-    </task>
     <task id="LOCAL-00052" summary="Updated contanct forms">
       <created>1435497760574</created>
       <option name="number" value="00052" />
@@ -803,7 +797,13 @@
       <option name="project" value="LOCAL" />
       <updated>1449844953863</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="angularjs date updated">
+      <created>1449863528085</created>
+      <option name="number" value="00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1449863528085</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TodoView">
@@ -875,7 +875,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="New post: NodeJS + MongoDB" />
     <MESSAGE value="Re-enabled post comments" />
     <MESSAGE value="forgot info" />
     <MESSAGE value="New post!!!" />
@@ -900,7 +899,8 @@
     <MESSAGE value="fixed scapy" />
     <MESSAGE value="minor fix" />
     <MESSAGE value="horario mongo fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="horario mongo fix" />
+    <MESSAGE value="angularjs date updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="angularjs date updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1297,7 +1297,7 @@
     <entry file="file://$PROJECT_DIR$/_data/angularjs.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.74760383">
-          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
           <folding />
         </state>
       </provider>
