@@ -7,13 +7,6 @@ url: "http://abirtone.com"
 twitter_username: abirtone
 github_username:  abirtone
 
-# Optimize
-compress_html:
-  comments: ["<!-- ", " -->"]
-  clippings: [div, p, ul, td, h1, h2]
-  ignore:
-      whitespaces: [LINE FEED]
-
 # Build settings
 markdown: kramdown
 permalink: pretty
