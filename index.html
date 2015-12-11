@@ -77,21 +77,9 @@ description: "Hacking ético, seguridad en código, consultoría y asesoramiento
     </div>
     <a class="left carousel-control" href="#carousel-133831" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-133831" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 </div>
-<div class="col-xs-12 col-sm-6">
-    <h3>Novedades</h3>
-    {% for post in site.posts %}
-    <div class="row">
-        <div class="col-sm-12 top-space-1_1">
-            <a class="link center-block" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            <p class="entry-p">{{ post.description }}</p>
-            <a class="badge entry-link" href="{{ post.url | prepend: site.baseurl }}">Leer entrada &rarr;</a>
-        </div>
-    </div>
-    {% endfor %}
-</div>
 
 <div class="col-xs-12 col-sm-6">
-    <h3>Próximos cursos</h3>
+    <h1>Próximos cursos</h1>
     {% assign content = site.data.owasp_top_10 %}
     {% include courses_chunks/course_load_vars.html %}
     <h5>{{ title }}</h5>
@@ -111,4 +99,16 @@ description: "Hacking ético, seguridad en código, consultoría y asesoramiento
     {% include courses_chunks/course_load_vars.html %}
     <h5>{{ title }}</h5>
     {% include courses_chunks/course_call_summary.html %}
+</div>
+<div class="col-xs-12 col-sm-6">
+    <h2 class="portada_news">Últimas noticias</h2>
+    {% for post in site.posts %}
+    <div class="row">
+        <div class="col-sm-12 top-space-1_1">
+            <a class="link center-block" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <p class="entry-p">{{ post.description }}</p>
+            <a class="badge entry-link" href="{{ post.url | prepend: site.baseurl }}">Leer entrada &rarr;</a>
+        </div>
+    </div>
+    {% endfor %}
 </div>
