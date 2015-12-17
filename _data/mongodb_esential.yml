@@ -30,10 +30,10 @@ MongoDB-ES001:
 
 MongoDB-ES002:
   description: >
-    El curso dará comienzo el 25 de Enero del 2016 y se impartirá en dias consecutivos, tal y como sigue: <br />
+    El curso dará comienzo el 8 de Febrero del 2016 y se impartirá en dias consecutivos, tal y como sigue: <br />
     Febrero:
     <ul>
-    <li>8 - 18:00 - 22:  00 (4h)</li>
+    <li>8 - 18:00 - 22:00 (4h)</li>
     <li>9 - 18:00 - 22:00 (4h)</li>
     <li>10 - 18:00 - 22:00 (4h)</li>
     <li>11 - 18:00 - 22:00 (4h)</li>
@@ -45,7 +45,7 @@ MongoDB-ES002:
   location:
   location_map:
   mode: Video-Presencial (a distancia)
-  date: 22/02/2016
+  date: 8/02/2016
   duration: 20h
   schedule: 18:00 - 22:00 (L-J) / 16:00 - 20:00 (V)
   trainer: Víctor Cuervo
