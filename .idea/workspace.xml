@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="87302408-16ac-4ffc-8733-bf3c990a1b10" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_data/angularjs.yml" afterPath="$PROJECT_DIR$/_data/angularjs.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
     </list>
     <ignored path="last.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="angularjs.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="angularjs.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_data/angularjs.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16164383">
-              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="angularjs.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/courses/angularjs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.333333">
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -39,6 +49,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.23044097">
+              <caret line="9" column="100" selection-start-line="9" selection-start-column="100" selection-end-line="9" selection-end-column="100" />
               <folding />
             </state>
           </provider>
@@ -107,10 +127,10 @@
         <option value="$PROJECT_DIR$/_includes/courses_chunks/course_booking.html" />
         <option value="$PROJECT_DIR$/pages/courses/scapy/convocatoria_001.html" />
         <option value="$PROJECT_DIR$/_includes/courses_chunks/course_call.html" />
-        <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_data/mongodb_esential.yml" />
         <option value="$PROJECT_DIR$/_data/scapy.yml" />
         <option value="$PROJECT_DIR$/_data/angularjs.yml" />
+        <option value="$PROJECT_DIR$/_includes/footer.html" />
       </list>
     </option>
   </component>
@@ -391,12 +411,6 @@
       <created>1431530857373</created>
       <option name="number" value="Default" />
       <updated>1431530857373</updated>
-    </task>
-    <task id="LOCAL-00057" summary="Added tripartita logo">
-      <created>1437140634078</created>
-      <option name="number" value="00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1437140634080</updated>
     </task>
     <task id="LOCAL-00058" summary="Added tripartita logo">
       <created>1437140776476</created>
@@ -686,7 +700,13 @@
       <option name="project" value="LOCAL" />
       <updated>1450373077644</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="updated schedule">
+      <created>1450374963877</created>
+      <option name="number" value="00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1450374963877</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TodoView">
@@ -937,13 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/courses/angularjs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23027718">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/courses/angularjs/convocatoria_002.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15351813">
@@ -1086,14 +1099,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.025604552">
-          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/utils/mail_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3072546">
@@ -1154,8 +1159,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_data/angularjs.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16164383">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/courses/angularjs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.333333">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23044097">
+          <caret line="9" column="100" selection-start-line="9" selection-start-column="100" selection-end-line="9" selection-end-column="100" />
           <folding />
         </state>
       </provider>
