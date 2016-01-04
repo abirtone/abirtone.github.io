@@ -28,26 +28,26 @@ OWASP001:
   paypal_btn: KY58JE8DJUF4U
   paypal_id: OWASP-T10-001-1
 
-OWASP002:
-  description: >
-     El curso dará comienzo el 1 de Febrero del 2016 y se impartirá en dias consecutivos, tal y como sigue: <br />
-     Febrero:
-     <ul>
-     <li>22 - 18:00 - 21:30 (3,5h)</li>
-     <li>23 - 18:00 - 21:30 (3,5h)</li>
-     <li>24 - 18:00 - 21:30 (3,5h)</li>
-     <li>25 - 18:00 - 21:30 (3,5h)</li>
-     <li>26 - 16:00-20:00 (4h)</li>
-     </ul>
-  prize: 220€
-  city: <b class="color-green">Online</b>
-  location:
-  location_map:
-  mode: Video-Presencial (a distancia)
-  date: 22/02/2016
-  duration: 18h
-  schedule: 18:30 - 21:30
-  trainer: Rafael Sánchez
-  trainer_linkedin: https://www.linkedin.com/in/rafasanchezgomez
-  paypal_btn: XXL4GRVXF5LZW
-  paypal_id: OWASP-T10-001-2
+#OWASP002:
+#  description: >
+#     El curso dará comienzo el 1 de Febrero del 2016 y se impartirá en dias consecutivos, tal y como sigue: <br />
+#     Febrero:
+#     <ul>
+#     <li>22 - 18:00 - 21:30 (3,5h)</li>
+#     <li>23 - 18:00 - 21:30 (3,5h)</li>
+#     <li>24 - 18:00 - 21:30 (3,5h)</li>
+#     <li>25 - 18:00 - 21:30 (3,5h)</li>
+#     <li>26 - 16:00-20:00 (4h)</li>
+#     </ul>
+#  prize: 220€
+#  city: <b class="color-green">Online</b>
+#  location:
+#  location_map:
+#  mode: Video-Presencial (a distancia)
+#  date: 22/02/2016
+#  duration: 18h
+#  schedule: 18:30 - 21:30
+#  trainer: Rafael Sánchez
+#  trainer_linkedin: https://www.linkedin.com/in/rafasanchezgomez
+#  paypal_btn: XXL4GRVXF5LZW
+#  paypal_id: OWASP-T10-001-2
