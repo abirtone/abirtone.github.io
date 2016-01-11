@@ -14,19 +14,19 @@ Fieles a nuestra filosofía, será una **tarde técnica y práctica, impartidas 
 
 Para nuestro primer evento queríamos algo informal, alejándonos del tradicional evento de traje y corbata así que, cogiendo prestada la idea los chicos de [**Hack & Beers**](https://twitter.com/hackandbeers)... **¿qué mejor que hacer las jornadas en un bar, con una cañita en mano?**
 
-## A quien van dirijidas
+## A quien van dirigidas
 
-Las charlas van dirjidas a **desarrolladores y gente dedicada a la seguridad informática**:
+Las charlas van dirigidas a **desarrolladores y gente dedicada a la seguridad informática**:
 
 - **Si** eres **desarrollador aprenderás conceptos de seguridad** en web con OWASP y hacking en redes con Python.
 - **Si** eres **auditor / pentester** aprenderás a mejorar **tus scripts** para hacerlos más **escalables** y usables con **MongoDB y una interfaz web con AngularJS**.
 
-Un apunte más, para difrustar de las charlas:
+Un apunte más, para disfrutar de las charlas:
 
-- **NO nececesitas saber de hacking**.
-- **NO nececesitas saber Python**.
-- **NO nececesitas saber MongoDB**.
-- **NO nececesitas saber AngularJS**.
+- **NO necesitas saber de hacking**.
+- **NO necesitas saber Python**.
+- **NO necesitas saber MongoDB**.
+- **NO necesitas saber AngularJS**.
 
 ## Programa 
 
