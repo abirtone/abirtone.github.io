@@ -1044,3 +1044,12 @@ td{
     padding-bottom: 10px;
     border: 1px solid #ddd;
 }
+
+.container-row .blog a {
+    color: #ee4311;
+    outline: none;
+    font-width: bold;
+}
+.container-row .blog img {
+    width: 100%;
+}
