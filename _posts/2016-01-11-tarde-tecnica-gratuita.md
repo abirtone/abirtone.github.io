@@ -4,7 +4,7 @@ title:  "Primera tarde técnica de Abirtone"
 date:   2016-01-11 15:00:00
 tags: angularjs, mongodb, owasp, python, scapy, hacking
 type: post
-link_icon: "http://abirtone.com/static/post/2016-01-11-tarde-tecnica-gratuita/cartel.png"
+link_icon: "http://abirtone.com//static/post/2016-01-11-tarde-tecnica-gratuita/cartel.png"
 description: "Tarde técnica de Abirtone: Hacking con OWASP y Python. Desarrollo con AngularJS y MongoDB"
 ---
 
