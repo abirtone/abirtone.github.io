@@ -12,7 +12,7 @@ Tenemos el enorme placer de anunciar las primeras jornadas técnicas organizadas
 
 Fieles a nuestra filosofía, será una **tarde técnica y práctica, impartidas por nuestros profesores**, que se han prestado para que paséis una tarde entretenida e interesante aprendiendo. 
 
-Para nuestro primer evento queríamos algo informal, alejándonos del tradicional evento de traje y corbata así que, cogiendo prestada la idea los chicos de [**Hack & Beers**](https://twitter.com/hackandbeers)... **¿qué mejor que hacer las jornadas en un bar, con una cañita en mano?**
+Para nuestro primer evento queríamos algo informal, alejándonos del tradicional evento de traje y corbata así que... **¿qué mejor que hacer las jornadas en un bar, con una cañita en mano?**
 
 ## A quien van dirigidas
 
