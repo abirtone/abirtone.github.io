@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="87302408-16ac-4ffc-8733-bf3c990a1b10" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_data/angularjs.yml" afterPath="$PROJECT_DIR$/_data/angularjs.yml" />
     </list>
     <ignored path="last.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,21 +24,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="bolsa_trabajo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/trabajo/bolsa_trabajo.html">
+      <file leaf-file-name="books.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/books.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-29.333334">
-              <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="head_hunting.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/trabajo/head_hunting.html">
+      <file leaf-file-name="angularjs.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/publicaciones/libros/angularjs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23670669">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state vertical-scroll-proportion="-4.6666665">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="angularjs.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_data/angularjs.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.25">
+              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -93,7 +104,6 @@
         <option value="$PROJECT_DIR$/_data/scapy.yml" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
-        <option value="$PROJECT_DIR$/_data/angularjs.yml" />
         <option value="$PROJECT_DIR$/_data/mongodb_esential.yml" />
         <option value="$PROJECT_DIR$/_data/owasp_top_10.yml" />
         <option value="$PROJECT_DIR$/pages/courses/owasp_t10/convocatoria_001.html" />
@@ -110,6 +120,7 @@
         <option value="$PROJECT_DIR$/pages/contact_thanks_head_hunting.html" />
         <option value="$PROJECT_DIR$/pages/trabajo/head_hunting.html" />
         <option value="$PROJECT_DIR$/pages/trabajo/bolsa_trabajo.html" />
+        <option value="$PROJECT_DIR$/_data/angularjs.yml" />
       </list>
     </option>
   </component>
@@ -121,7 +132,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1080" />
-    <option name="height" value="1897" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -231,6 +242,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="publicaciones" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libros" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Abirtone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="last" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="courses" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -246,6 +279,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="_layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Abirtone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="last" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -375,12 +422,6 @@
       <created>1431530857373</created>
       <option name="number" value="Default" />
       <updated>1431530857373</updated>
-    </task>
-    <task id="LOCAL-00071" summary="New post!!!">
-      <created>1438094286295</created>
-      <option name="number" value="00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1438094286296</updated>
     </task>
     <task id="LOCAL-00072" summary="New post!!!">
       <created>1438094294473</created>
@@ -670,7 +711,13 @@
       <option name="project" value="LOCAL" />
       <updated>1453113861883</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="update twitter button">
+      <created>1453113894632</created>
+      <option name="number" value="00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1453113894632</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TodoView">
@@ -683,7 +730,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1080" height="1897" extended-state="6" />
+    <frame x="0" y="23" width="1080" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30405405" sideWeight="0.49572086" order="2" side_tool="false" content_ui="combo" />
@@ -774,20 +821,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48951048">
-          <caret line="2548" column="2" selection-start-line="2548" selection-start-column="2" selection-end-line="2549" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/courses_chunks/lateral_table.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76759064">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/courses/angularjs/convocatoria_001.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15351813">
@@ -956,13 +989,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_data/angularjs.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09589041">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="1" selection-end-line="58" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/head.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34285715">
@@ -1118,14 +1144,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/contact_thanks_bolsa_trabajo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.051457975">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/contact_thanks.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16466552">
@@ -1144,16 +1162,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/trabajo/bolsa_trabajo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-29.333334">
-          <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.5866209">
+          <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/trabajo/head_hunting.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23670669">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.13379073">
+          <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/contact_thanks_bolsa_trabajo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16466552">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/books.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/publicaciones/libros/angularjs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6666665">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/angularjs.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
           <folding />
         </state>
       </provider>
