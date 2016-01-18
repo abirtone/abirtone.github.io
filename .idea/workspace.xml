@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="87302408-16ac-4ffc-8733-bf3c990a1b10" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/trabajo/bolsa_trabajo.html" afterPath="$PROJECT_DIR$/pages/trabajo/bolsa_trabajo.html" />
     </list>
     <ignored path="last.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,8 +36,8 @@
       <file leaf-file-name="head_hunting.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/trabajo/head_hunting.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57632935">
-              <caret line="56" column="69" selection-start-line="56" selection-start-column="69" selection-end-line="56" selection-end-column="69" />
+            <state vertical-scroll-proportion="0.23670669">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -377,12 +376,6 @@
       <option name="number" value="Default" />
       <updated>1431530857373</updated>
     </task>
-    <task id="LOCAL-00070" summary="forgot info">
-      <created>1437572850803</created>
-      <option name="number" value="00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1437572850803</updated>
-    </task>
     <task id="LOCAL-00071" summary="New post!!!">
       <created>1438094286295</created>
       <option name="number" value="00071" />
@@ -671,7 +664,13 @@
       <option name="project" value="LOCAL" />
       <updated>1453113790026</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="update twitter button">
+      <created>1453113861883</created>
+      <option name="number" value="00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1453113861883</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TodoView">
@@ -687,7 +686,7 @@
     <frame x="0" y="23" width="1080" height="1897" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30405405" sideWeight="0.49572086" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30405405" sideWeight="0.49572086" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23177843" sideWeight="0.50213677" order="7" side_tool="true" content_ui="tabs" />
@@ -1153,8 +1152,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/trabajo/head_hunting.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57632935">
-          <caret line="56" column="69" selection-start-line="56" selection-start-column="69" selection-end-line="56" selection-end-column="69" />
+        <state vertical-scroll-proportion="0.23670669">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
