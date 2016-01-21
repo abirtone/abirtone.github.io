@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87302408-16ac-4ffc-8733-bf3c990a1b10" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/eventos/i-tarde-tecnica/i-tarte-tecnica_angularjs-ejemplos.zip" afterPath="$PROJECT_DIR$/static/eventos/i-tarde-tecnica/i-tarde-tecnica_angularjs-ejemplos.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-01-21-tarde-tecnica-gratuita-resumen-y-transparencias.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="last.iws" />
@@ -24,12 +24,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="angularjs.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="angularjs.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/courses/angularjs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21783876">
-              <caret line="87" column="3" selection-start-line="87" selection-start-column="3" selection-end-line="87" selection-end-column="3" />
+            <state vertical-scroll-proportion="-14.111111">
+              <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016-01-21-tarde-tecnica-gratuita-resumen-y-transparencias.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2016-01-21-tarde-tecnica-gratuita-resumen-y-transparencias.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.76520604">
+                <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+                <folding>
+                  <marker date="1453376583000" expanded="true" signature="954:980" placeholder="..." />
+                  <marker date="1453376583000" expanded="true" signature="1600:1676" placeholder="..." />
+                  <marker date="1453376583000" expanded="true" signature="2314:2390" placeholder="..." />
+                  <marker date="1453376583000" expanded="true" signature="4367:4443" placeholder="..." />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -50,7 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pages/courses/angujarjs.html" />
         <option value="$PROJECT_DIR$/pages/courses.html" />
         <option value="$PROJECT_DIR$/_data/owasp_t10.yml" />
         <option value="$PROJECT_DIR$/_data/owasp_t10_1.yml" />
@@ -101,6 +118,7 @@
         <option value="$PROJECT_DIR$/pages/courses/mongodb_esencial.html" />
         <option value="$PROJECT_DIR$/_data/angularjs.yml" />
         <option value="$PROJECT_DIR$/pages/courses/angularjs.html" />
+        <option value="$PROJECT_DIR$/_posts/2016-01-21-tarde-tecnica-gratuita-resumen-y-transparencias.md" />
       </list>
     </option>
   </component>
@@ -188,57 +206,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Abirtone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="last" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eventos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="i-tarde-tecnica" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Abirtone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="last" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Abirtone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="last" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_data" />
+              <option name="myItemId" value="_posts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -276,22 +244,22 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="javascript.nodejs.core.library.configured.version" value="0.12.4" />
     <property name="js-jscs-nodeInterpreter" value="/opt/local/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="jeky&#9;ACTION&#9;Tool_External Tools_Jekyll with autowatch&#10;commit&#9;ACTION&#9;ChangesView.Commit&#10;cus&#9;FILE&#9;file:///Users/Dani/Documents/Curro/Abirtone/web/main_website/last/static/css/custom.css&#10;jek&#9;FILE&#9;file:///Users/Dani/Documents/Curro/Abirtone/web/main_website/last/gems/jekyll-compress-html-2.1.0.zip&#10;custo&#9;FILE&#9;file:///Users/Dani/Documents/Curro/Abirtone/web/main_website/last/static/css/custom.css&#10;cust&#9;FILE&#9;file:///Users/Dani/Documents/Curro/Abirtone/web/main_website/last/static/css/custom.css&#10;jekyl&#9;ACTION&#9;Tool_External Tools_Jekyll with autowatch&#10;custom&#9;FILE&#9;file:///Users/Dani/Documents/Curro/Abirtone/web/main_website/last/static/css/custom.css&#10;cu&#9;FILE&#9;file:///Users/Dani/Documents/Curro/Abirtone/web/main_website/last/static/css/custom.css" />
+    <property name="SearchEverywhereHistoryKey" value="memory &#9;null&#9;null&#10;jeky&#9;ACTION&#9;Tool_External Tools_Jekyll with autowatch&#10;commit&#9;ACTION&#9;ChangesView.Commit&#10;cus&#9;FILE&#9;file:///Users/Dani/Documents/Curro/Abirtone/web/main_website/last/static/css/custom.css&#10;jek&#9;FILE&#9;file:///Users/Dani/Documents/Curro/Abirtone/web/main_website/last/gems/jekyll-compress-html-2.1.0.zip&#10;custo&#9;FILE&#9;file:///Users/Dani/Documents/Curro/Abirtone/web/main_website/last/static/css/custom.css&#10;cust&#9;FILE&#9;file:///Users/Dani/Documents/Curro/Abirtone/web/main_website/last/static/css/custom.css&#10;jekyl&#9;ACTION&#9;Tool_External Tools_Jekyll with autowatch&#10;custom&#9;FILE&#9;file:///Users/Dani/Documents/Curro/Abirtone/web/main_website/last/static/css/custom.css&#10;cu&#9;FILE&#9;file:///Users/Dani/Documents/Curro/Abirtone/web/main_website/last/static/css/custom.css" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_posts" />
+      <recent name="$PROJECT_DIR$/pages" />
+      <recent name="$PROJECT_DIR$/static/post/2016-01-11-tarde-tecnica-gratuita" />
+      <recent name="$PROJECT_DIR$/pages/courses" />
+      <recent name="$PROJECT_DIR$/_layouts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/eventos/i-tarte-tecnica" />
       <recent name="$PROJECT_DIR$/static/post/2016-01-11-tarde-tecnica-gratuita" />
       <recent name="$PROJECT_DIR$/_layouts" />
       <recent name="$PROJECT_DIR$/gems" />
       <recent name="$PROJECT_DIR$/pages" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/pages" />
-      <recent name="$PROJECT_DIR$/static/post/2016-01-11-tarde-tecnica-gratuita" />
-      <recent name="$PROJECT_DIR$/_posts" />
-      <recent name="$PROJECT_DIR$/pages/courses" />
-      <recent name="$PROJECT_DIR$/_layouts" />
     </key>
   </component>
   <component name="RunManager">
@@ -366,12 +334,6 @@
       <created>1431530857373</created>
       <option name="number" value="Default" />
       <updated>1431530857373</updated>
-    </task>
-    <task id="LOCAL-00078" summary="Fixed angular-&gt; node">
-      <created>1439201096103</created>
-      <option name="number" value="00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1439201096104</updated>
     </task>
     <task id="LOCAL-00079" summary="Fixed some grammatical issues.">
       <created>1444732356919</created>
@@ -661,7 +623,13 @@
       <option name="project" value="LOCAL" />
       <updated>1453371857658</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="corregido nombre de fichero">
+      <created>1453371891501</created>
+      <option name="number" value="00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1453371891501</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TodoView">
@@ -675,14 +643,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1080" height="1897" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30405405" sideWeight="0.49572086" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30405405" sideWeight="0.49572086" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23177843" sideWeight="0.50213677" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23316061" sideWeight="0.49786323" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12243767" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12243767" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.49806094" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29883382" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -733,7 +701,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added mail list" />
     <MESSAGE value="Add angularJS course and courses format" />
     <MESSAGE value="The major update in web site from first release." />
     <MESSAGE value="minor updates" />
@@ -758,20 +725,14 @@
     <MESSAGE value="added social" />
     <MESSAGE value="update twitter button" />
     <MESSAGE value="Añadidos ejemplos angularjs de la I tarde tecnica" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadidos ejemplos angularjs de la I tarde tecnica" />
+    <MESSAGE value="corregido nombre de fichero" />
+    <option name="LAST_COMMIT_MESSAGE" value="corregido nombre de fichero" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/courses/angularjs/convocatoria_001.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15351813">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/courses/angularjs/convocatoria_002.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15351813">
@@ -1132,9 +1093,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/courses/angularjs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21783876">
-          <caret line="87" column="3" selection-start-line="87" selection-start-column="3" selection-end-line="87" selection-end-column="3" />
+        <state vertical-scroll-proportion="-14.111111">
+          <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-01-21-tarde-tecnica-gratuita-resumen-y-transparencias.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.76520604">
+            <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+            <folding>
+              <marker date="1453376583000" expanded="true" signature="954:980" placeholder="..." />
+              <marker date="1453376583000" expanded="true" signature="1600:1676" placeholder="..." />
+              <marker date="1453376583000" expanded="true" signature="2314:2390" placeholder="..." />
+              <marker date="1453376583000" expanded="true" signature="4367:4443" placeholder="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
