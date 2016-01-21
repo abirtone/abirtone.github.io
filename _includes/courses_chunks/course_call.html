@@ -55,7 +55,11 @@
         <!--Boton de reservar-->
         <div class="row" style="margin-top: 10px;">
             <div class="col-xs-12 col-sm-12">
-                <a href="{{ page.url }}{{ course_code }}/" class="btn btn-danger"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Reservar plaza &rarr;</a>
+                {% if course.paypal_btn == nil %}
+                <span class="btn btn-danger">Inscripción cerrada</span>
+                {% else %}
+                <a href="{{ page.url }}{{ course_code }}/" class="btn btn-success"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Reservar plaza &rarr;</a>
+                {% endif %}
             </div>
         </div>
     </div>

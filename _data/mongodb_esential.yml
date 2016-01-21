@@ -25,8 +25,8 @@ MongoDB-ES001:
   schedule: 18:00 - 22:00 (L-J) / 16:00 - 20:00 (V)
   trainer: Víctor Cuervo
   trainer_linkedin: https://www.linkedin.com/in/victorcuervo/es
-  paypal_btn: B58XRWYL87NTQ
-  paypal_id: MONGODB-ES001-1
+  paypal_btn:
+  paypal_id:
 
 #MongoDB-ES002:
 #  description: >
