@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87302408-16ac-4ffc-8733-bf3c990a1b10" name="Default" comment="Añadidos ejemplos de">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/eventos/i-tarte-tecnica/i-tarte-tecnica_angularjs-ejemplos.zip" />
+    <list default="true" id="87302408-16ac-4ffc-8733-bf3c990a1b10" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/eventos/i-tarte-tecnica/i-tarte-tecnica_angularjs-ejemplos.zip" afterPath="$PROJECT_DIR$/static/eventos/i-tarde-tecnica/i-tarte-tecnica_angularjs-ejemplos.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="last.iws" />
@@ -210,7 +210,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="i-tarte-tecnica" />
+              <option name="myItemId" value="i-tarde-tecnica" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -366,12 +366,6 @@
       <created>1431530857373</created>
       <option name="number" value="Default" />
       <updated>1431530857373</updated>
-    </task>
-    <task id="LOCAL-00076" summary="Updated links">
-      <created>1438095127170</created>
-      <option name="number" value="00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1438095127171</updated>
     </task>
     <task id="LOCAL-00077" summary="Updated links">
       <created>1438095249058</created>
@@ -661,7 +655,13 @@
       <option name="project" value="LOCAL" />
       <updated>1453244292711</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="Añadidos ejemplos angularjs de la I tarde tecnica">
+      <created>1453371635067</created>
+      <option name="number" value="00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1453371635068</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TodoView">
@@ -675,10 +675,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1080" height="1897" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30405405" sideWeight="0.49572086" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30405405" sideWeight="0.49572086" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23177843" sideWeight="0.50213677" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23316061" sideWeight="0.49786323" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12243767" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -689,7 +690,6 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6341969" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -733,7 +733,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="minos visual fix" />
     <MESSAGE value="Added mail list" />
     <MESSAGE value="Add angularJS course and courses format" />
     <MESSAGE value="The major update in web site from first release." />
@@ -758,7 +757,8 @@
     <MESSAGE value="Added social sharing to post" />
     <MESSAGE value="added social" />
     <MESSAGE value="update twitter button" />
-    <option name="LAST_COMMIT_MESSAGE" value="update twitter button" />
+    <MESSAGE value="Añadidos ejemplos angularjs de la I tarde tecnica" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadidos ejemplos angularjs de la I tarde tecnica" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
