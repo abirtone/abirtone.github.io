@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87302408-16ac-4ffc-8733-bf3c990a1b10" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/eventos/i-tarte-tecnica/i-tarte-tecnica_angularjs-ejemplos.zip" afterPath="$PROJECT_DIR$/static/eventos/i-tarde-tecnica/i-tarte-tecnica_angularjs-ejemplos.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/eventos/i-tarde-tecnica/i-tarte-tecnica_angularjs-ejemplos.zip" afterPath="$PROJECT_DIR$/static/eventos/i-tarde-tecnica/i-tarde-tecnica_angularjs-ejemplos.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="last.iws" />
@@ -367,12 +367,6 @@
       <option name="number" value="Default" />
       <updated>1431530857373</updated>
     </task>
-    <task id="LOCAL-00077" summary="Updated links">
-      <created>1438095249058</created>
-      <option name="number" value="00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1438095249058</updated>
-    </task>
     <task id="LOCAL-00078" summary="Fixed angular-&gt; node">
       <created>1439201096103</created>
       <option name="number" value="00078" />
@@ -661,7 +655,13 @@
       <option name="project" value="LOCAL" />
       <updated>1453371635068</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="Añadidos ejemplos angularjs de la I tarde tecnica">
+      <created>1453371857658</created>
+      <option name="number" value="00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1453371857658</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="TodoView">
