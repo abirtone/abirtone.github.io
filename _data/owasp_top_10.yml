@@ -27,6 +27,7 @@ OWASP001:
   trainer_linkedin: https://www.linkedin.com/in/rafasanchezgomez
   paypal_btn: KY58JE8DJUF4U
   paypal_id: OWASP-T10-001-1
+  enabled: 1
 
 #OWASP002:
 #  description: >

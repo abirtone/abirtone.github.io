@@ -11,6 +11,8 @@
 {% assign keys = "title|logo|category|sub_category|course_url" %}
 
 {% unless keys contains val_tuple[0] %}
+{% if course.enabled == 1 %}
+<h5>{{ title }}</h5>
 <div class="row" style="margin-bottom: 5px;">
     <div class="col-sm-3">
         <time class="tdate-1" datetime="{{ course.date | date: "%b %-d, %Y" }}"><strong>{{ course.date | date: "%-d" }}</strong>{{ mes }}</time>
@@ -26,6 +28,7 @@
         </p>
     </div>
 </div>
+{% endif %}
 {% endunless %}
 
 {% endfor %}
