@@ -22,7 +22,7 @@
             <span style="margin-right: 10px"><i class="glyphicon glyphicon-time"></i> {{ course.duration }}</span>    -    <span style="margin-left: 10px"><i class="glyphicon glyphicon-blackboard"></i> {{ course.mode }}</span>
         </p>
         <p class="entry-p">
-            <span style="margin-right: 15px"><i class="glyphicon glyphicon-map-marker"></i> {{ course.city }}</span>    |    <span style="margin-left: 15px"><i class="glyphicon glyphicon-calendar"></i> {{ course.date | date: "%-d" }} de {{ mes }} de {{ course.date | date: "%-Y" }}</span>
+            <span style="margin-right: 15px"><i class="glyphicon glyphicon-map-marker"></i> {% if course.location.blank %}{{ course.city }}{% else %}{{ course.city }} (<a class="link" target="_blank" href="{{ course.location_map }}">mapa</a>){% endif %}</span>    |    <span style="margin-left: 15px"><i class="glyphicon glyphicon-calendar"></i> {{ course.date | date: "%-d" }} de {{ mes }} de {{ course.date | date: "%-Y" }}</span>
         </p>
     </div>
 </div>

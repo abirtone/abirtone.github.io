@@ -25,7 +25,7 @@
                     <i class="glyphicon glyphicon-user"></i> <b>Formador</b>: <a target="_blank" class="link" href="{{ course.trainer_linkedin }}">{{ course.trainer }} &rarr;</a>
                 </p>
                 <p class="entry-p">
-                    <i class="glyphicon glyphicon-map-marker"></i> <b>Ubicación</b>: {{ course.city }}{% if course.location.blank %}<br /><a class="link" target="_blank" href="{{ course.location_map }}">{{ course.location }} &rarr;</a>{% endif %}
+                    <i class="glyphicon glyphicon-map-marker"></i> <b>Ubicación</b>: {% if course.location.blank %}{{ course.city }}{% else %}{{ course.city }} (<a class="link" target="_blank" href="{{ course.location_map }}">mapa</a>){% endif %}
                 </p>
                 <p class="entry-p">
                     <i class="glyphicon glyphicon-euro"></i> <b>Precio</b>: <b class="color-green">{{ course.prize }}</b>
