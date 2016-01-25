@@ -26,8 +26,8 @@ Angular001:
   schedule: 19:30 - 22:00 (L-J) / 17:00 - 21:00 (V).
   trainer: Raúl Requero
   trainer_linkedin: https://www.linkedin.com/in/requerogarciaraul
-  paypal_btn: W2NBASTCBE9E4
-  paypal_id: ANGULAR-001-1
+  paypal_btn:
+  paypal_id: 
 
 #Angular002:
 #  description: >
