@@ -4,29 +4,29 @@ category: desarrollo
 sub_category: MongoDB Esencial
 course_url: /formacion/mongodb-esencial/
 logo: /static/images/icon-mongodb.png
-MongoDB-ES001:
-  description: >
-    El curso dará comienzo el 25 de Enero del 2016 y se impartirá en dias consecutivos, tal y como sigue: <br />
-    Enero:
-    <ul>
-    <li>25 - 18:00 - 22:00 (4h)</li>
-    <li>26 - 18:00 - 22:00 (4h)</li>
-    <li>28 - 18:00 - 22:00 (4h)</li>
-    <li>29 - 18:00 - 22:00 (4h)</li>
-    <li>30 - 16:00 - 20:00 (4h)</li>
-    </ul>
-  prize: 250€
-  city: Madrid
-  location: Calle Marqués de Ahumada, 7, 2º planta
-  location_map: https://www.google.com/maps/d/viewer?mid=zKjAsd1aI0KM.kFAwaRzRmL3g&z=15
-  mode: Presencial
-  date: 25/01/2016
-  duration: 20h
-  schedule: 18:00 - 22:00 (L-J) / 16:00 - 20:00 (V)
-  trainer: Víctor Cuervo
-  trainer_linkedin: https://www.linkedin.com/in/victorcuervo/es
-  paypal_btn:
-  paypal_id:
+#MongoDB-ES001:
+#  description: >
+#    El curso dará comienzo el 25 de Enero del 2016 y se impartirá en dias consecutivos, tal y como sigue: <br />
+#    Enero:
+#    <ul>
+#    <li>25 - 18:00 - 22:00 (4h)</li>
+#    <li>26 - 18:00 - 22:00 (4h)</li>
+#    <li>28 - 18:00 - 22:00 (4h)</li>
+#    <li>29 - 18:00 - 22:00 (4h)</li>
+#    <li>30 - 16:00 - 20:00 (4h)</li>
+#    </ul>
+#  prize: 250€
+#  city: Madrid
+#  location: Calle Marqués de Ahumada, 7, 2º planta
+#  location_map: https://www.google.com/maps/d/viewer?mid=zKjAsd1aI0KM.kFAwaRzRmL3g&z=15
+#  mode: Presencial
+#  date: 25/01/2016
+#  duration: 20h
+#  schedule: 18:00 - 22:00 (L-J) / 16:00 - 20:00 (V)
+#  trainer: Víctor Cuervo
+#  trainer_linkedin: https://www.linkedin.com/in/victorcuervo/es
+#  paypal_btn:
+#  paypal_id:
 
 #MongoDB-ES002:
 #  description: >
