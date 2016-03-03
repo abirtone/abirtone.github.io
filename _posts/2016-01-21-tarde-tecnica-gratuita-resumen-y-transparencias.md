@@ -61,7 +61,7 @@ Raúl fue el más valiente de todos. Sus presentación constaba de 2 transparenc
 
 Después de la primera transparencia abrió el editor y programó en directo un CRUD para la gestión de vulnerabilidades. Demostrando, sin duda, que el miedo al directo no es para él.
 
-Además de la presentación, podéis descargar el código que hizo Raúl [aquí](http://abirtone.com/static/eventos/i-tarde-tecnica/i-tarte-tecnica_angularjs-ejemplos.zip).
+Además de la presentación, podéis descargar el código que hizo Raúl [aquí](http://abirtone.com/static/eventos/i-tarde-tecnica/i-tarde-tecnica_angularjs-ejemplos.zip).
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/xeYp5UQhBLvwyk" width="80%" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 
