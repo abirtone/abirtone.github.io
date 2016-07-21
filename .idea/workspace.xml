@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="87302408-16ac-4ffc-8733-bf3c990a1b10" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/courses.html" afterPath="$PROJECT_DIR$/pages/courses.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/courses/python.html" afterPath="$PROJECT_DIR$/pages/courses/python.html" />
     </list>
     <ignored path="last.iws" />
@@ -49,8 +48,8 @@
       <file leaf-file-name="python.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/courses/python.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="39" column="121" selection-start-line="39" selection-start-column="121" selection-end-line="39" selection-end-column="121" />
+            <state relative-caret-position="90">
+              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -359,14 +358,7 @@
       <workItem from="1461004552223" duration="832000" />
       <workItem from="1464858379436" duration="335000" />
       <workItem from="1464858778822" duration="28000" />
-      <workItem from="1469114599417" duration="6979000" />
-    </task>
-    <task id="LOCAL-00092" summary="landing page SEO fixes">
-      <created>1449824527545</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1449824527545</updated>
+      <workItem from="1469114599417" duration="7004000" />
     </task>
     <task id="LOCAL-00093" summary="HTML compress options">
       <created>1449825103975</created>
@@ -704,11 +696,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469120963000</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="updated courses">
+      <created>1469121594578</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1469121594578</updated>
+    </task>
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8391000" />
+    <option name="totallyTimeSpent" value="8416000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1193,8 +1192,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/courses/python.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" column="121" selection-start-line="39" selection-start-column="121" selection-end-line="39" selection-end-column="121" />
+        <state relative-caret-position="90">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
           <folding />
         </state>
       </provider>
