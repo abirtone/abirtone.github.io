@@ -48,8 +48,8 @@
       <file leaf-file-name="python.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/courses/python.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+            <state relative-caret-position="702">
+              <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -358,14 +358,7 @@
       <workItem from="1461004552223" duration="832000" />
       <workItem from="1464858379436" duration="335000" />
       <workItem from="1464858778822" duration="28000" />
-      <workItem from="1469114599417" duration="7004000" />
-    </task>
-    <task id="LOCAL-00093" summary="HTML compress options">
-      <created>1449825103975</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1449825103975</updated>
+      <workItem from="1469114599417" duration="7048000" />
     </task>
     <task id="LOCAL-00094" summary="HTML compress options">
       <created>1449826520176</created>
@@ -703,11 +696,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469121594578</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="updated courses">
+      <created>1469121617915</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1469121617915</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8416000" />
+    <option name="totallyTimeSpent" value="8460000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1192,8 +1192,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/courses/python.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        <state relative-caret-position="702">
+          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
           <folding />
         </state>
       </provider>
